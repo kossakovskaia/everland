@@ -1,0 +1,11 @@
+@media screen and (max-width: 768px) {
+  .agency__card-point:last-child {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .agency__card-point:last-child {
+    display: block;
+  }
+}
