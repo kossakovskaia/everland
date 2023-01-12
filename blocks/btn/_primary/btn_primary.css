@@ -1,0 +1,12 @@
+.btn_primary {
+  background-color: #0c4ba0;
+  color: white;
+}
+
+.btn_primary:hover {
+  background: #4183dc;
+}
+
+.btn_primary:active {
+  background: #00275c;
+}

@@ -1,0 +1,24 @@
+.btn-link_orange {
+  color: #e98509;
+  background: #feefea;
+  background-image: url(../../../images/btn-images/arrow_forward-orange.svg);
+  background-repeat: no-repeat;
+  background-position: 87% 50%;
+  background-size: 16px 16px;
+}
+
+.btn-link_orange:hover {
+  color: #fff;
+  background: #e98509;
+  background-image: url(../../../images/btn-images/arrow_forward-white.svg);
+  background-repeat: no-repeat;
+  background-position: 87% 50%;
+}
+
+.btn-link_orange:active {
+  color: #fff;
+  background: #864a00;
+  background-image: url(../../../images/btn-images/arrow_forward-white.svg);
+  background-repeat: no-repeat;
+  background-position: 87% 50%;
+}

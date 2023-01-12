@@ -1,0 +1,16 @@
+.btn-link_white-disabled {
+  color: rgba(38, 38, 38, 0.5);
+  background: #fff;
+  background-image: url(../../../images/btn-images/arrow_forward-lgray.svg);
+  background-repeat: no-repeat;
+  background-position: 87% 50%;
+  background-size: 16px 16px;
+}
+
+.btn-link_white-disabled:hover {
+  color: rgba(38, 38, 38, 0.5);
+  background: #fff;
+  background-image: url(../../../images/btn-images/arrow_forward-lgray.svg);
+  background-repeat: no-repeat;
+  background-position: 87% 50%;
+}

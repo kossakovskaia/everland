@@ -1,0 +1,23 @@
+.btn-accordeon_lblue {
+  background: #e7f0ff;
+  background-image: url(../../../images/btn-images/Icon_plus.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 17px 17px;
+}
+
+.btn-accordeon_lblue:hover {
+  background: #0c4ba0;
+  background-image: url(../../../images/btn-images/Icon_plus_white.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 17px 17px;
+}
+
+.btn-accordeon_lblue:active {
+  background: #0c4ba0;
+  background-image: url(../../../images/btn-images/Icon_plus_x.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 17px 17px;
+}

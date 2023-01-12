@@ -1,0 +1,20 @@
+.btn-slider_left {
+  background-image: url(../../../images/btn-images/arrow_forward_left.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 16px 16px;
+}
+
+.btn-slider_left:hover {
+  background: #4183dc;
+  background-image: url(../../../images/btn-images/arrow_forward_left.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.btn-slider_left:active {
+  background: #00275c;
+  background-image: url(../../../images/btn-images/arrow_forward_left.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}

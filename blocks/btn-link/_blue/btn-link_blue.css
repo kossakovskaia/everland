@@ -1,0 +1,24 @@
+.btn-link_blue {
+  background: #e7f0ff;
+  color: #0c4ba0;
+  background-image: url(../../../images/btn-images/arrow_forward-blue.svg);
+  background-repeat: no-repeat;
+  background-position: 87% 50%;
+  background-size: 16px 16px;
+}
+
+.btn-link_blue:hover {
+  background: #0c4ba0;
+  color: #fff;
+  background-image: url(../../../images/btn-images/arrow_forward-white.svg);
+  background-repeat: no-repeat;
+  background-position: 87% 50%;
+}
+
+.btn-link_blue:active {
+  background: #00275c;
+  color: #fff;
+  background-image: url(../../../images/btn-images/arrow_forward-white.svg);
+  background-repeat: no-repeat;
+  background-position: 87% 50%;
+}

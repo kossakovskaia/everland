@@ -1,0 +1,14 @@
+.btn-slider_disabled-right {
+  background: #c4c4c4;
+  background-image: url(../../../images/btn-images/arrow_forward-lgray.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 17px 17px;
+}
+
+.btn-slider_disabled-right:hover {
+  background: #c4c4c4;
+  background-image: url(../../../images/btn-images/arrow_forward-lgray.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
