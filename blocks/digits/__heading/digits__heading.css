@@ -7,3 +7,17 @@
     line-height: 120%;
     margin-bottom: 45px;
 }
+
+@media screen and (max-width: 768px) {
+    .digits__heading {
+        font-size: 36px;
+        margin-bottom: 32px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .digits__heading {
+        font-size: 26px;
+        margin-bottom: 24px;
+    }
+}

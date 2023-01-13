@@ -2,3 +2,9 @@
     align-items: center;
     display: flex;
 }
+
+@media screen and (max-width: 320px) {
+    .digits__container {
+        flex-direction: column-reverse;
+    }
+}

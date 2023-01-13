@@ -7,3 +7,15 @@
     padding: 0;
     margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .digits__list-item-paragraph {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .digits__list-item-paragraph {
+        font-size: 14px;
+    }
+}

@@ -5,3 +5,20 @@
     width: 555px;
     margin-right: 135px;
 }
+
+@media screen and (max-width: 768px) {
+    .digits__image {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .digits__image {
+        border-radius: 20px;
+        height: 200px;
+        display: block;
+        width: 300px;
+        margin-right: 0;
+        margin-top: 24px;
+    }
+}

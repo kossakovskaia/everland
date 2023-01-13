@@ -1,6 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/section/section.css);
 @import url(../blocks/digits/digits.css);
 @import url(../blocks/digits/__container/digits__container.css);
 @import url(../blocks/digits/__list-container/digits__list-container.css);
