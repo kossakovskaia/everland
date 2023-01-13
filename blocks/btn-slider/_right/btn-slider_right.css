@@ -1,0 +1,16 @@
+.btn-slider_right {
+  background-image: url(../../../images/btn-images/arrow_forward-white.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 16px 16px;
+}
+
+.btn-slider_right:hover {
+  background: url(../../../images/btn-images/arrow_forward-white.svg) 50% 50% /
+    16px 16px no-repeat #4183dc;
+}
+
+.btn-slider_right:active {
+  background: url(../../../images/btn-images/arrow_forward-white.svg) 50% 50% /
+    16px 16px no-repeat #00275c;
+}
