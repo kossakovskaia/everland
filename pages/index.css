@@ -1,3 +1,34 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
+
+/* : кнопки */
+
+@import url(../blocks/btn/btn.css);
+@import url(../blocks/btn/_primary/btn_primary.css);
+@import url(../blocks/btn/_secondary/btn_secondary.css);
+@import url(../blocks/btn/_secondary-gray/btn_secondary-gray.css);
+
+@import url(../blocks/btn-link/btn-link.css);
+
+@import url(../blocks/btn-link/_white/btn-link_white.css);
+@import url(../blocks/btn-link/_blue/btn-link_blue.css);
+@import url(../blocks/btn-link/_orange/btn-link_orange.css);
+@import url(../blocks/btn-link/_green/btn-link_green.css);
+@import url(../blocks/btn-link/_violet/btn-link_violet.css);
+
+@import url(../blocks/btn/_disabled/btn_disabled.css);
+@import url(../blocks/btn-link/_white-disabled/btn-link_white-disabled.css);
+@import url(../blocks/btn-link/_disabled/btn-link_disabled.css);
+
+@import url(../blocks/btn-slider/btn-slider.css);
+@import url(../blocks/btn-slider/_blue/btn-slider_blue.css);
+@import url(../blocks/btn-slider/_gray/btn-slider_gray.css);
+@import url(../blocks/btn-slider/_left/btn-slider_left.css);
+@import url(../blocks/btn-slider/_right/btn-slider_right.css);
+@import url(../blocks/btn-slider/_disabled-right/btn-slider_disabled-right.css);
+@import url(../blocks/btn-slider/_disabled-left/btn-slider_disabled-left.css);
+
+@import url(../blocks/btn-accordeon/btn-accordeon.css);
+@import url(../blocks/btn-accordeon/_lblue/btn-accordeon_lblue.css);
+@import url(../blocks/btn-accordeon/_disabled/btn-accordeon_disabled.css);
