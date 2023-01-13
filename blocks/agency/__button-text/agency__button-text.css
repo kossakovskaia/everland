@@ -2,19 +2,18 @@
   color: #0C4BA0;
   text-decoration: none;
   font-feature-settings: 'pnum' on, 'lnum' on;
-  margin: auto;
-  margin: 0 auto 100px auto;
+  margin: 0 auto 100px;
 }
 
 @media screen and (max-width: 768px) {
   .agency__button-text {
-    margin: 0 auto 50px auto;
+    margin-bottom: 50px;;
   }
 }
 
 
 @media screen and (max-width: 320px) {
   .agency__button-text {
-    margin: 0 auto 32px auto;
+    margin-bottom: 32px;;
   }
 }
