@@ -1,0 +1,5 @@
+.digits__list-item {
+    display: flex;
+    flex-direction: column;
+    max-width: 325px;
+}
