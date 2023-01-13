@@ -1,12 +1,15 @@
 .btn_primary {
+  border: 2px solid #0c4ba0;
   background-color: #0c4ba0;
   color: white;
 }
 
 .btn_primary:hover {
+  border: 2px solid #4183dc;
   background: #4183dc;
 }
 
 .btn_primary:active {
+  border: 2px solid #00275c;
   background: #00275c;
 }

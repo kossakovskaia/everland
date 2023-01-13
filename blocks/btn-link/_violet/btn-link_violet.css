@@ -1,24 +1,16 @@
 .btn-link_violet {
-  background: #eae6ff;
   color: #8b75ff;
-  background-image: url(../../../images/btn-images/arrow_forward-violet.svg);
-  background-repeat: no-repeat;
-  background-position: 87% 50%;
-  background-size: 16px 16px;
+  background: url(../../../images/btn-images/arrow_forward-violet.svg) 87% 50% /
+    16px 16px no-repeat #eae6ff;
 }
 
 .btn-link_violet:hover {
-  background: #8b75ff;
   color: #fff;
-  background-image: url(../../../images/btn-images/arrow_forward-white.svg);
-  background-repeat: no-repeat;
-  background-position: 87% 50%;
+  background: url(../../../images/btn-images/arrow_forward-white.svg) 87% 50% /
+    16px 16px no-repeat #8b75ff;
 }
 
 .btn-link_violet:active {
-  background: #4935b5;
-  color: #fff;
-  background-image: url(../../../images/btn-images/arrow_forward-white.svg);
-  background-repeat: no-repeat;
-  background-position: 87% 50%;
+  background: url(../../../images/btn-images/arrow_forward-white.svg) 87% 50% /
+    16px 16px no-repeat #4935b5;
 }

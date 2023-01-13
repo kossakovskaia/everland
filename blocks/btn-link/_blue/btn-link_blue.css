@@ -1,24 +1,16 @@
 .btn-link_blue {
-  background: #e7f0ff;
   color: #0c4ba0;
-  background-image: url(../../../images/btn-images/arrow_forward-blue.svg);
-  background-repeat: no-repeat;
-  background-position: 87% 50%;
-  background-size: 16px 16px;
+  background: url(../../../images/btn-images/arrow_forward-blue.svg) 87% 50% /
+    16px 16px no-repeat #e7f0ff;
 }
 
 .btn-link_blue:hover {
-  background: #0c4ba0;
   color: #fff;
-  background-image: url(../../../images/btn-images/arrow_forward-white.svg);
-  background-repeat: no-repeat;
-  background-position: 87% 50%;
+  background: url(../../../images/btn-images/arrow_forward-white.svg) 87% 50% /
+    16px 16px no-repeat #0c4ba0;
 }
 
 .btn-link_blue:active {
-  background: #00275c;
-  color: #fff;
-  background-image: url(../../../images/btn-images/arrow_forward-white.svg);
-  background-repeat: no-repeat;
-  background-position: 87% 50%;
+  background: url(../../../images/btn-images/arrow_forward-white.svg) 87% 50% /
+    16px 16px no-repeat #00275c;
 }

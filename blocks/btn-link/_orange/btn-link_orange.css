@@ -1,24 +1,16 @@
 .btn-link_orange {
   color: #e98509;
-  background: #feefea;
-  background-image: url(../../../images/btn-images/arrow_forward-orange.svg);
-  background-repeat: no-repeat;
-  background-position: 87% 50%;
-  background-size: 16px 16px;
+  background: url(../../../images/btn-images/arrow_forward-orange.svg) 87% 50% /
+    16px 16px no-repeat #feefea;
 }
 
 .btn-link_orange:hover {
   color: #fff;
-  background: #e98509;
-  background-image: url(../../../images/btn-images/arrow_forward-white.svg);
-  background-repeat: no-repeat;
-  background-position: 87% 50%;
+  background: url(../../../images/btn-images/arrow_forward-white.svg) 87% 50% /
+    16px 16px no-repeat#e98509;
 }
 
 .btn-link_orange:active {
-  color: #fff;
-  background: #864a00;
-  background-image: url(../../../images/btn-images/arrow_forward-white.svg);
-  background-repeat: no-repeat;
-  background-position: 87% 50%;
+  background: url(../../../images/btn-images/arrow_forward-white.svg) 87% 50% /
+    16px 16px no-repeat #864a00;
 }

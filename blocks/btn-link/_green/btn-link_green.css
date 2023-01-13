@@ -1,24 +1,16 @@
 .btn-link_green {
-  background: #daefd5;
   color: #319b17;
-  background-image: url(../../../images/btn-images/arrow_forward-green.svg);
-  background-repeat: no-repeat;
-  background-position: 87% 50%;
-  background-size: 16px 16px;
+  background: url(../../../images/btn-images/arrow_forward-green.svg) 87% 50% /
+    16px 16px no-repeat #daefd5;
 }
 
 .btn-link_green:hover {
-  background: #319b17;
   color: #fff;
-  background-image: url(../../../images/btn-images/arrow_forward-white.svg);
-  background-repeat: no-repeat;
-  background-position: 87% 50%;
+  background: url(../../../images/btn-images/arrow_forward-white.svg) 87% 50% /
+    16px 16px no-repeat #319b17;
 }
 
 .btn-link_green:active {
-  background: #0e4900;
-  color: #fff;
-  background-image: url(../../../images/btn-images/arrow_forward-white.svg);
-  background-repeat: no-repeat;
-  background-position: 87% 50%;
+  background: url(../../../images/btn-images/arrow_forward-white.svg) 87% 50% /
+    16px 16px no-repeat #0e4900;
 }

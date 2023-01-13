@@ -1,11 +1,3 @@
 .btn-slider_gray {
   background: #333;
 }
-
-.btn-slider_gray:hover {
-  background: #0c4ba0;
-}
-
-.btn-slider_gray:active {
-  background: #00275c;
-}
