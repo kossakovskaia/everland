@@ -1,0 +1,6 @@
+story__point::nth-of-type(even) story_quoted_true {
+  grid-template-areas:
+    "icon quote avatar"
+    "icon text avatar"
+    "icon button avatar";
+}

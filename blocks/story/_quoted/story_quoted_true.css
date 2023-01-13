@@ -7,10 +7,3 @@
     "avatar icon text"
     "avatar icon button";
 }
-
-.story_quoted_true:nth-of-type(even) {
-  grid-template-areas:
-    "icon quote avatar"
-    "icon text avatar"
-    "icon button avatar";
-}
