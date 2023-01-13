@@ -1,0 +1,7 @@
+.story__quote-icon {
+  width: 35px;
+  height: 27.5px;
+  padding-left: 50px;
+  padding-right: 19px;
+  grid-area: icon;
+}

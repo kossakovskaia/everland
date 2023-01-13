@@ -1,0 +1,6 @@
+.story_quoted_false {
+  width: calc(50% - 24px);
+  height: 285px;
+  background: #EAE6FF;
+  border-radius: 30px;
+}

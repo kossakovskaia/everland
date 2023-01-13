@@ -1,0 +1,16 @@
+.story_quoted_true {
+  width: 100%;
+  min-height: 324px;
+  display: grid;
+  grid-template-areas:
+    "avatar icon quote"
+    "avatar icon text"
+    "avatar icon button";
+}
+
+.story_quoted_true:nth-of-type(even) {
+  grid-template-areas:
+    "icon quote avatar"
+    "icon text avatar"
+    "icon button avatar";
+}

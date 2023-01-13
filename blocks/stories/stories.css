@@ -1,0 +1,7 @@
+.stories {
+  padding-left: 40px;
+  display: grid;
+  grid-template-areas:
+    "heading button"
+    "stories stories";
+}

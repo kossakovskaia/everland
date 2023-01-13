@@ -1,3 +1,21 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
+
+@import url(../blocks/stories/__button-text/stories__button-text.css);
+@import url(../blocks/stories/__button/stories__button.css);
+@import url(../blocks/stories/__list/stories__list.css);
+@import url(../blocks/stories/__heading/stories__heading.css);
+@import url(../blocks/stories/stories.css);
+
+@import url(../blocks/story/__arrow/story__arrow.css);
+@import url(../blocks/story/__avatar/story__avatar.css);
+@import url(../blocks/story/__button-link/story__button-link.css);
+@import url(../blocks/story/__button-text/story__button-text.css);
+@import url(../blocks/story/__link/story__link.css);
+@import url(../blocks/story/__quote-icon/story__quote-icon.css);
+@import url(../blocks/story/__quote/story__quote.css);
+@import url(../blocks/story/__text/story__text.css);
+@import url(../blocks/story/_quoted/story_quoted_false.css);
+@import url(../blocks/story/_quoted/story_quoted_true.css);
+@import url(../blocks/story/story.css);
