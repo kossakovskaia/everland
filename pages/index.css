@@ -2,6 +2,17 @@
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
 
+
+@import url(../blocks/agency/agency.css);
+@import url(../blocks/agency/__card/agency__card.css);
+@import url(../blocks/agency/__card-point/agency__card-point.css);
+@import url(../blocks/agency/__button/agency__button.css);
+@import url(../blocks/agency/__button-text/agency__button-text.css);
+@import url(../blocks/agency/__card-list/agency__card-list.css);
+@import url(../blocks/agency/__card-image/agency__card-image.css);
+@import url(../blocks/agency/__card-text/agency__card-text.css);
+@import url(../blocks/agency/__heading/agency__heading.css);
+@import url(../blocks/agency/__subheading/agency__subheading.css);
 /* : кнопки */
 
 @import url(../blocks/btn/btn.css);

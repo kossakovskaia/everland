@@ -1,0 +1,5 @@
+.agency__card-image {
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+}
