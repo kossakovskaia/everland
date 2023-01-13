@@ -1,6 +1,16 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/section/section.css);
+@import url(../blocks/digits/digits.css);
+@import url(../blocks/digits/__container/digits__container.css);
+@import url(../blocks/digits/__list-container/digits__list-container.css);
+@import url(../blocks/digits/__heading/digits__heading.css);
+@import url(../blocks/digits/__image/digits__image.css);
+@import url(../blocks/digits/__list-item/digits__list-item.css);
+@import url(../blocks/digits/__list-item-heading-number/digits__list-item-heading-number.css);
+@import url(../blocks/digits/__list-item-heading/digits__list-item-heading.css);
+@import url(../blocks/digits/__list-item-paragraph/digits__list-item-paragraph.css);
 
 
 @import url(../blocks/agency/agency.css);
