@@ -1,16 +1,28 @@
 .btn-link_green {
   color: #319b17;
-  background: url(../../../images/btn-images/arrow_forward-green.svg) 87% 50% /
-    16px 16px no-repeat #daefd5;
+  background: url(../../../images/btn-images/arrow_forward-green.svg) 87% 50% / 17px 17px no-repeat #daefd5;
 }
 
 .btn-link_green:hover {
   color: #fff;
-  background: url(../../../images/btn-images/arrow_forward-white.svg) 87% 50% /
-    16px 16px no-repeat #319b17;
+  background: url(../../../images/btn-images/arrow_forward-white.svg) 87% 50% / 17px 17px no-repeat #319b17;
 }
 
 .btn-link_green:active {
-  background: url(../../../images/btn-images/arrow_forward-white.svg) 87% 50% /
-    16px 16px no-repeat #0e4900;
+  background: url(../../../images/btn-images/arrow_forward-white.svg) 87% 50% / 17px 17px no-repeat #0e4900;
+}
+
+@media screen and (max-width: 768px) {
+  .btn-link_green {
+    background: url(../../../images/btn-images/arrow_forward-green.svg) 87% 50% / 13px 13px no-repeat #daefd5;
+  }
+
+  .btn-link_green:hover {
+    background: url(../../../images/btn-images/arrow_forward-white.svg) 87% 50% / 13px 13px no-repeat #319b17;
+  }
+
+  .btn-link_green:active {
+    background: url(../../../images/btn-images/arrow_forward-white.svg) 87% 50% / 13px 13px no-repeat #0e4900;
+  }
+
 }

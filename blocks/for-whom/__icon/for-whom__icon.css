@@ -1,0 +1,27 @@
+.for-whom__icon {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  grid-area: icon;
+}
+
+.for-whom__icon img {
+  width: 32px;
+  height: 32px;
+}
+
+@media screen and (max-width:768px) {
+  .for-whom__icon {
+    width: 48px;
+    height: 48px
+  }
+
+  .for-whom__icon img {
+    width: 24px;
+    height: 24px;
+  }
+
+}

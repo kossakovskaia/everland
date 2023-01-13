@@ -1,12 +1,29 @@
 .btn-link {
   border: none;
   border-radius: 10px;
-  padding: 12px 35px 12px 10px;
+  padding: 12px 44px 12px 10px;
   width: 165px;
   height: 48px;
-  line-height: 24px;
   font-size: 20px;
   font-weight: 500;
   font-style: normal;
   cursor: pointer;
+  line-height: 120%;
+}
+
+@media screen and (max-width: 768px) {
+  .btn-link {
+    width: 139px;
+    height: 44px;
+    font-size: 16px;
+    padding: 12px 40px 12px 10px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .btn-link {
+    width: 128px;
+    padding: 13px 40px 13px 10px;
+    font-size: 14px;
+  }
 }

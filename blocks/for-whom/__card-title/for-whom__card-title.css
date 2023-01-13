@@ -1,0 +1,29 @@
+.for-whom__card-title {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 120%;
+  color: #333333;
+  margin: 0;
+  grid-area: title;
+}
+
+@media screen and (max-width: 768px) {
+  .for-whom__card-title {
+    font-size: 26px;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  .for-whom__card-title {
+    font-size: 22px;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  .for-whom__card-title {
+    font-size: 18px;
+  }
+
+}
