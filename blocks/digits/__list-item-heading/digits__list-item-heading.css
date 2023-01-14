@@ -1,0 +1,14 @@
+.digits__list-item-heading {
+    color: #333;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 120%;
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .digits__list-item-heading {
+        font-size: 26px;
+    }
+}

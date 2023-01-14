@@ -1,0 +1,28 @@
+.agency__button {
+  align-self: center;
+  border-radius: 10px;
+  border: 1px solid #0C4BA0;
+  color: #0C4BA0;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  font-size: 20px;
+  font-weight: 500;
+  height: 48px;
+  line-height: 120%;
+  text-align: center;
+  text-align: center;
+  width: 204px;
+}
+
+@media screen and (max-width: 768px) {
+  .agency__button {
+    height: 44px;
+    width: 200px;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .agency__button {
+    width: 300px;
+  }
+}
