@@ -13,8 +13,19 @@
 @import url(../blocks/about/__image/about__image.css);
 @import url(../blocks/about/__image/_first-photo/about__image_first-photo.css);
 @import url(../blocks/about/__image/_second-photo/about__image_second-photo.css);
-/*_____________________________ */
+/*_____________________________*/
 
+/* block projects */
+@import url(../blocks/projects/projects.css);
+@import url(../blocks/projects/__container-text/projects__container-text.css);
+@import url(../blocks/projects/__special-projects/projects__special-projects.css);
+@import url(../blocks/projects/__title/projects__title.css);
+@import url(../blocks/projects/__alexey/projects__alexey.css);
+@import url(../blocks/projects/__btn/projects__btn.css);
+@import url(../blocks/projects/__container-arrows/projects__container-arrows.css);
+@import url(../blocks/projects/__btn-arrow/projects__btn-arrow.css);
+@import url(../blocks/projects/__image/projects__image.css);
+/*_____________________________*/
 @import url(../blocks/digits/digits.css);
 @import url(../blocks/digits/__container/digits__container.css);
 @import url(../blocks/digits/__list-container/digits__list-container.css);

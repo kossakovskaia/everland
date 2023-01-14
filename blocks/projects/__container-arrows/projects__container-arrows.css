@@ -1,3 +1,4 @@
 .projects__container-arrows {
-
+  display: flex;
+  gap: 8px;
 }
