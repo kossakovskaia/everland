@@ -1,7 +1,7 @@
 .btn-slider {
-  width: 35px;
-  height: 35px;
-  border: none;
   border-radius: 10px;
+  border: none;
   cursor: pointer;
+  height: 35px;
+  width: 35px;
 }

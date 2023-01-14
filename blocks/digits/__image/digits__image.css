@@ -2,8 +2,8 @@
     border-radius: 30px;
     display: block;
     height: 368px;
-    width: 555px;
     margin-right: 135px;
+    width: 555px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -15,10 +15,10 @@
 @media screen and (max-width: 320px) {
     .digits__image {
         border-radius: 20px;
-        height: 200px;
         display: block;
-        width: 300px;
+        height: 200px;
         margin-right: 0;
         margin-top: 24px;
+        width: 300px;
     }
 }

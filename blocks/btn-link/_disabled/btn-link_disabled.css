@@ -1,11 +1,9 @@
 .btn-link_disabled {
+  background: url(../../../images/btn-images/arrow_forward-lgray.svg) 87% 50% / 16px 16px no-repeat #c4c4c4;
   color: rgba(38, 38, 38, 0.5);
-  background: url(../../../images/btn-images/arrow_forward-lgray.svg) 87% 50% /
-    16px 16px no-repeat #c4c4c4;
 }
 
 .btn-link_disabled:hover {
+  background: url(../../../images/btn-images/arrow_forward-lgray.svg) 87% 50% / 16px 16px no-repeat #c4c4c4;
   color: #26262680;
-  background: url(../../../images/btn-images/arrow_forward-lgray.svg) 87% 50% /
-    16px 16px no-repeat #c4c4c4;
 }
