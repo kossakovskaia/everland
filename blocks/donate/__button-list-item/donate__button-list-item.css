@@ -1,0 +1,27 @@
+.donate__button-list-item .btn {
+    min-width: 159px;
+}
+
+.donate__button-list-item:last-of-type .btn {
+    min-width: 211px;
+}
+
+@media screen and (max-width: 768px) {
+    .donate__button-list-item .btn {
+        min-width: 75px;
+    }
+
+    .donate__button-list-item:last-of-type .btn {
+        min-width: 135px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .donate__button-list-item .btn {
+        min-width: 122px;
+    }
+
+    .donate__button-list-item:last-of-type .btn {
+        min-width: 260px;
+    }
+}

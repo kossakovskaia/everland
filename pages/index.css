@@ -21,6 +21,11 @@
 @import url(../blocks/agency/__card-text/agency__card-text.css);
 @import url(../blocks/agency/__heading/agency__heading.css);
 @import url(../blocks/agency/__subheading/agency__subheading.css);
+@import url(../blocks/donate/donate.css);
+@import url(../blocks/donate/__button-list-item/donate__button-list-item.css);
+@import url(../blocks/donate/__button-list/donate__button-list.css);
+@import url(../blocks/donate/__container/donate__container.css);
+@import url(../blocks/donate/__button-list-item/_last-item/donate__button-list-item_last-item.css);
 
 
 /* : кнопки */
@@ -31,6 +36,7 @@
 @import url(../blocks/btn/_secondary-gray/btn_secondary-gray.css);
 @import url(../blocks/btn/_secondary-transparent/btn_secondary-transparent.css);
 @import url(../blocks/btn/_secondary-transparent-grey/btn_secondary-transparent-grey.css);
+@import url(../blocks/btn/_secondary-no-border/btn_secondary-no-border.css);
 
 @import url(../blocks/btn-link/btn-link.css);
 
