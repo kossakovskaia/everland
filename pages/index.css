@@ -17,6 +17,7 @@
 
 /* block projects */
 @import url(../blocks/projects/projects.css);
+@import url(../blocks/projects/__main-container/projects__main-container.css);
 @import url(../blocks/projects/__container-text/projects__container-text.css);
 @import url(../blocks/projects/__special-projects/projects__special-projects.css);
 @import url(../blocks/projects/__title/projects__title.css);
