@@ -1,0 +1,16 @@
+.menu__for-whom {
+  max-width: 310px;
+}
+
+@media screen and (max-width: 1100px) {
+  .menu__for-whom {
+    max-width: 217px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .menu__for-whom {
+    max-height: 25px;
+    max-width: 300px;
+    transition: max-height 1s;
+  }
+}

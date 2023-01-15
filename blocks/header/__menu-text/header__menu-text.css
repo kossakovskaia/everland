@@ -1,0 +1,21 @@
+.header__menu-text {
+  line-height: 26px;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+  color: #333;
+  margin: 0;
+}
+
+@media screen and (max-width: 1100px) {
+  .header__menu-text {
+    line-height: 19px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header__menu-text {
+    display: none;
+  }
+}
