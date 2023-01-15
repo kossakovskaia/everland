@@ -1,0 +1,5 @@
+.agency__card {
+  display: grid;
+  grid-auto-rows: max-content min-content;
+  max-width: 440px;
+}
