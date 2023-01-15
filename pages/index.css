@@ -35,6 +35,16 @@
 @import url(../blocks/agency/__card-text/agency__card-text.css);
 @import url(../blocks/agency/__heading/agency__heading.css);
 @import url(../blocks/agency/__subheading/agency__subheading.css);
+@import url(../blocks/work-directions/__title/work-directions__title.css);
+@import url(../blocks/work-directions/__cards/work-directions__cards.css);
+@import url(../blocks/work-directions/__card/work-directions__card.css);
+@import url(../blocks/work-directions/__card/_blue/work-directions__card_blue.css);
+@import url(../blocks/work-directions/__card/_green/work-directions__card_green.css);
+@import url(../blocks/work-directions/__card/_orange/work-directions__card_orange.css);
+@import url(../blocks/work-directions/__card-title/work-directions__card-title.css);
+@import url(../blocks/work-directions/__card-text/work-directions__card-text.css);
+@import url(../blocks/work-directions/__link/work-directions__link.css);
+@import url(../blocks/work-directions/__card-desc/work-directions__card-desc.css);
 
 /* : кнопки */
 
