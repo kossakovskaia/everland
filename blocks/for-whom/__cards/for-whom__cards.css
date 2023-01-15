@@ -1,6 +1,6 @@
 .for-whom__cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
   gap: 20px;
   padding: 0 0 100px 0;
   margin: 0 auto;
@@ -8,24 +8,23 @@
   list-style: none;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .for-whom__cards {
     grid-template-columns: 1fr;
-    width: calc(100% - 238px)
-  }
-
-}
-
-@media screen and (max-width: 767px) {
-  .for-whom__cards {
     padding-bottom: 50px;
     gap: 16px;
-    width: calc(100% - 20px)
+    width: calc(100% - 31%)
+  }
+}
+@media screen and (max-width: 589px) {
+  .for-whom__cards {
+    width: calc(100% - 80px)
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 320px) {
   .for-whom__cards {
     padding-bottom: 32px;
+    width: calc(100% - 20px)
   }
 }
