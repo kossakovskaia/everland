@@ -1,0 +1,22 @@
+.digits__list-container {
+    display: grid;
+    gap: 30px 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .digits__list-container {
+        gap: 33px 22px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .digits__list-container {
+        grid-row-gap: 16px;
+        grid-template-columns: 1fr;
+    }
+}

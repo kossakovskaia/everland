@@ -1,0 +1,7 @@
+.btn-slider_disabled-right {
+  background: url(../../../images/btn-images/arrow_forward-lgray.svg) 50% 50% /16px 16px no-repeat #c4c4c4;
+}
+
+.btn-slider_disabled-right:hover {
+  background: url(../../../images/btn-images/arrow_forward-lgray.svg) 50% 50% /16px 16px no-repeat #c4c4c4;
+}

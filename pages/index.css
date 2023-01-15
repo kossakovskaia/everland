@@ -1,6 +1,61 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/section/section.css);
+@import url(../blocks/digits/digits.css);
+@import url(../blocks/digits/__container/digits__container.css);
+@import url(../blocks/digits/__list-container/digits__list-container.css);
+@import url(../blocks/digits/__heading/digits__heading.css);
+@import url(../blocks/digits/__image/digits__image.css);
+@import url(../blocks/digits/__list-item/digits__list-item.css);
+@import url(../blocks/digits/__list-item-heading-number/digits__list-item-heading-number.css);
+@import url(../blocks/digits/__list-item-heading/digits__list-item-heading.css);
+@import url(../blocks/digits/__list-item-paragraph/digits__list-item-paragraph.css);
+@import url(../blocks/agency/agency.css);
+@import url(../blocks/agency/__card/agency__card.css);
+@import url(../blocks/agency/__card-point/agency__card-point.css);
+@import url(../blocks/agency/__button/agency__button.css);
+@import url(../blocks/agency/__button-text/agency__button-text.css);
+@import url(../blocks/agency/__card-list/agency__card-list.css);
+@import url(../blocks/agency/__card-image/agency__card-image.css);
+@import url(../blocks/agency/__card-text/agency__card-text.css);
+@import url(../blocks/agency/__heading/agency__heading.css);
+@import url(../blocks/agency/__subheading/agency__subheading.css);
+
+
+/* : кнопки */
+
+@import url(../blocks/btn/btn.css);
+@import url(../blocks/btn/_primary/btn_primary.css);
+@import url(../blocks/btn/_secondary/btn_secondary.css);
+@import url(../blocks/btn/_secondary-gray/btn_secondary-gray.css);
+@import url(../blocks/btn/_secondary-transparent/btn_secondary-transparent.css);
+@import url(../blocks/btn/_secondary-transparent-grey/btn_secondary-transparent-grey.css);
+
+@import url(../blocks/btn-link/btn-link.css);
+
+@import url(../blocks/btn-link/_white/btn-link_white.css);
+@import url(../blocks/btn-link/_blue/btn-link_blue.css);
+@import url(../blocks/btn-link/_orange/btn-link_orange.css);
+@import url(../blocks/btn-link/_green/btn-link_green.css);
+@import url(../blocks/btn-link/_violet/btn-link_violet.css);
+
+@import url(../blocks/btn/_disabled/btn_disabled.css);
+@import url(../blocks/btn-link/_white-disabled/btn-link_white-disabled.css);
+@import url(../blocks/btn-link/_disabled/btn-link_disabled.css);
+
+@import url(../blocks/btn-slider/btn-slider.css);
+@import url(../blocks/btn-slider/_blue/btn-slider_blue.css);
+@import url(../blocks/btn-slider/_gray/btn-slider_gray.css);
+@import url(../blocks/btn-slider/_left/btn-slider_left.css);
+@import url(../blocks/btn-slider/_right/btn-slider_right.css);
+@import url(../blocks/btn-slider/_disabled-right/btn-slider_disabled-right.css);
+@import url(../blocks/btn-slider/_disabled-left/btn-slider_disabled-left.css);
+
+@import url(../blocks/btn-accordeon/btn-accordeon.css);
+@import url(../blocks/btn-accordeon/_lblue/btn-accordeon_lblue.css);
+@import url(../blocks/btn-accordeon/_disabled/btn-accordeon_disabled.css);
+
 
 @import url(../blocks/stories/__button-link/stories__button-link.css);
 @import url(../blocks/stories/__button/stories__button.css);

@@ -1,0 +1,23 @@
+.agency__card-text {
+  color: #333;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 120%;
+  margin-block-end: 0;
+  margin-block-start: 0;
+  max-width: 100%;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .agency__card-text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .agency__card-text {
+    padding-top: 16px;
+  }
+}
