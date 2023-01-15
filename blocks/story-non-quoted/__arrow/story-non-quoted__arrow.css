@@ -1,0 +1,22 @@
+.story-non-quoted__arrow {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  object-position: center;
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 810px) {
+  .story-non-quoted__arrow {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .story-non-quoted__arrow {
+    width: 24px;
+    height: 24px;
+  }
+}
+

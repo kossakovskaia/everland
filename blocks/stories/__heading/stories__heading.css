@@ -7,5 +7,27 @@
   line-height: 120%;
   letter-spacing: -0.01em;
   color: #333;
-  grid-area: heading;
+  display: inline;
+  align-self: flex-start;
+  content: "Истории";
+}
+
+@media screen and (min-width: 769px) {
+  .stories__heading::after {
+    content: "Истории";
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .stories__heading::after {
+    content: "Наши истории";
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .stories__heading {
+    font-size: 26px;
+  }
 }

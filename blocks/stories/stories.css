@@ -1,7 +1,14 @@
 .stories {
-  padding-left: 40px;
-  display: grid;
-  grid-template-areas:
-    "heading button"
-    "stories stories";
+  max-width: 1360px;
+  margin: 150px 40px 100px 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 320px) {
+  .stories  {
+    margin: auto 9px;
+  }
 }
