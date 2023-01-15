@@ -1,20 +1,19 @@
 .btn-link_white-disabled {
+  background: url(../../../images/btn-images/arrow_forward-lgray.svg) 87% 50% / 16px 16px no-repeat #fff;
   color: rgba(38, 38, 38, 0.5);
-  background: url(../../../images/btn-images/arrow_forward-lgray.svg) 87% 50% / 17px 17px no-repeat #fff;
 }
 
 .btn-link_white-disabled:hover {
+  background-image: url(../../../images/btn-images/arrow_forward-lgray.svg) 87% 50% / 16px 16px no-repeat #fff;
   color: rgba(38, 38, 38, 0.5);
-  background-image: url(../../../images/btn-images/arrow_forward-lgray.svg) 87% 50% / 17px 17px no-repeat #fff;
 }
 
 @media screen and (max-width: 768px) {
   .btn-link_white-disabled {
-    background: url(../../../images/btn-images/arrow_forward-lgray.svg) 87% 50% / 13px 13px no-repeat #fff;
+    background-size: 13px;
   }
 
   .btn-link_white-disabled:hover {
-    background-image: url(../../../images/btn-images/arrow_forward-lgray.svg) 87% 50% / 13px 13px no-repeat #fff;
+    background-size: 13px;
   }
-
 }

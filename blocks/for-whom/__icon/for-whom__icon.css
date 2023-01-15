@@ -6,6 +6,7 @@
   justify-content: center;
   border-radius: 10px;
   grid-area: icon;
+  margin-bottom: 40px;
 }
 
 .for-whom__icon img {
@@ -16,7 +17,8 @@
 @media screen and (max-width:768px) {
   .for-whom__icon {
     width: 48px;
-    height: 48px
+    height: 48px;
+    margin-bottom: 20px;
   }
 
   .for-whom__icon img {
