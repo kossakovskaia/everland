@@ -1,0 +1,7 @@
+.support__donator-time {
+    color: #333;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 130%;
+}

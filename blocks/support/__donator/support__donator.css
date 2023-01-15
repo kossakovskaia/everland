@@ -1,0 +1,9 @@
+.support__donator {
+    display: flex;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.support__donator:last-of-type {
+    margin-bottom: 0;
+}

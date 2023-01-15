@@ -21,12 +21,27 @@
 @import url(../blocks/agency/__card-text/agency__card-text.css);
 @import url(../blocks/agency/__heading/agency__heading.css);
 @import url(../blocks/agency/__subheading/agency__subheading.css);
+
 @import url(../blocks/donate/donate.css);
 @import url(../blocks/donate/__button-list-item/donate__button-list-item.css);
 @import url(../blocks/donate/__button-list/donate__button-list.css);
 @import url(../blocks/donate/__container/donate__container.css);
 @import url(../blocks/donate/__button-list-item/_last-item/donate__button-list-item_last-item.css);
 
+@import url(../blocks/support/support.css);
+@import url(../blocks/support/__wrapper/support__wrapper.css);
+@import url(../blocks/support/__donator-divider/support__donator-divider.css);
+@import url(../blocks/support/__donator-heading/support__donator-heading.css);
+@import url(../blocks/support/__donator-list-wrapper/support__donator-list-wrapper.css);
+@import url(../blocks/support/__donator-list/support__donator-list.css);
+@import url(../blocks/support/__donator-data/support__donator-data.css);
+@import url(../blocks/support/__donator-name/support__donator-name.css);
+@import url(../blocks/support/__donator-summ/support__donator-summ.css);
+@import url(../blocks/support/__donator-time/support__donator-time.css);
+@import url(../blocks/support/__donator/support__donator.css);
+@import url(../blocks/support/__form-wrapper/support__form-wrapper.css);
+@import url(../blocks/support/__form/support__form.css);
+@import url(../blocks/support/__heading/support__heading.css);
 
 /* : кнопки */
 
