@@ -1,0 +1,32 @@
+.story-non-quoted__link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #333;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: max-content;
+}
+
+@media screen and (max-width: 920px) {
+  .story-non-quoted__link {
+    font-size: 17px;
+  }
+}
+
+
+@media screen and (max-width: 810px) {
+  .story-non-quoted__link {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .story-non-quoted__link {
+    font-weight: 500;
+    font-size: 12px;
+  }
+}
