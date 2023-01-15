@@ -1,7 +1,17 @@
 .work-directions__card {
   display: flex;
-  position: relative;
   flex-direction: column;
   padding: 30px;
   border-radius: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .work-directions__card {
+    border-radius: 20px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .work-directions__card {
+    padding: 24px;
+  }
 }

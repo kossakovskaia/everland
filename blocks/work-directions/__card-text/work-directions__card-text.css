@@ -5,13 +5,12 @@
   color: #333;
   margin: 0;
   grid-area: text;
-  padding: 0 0 90px 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 768px) {
   .work-directions__card-text {
     font-size: 16px;
-    padding-bottom: 64px;
   }
 
 }

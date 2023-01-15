@@ -5,7 +5,8 @@
   color: #333333;
   margin: 0;
   padding: 0 0 20px 0;
-  grid-area: title;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 768px) {
@@ -13,14 +14,6 @@
     font-size: 26px;
     padding-bottom: 10px;
   }
-
-}
-
-@media screen and (max-width: 500px) {
-  .work-directions__card-title {
-    font-size: 22px;
-  }
-
 }
 
 @media screen and (max-width: 320px) {
