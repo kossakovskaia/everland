@@ -1,0 +1,18 @@
+.support__wrapper {
+    display: flex;
+    margin: 50px 0 100px;
+}
+
+@media screen and (max-width: 768px) {
+    .support__wrapper {
+        flex-direction: column;
+        margin-top: 24px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .support__wrapper {
+        margin-bottom: 32px;
+    }
+}
