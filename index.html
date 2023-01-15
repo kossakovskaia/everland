@@ -16,18 +16,165 @@
   </head>
 
   <body class="page">
-    <header class="section header">
-      <ul class="menu">
-        <li><a href="#" class="menu-link">Для кого</a></li>
-        <li><a href="#" class="menu-link">Направления работы</a></li>
-        <li><a href="#" class="menu-link">Преимущества</a></li>
-        <li><a href="#" class="menu-link">Основные цифры</a></li>
-        <li><a href="#" class="menu-link">Спецпроекты</a></li>
-        <li><a href="#" class="menu-link">Истории</a></li>
-        <li><a href="#" class="menu-link">Агентство</a></li>
-        <li><a href="#" class="menu-link">Новости</a></li>
-      </ul>
+    <header class="header">
+      <div class="header__cap">
+        <img class="header__logo" src="./images/logo/logo.svg" alt="Логотип" />
+        <div class="header__menu">
+          <button
+            class="header__menu-button header__menu-button_open"
+            type="button"
+            name="Menu"
+          ></button>
+          <!-- <img
+            class="header__menu-icon"
+            src="./images/logo/icon-menu.svg"
+            alt="Логотип"
+          /> -->
+          <p class="header__menu-text">Меню</p>
+        </div>
+        <div class="header__block-buttons">
+          <button class="btn btn_secondary btn_header" type="button">
+            Платформа
+          </button>
+          <button class="btn btn_primary btn_header" type="button">
+            Поддержать
+          </button>
+        </div>
+      </div>
+      <nav class="header__links">
+        <ul class="header__block-links">
+          <li class="header__link-wrapper">
+            <a href="#block1" class="header__link">Для кого</a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="#block2" class="header__link">Направления работы</a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="#block3" class="header__link">Преимущества</a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="#block4" class="header__link">Основные цифры</a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="#block5" class="header__link">Спецпроекты</a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="#block6" class="header__link">Истории</a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="#block7" class="header__link">Агентство</a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="#block8" class="header__link">Новости</a>
+          </li>
+        </ul>
+      </nav>
     </header>
+
+    <section class="menu">
+      <div class="menu__about">
+        <div class="menu__link-header-block">
+          <h2 class="menu__link-header">О проекте</h2>
+          <button
+            class="menu__button-accordeon btn1 menu__button-accordeon_down"
+            type="button"
+            name="Ryjgrf"
+          ></button>
+        </div>
+        <ul class="menu__accordeon-about">
+          <li class="menu__link-wrapper">
+            <a href="#" class="menu__link"
+              >АНО Пространство равных возможностей</a
+            >
+          </li>
+          <li class="menu__link-wrapper">
+            <a href="#" class="menu__link">Новости</a>
+          </li>
+          <li class="menu__link-wrapper">
+            <a href="#" class="menu__link">Сотрудничество</a>
+          </li>
+          <li class="menu__link-wrapper">
+            <a href="#" class="menu__link">Инклюзия</a>
+          </li>
+          <li class="menu__link-wrapper">
+            <a href="#" class="menu__link">Учебным заведениям</a>
+          </li>
+          <li class="menu__link-wrapper">
+            <a href="#" class="menu__link">Годовые отчеты</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="menu__for-whom">
+        <div class="menu__link-header-block">
+          <h2 class="menu__link-header">Людям с инвалидностью</h2>
+          <button
+            class="menu__button-accordeon btn2 menu__button-accordeon_down"
+            type="button"
+            name="Кнопка"
+          ></button>
+        </div>
+        <ul class="menu__accordeon-for-whom">
+          <li class="menu__link-wrapper">
+            <a href="#" class="menu__link">Платформа</a>
+          </li>
+          <li class="menu__link-wrapper">
+            <a href="#" class="menu__link">Курсы</a>
+          </li>
+          <li class="menu__link-wrapper">
+            <a href="#" class="menu__link">Everland Profi</a>
+          </li>
+          <li class="menu__link-wrapper">
+            <a href="#" class="menu__link">Бесплатное такси</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="menu__services">
+        <div class="menu__link-header-block">
+          <h2 class="menu__link-header">Услуги</h2>
+          <button
+            class="menu__button-accordeon btn3 menu__button-accordeon_down"
+            type="button"
+            name="Ryjgrf"
+          ></button>
+        </div>
+        <ul class="menu__accordeon-services">
+          <li class="menu__link-wrapper">
+            <a href="#" class="menu__link">Услуги агентства</a>
+          </li>
+          <li class="menu__link-wrapper">
+            <a href="#" class="menu__link">Готовые сайты </a>
+          </li>
+          <li class="menu__link-wrapper">
+            <a href="#" class="menu__link"
+              >Доступность для людей с инвалидностью</a
+            >
+          </li>
+          <li class="menu__link-wrapper">
+            <a href="#" class="menu__link">Работодателям</a>
+          </li>
+          <li class="menu__link-wrapper">
+            <a href="#" class="menu__link">Портфолио</a>
+          </li>
+        </ul>
+      </div>
+
+      <ul class="menu__links-additional">
+        <li class="menu__link-wrapper">
+          <a href="#" class="menu__link-additional">Мы благодарим</a>
+        </li>
+        <li class="menu__link-wrapper">
+          <a href="#" class="menu__link-additional">Программы</a>
+        </li>
+        <li class="menu__link-wrapper">
+          <a href="#" class="menu__link-additional">Наставникам</a>
+        </li>
+        <li class="menu__link-wrapper">
+          <a href="#" class="menu__link-additional">Помочь</a>
+        </li>
+      </ul>
+    </section>
     <main>
       <section class="section about" id="about" aria-label="О проекте">
         <h2>Everland - социально-предпринимательский проект</h2>
@@ -356,5 +503,6 @@
       <br />
     </section>
     <script src="./script.js"></script>
+    <script src="./anton.js"></script>
   </body>
 </html>

@@ -1,0 +1,17 @@
+.menu__services {
+  max-width: 260px;
+}
+
+@media screen and (max-width: 1100px) {
+  .menu__services {
+    max-width: 217px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .menu__services {
+    max-width: 300px;
+    max-height: 25px;
+    transition: max-height 1s;
+  }
+}
