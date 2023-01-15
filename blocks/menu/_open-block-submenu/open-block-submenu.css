@@ -1,0 +1,4 @@
+.open-block-submenu {
+  max-height: 300px;
+  transition: max-height 1s;
+}
