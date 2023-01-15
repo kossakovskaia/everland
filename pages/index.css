@@ -26,6 +26,21 @@
 @import url(../blocks/projects/__btn-arrow/projects__btn-arrow.css);
 @import url(../blocks/projects/__image/projects__image.css);
 /*_____________________________*/
+@import url(../blocks/for-whom/for-whom.css);
+@import url(../blocks/for-whom/__title/for-whom__title.css);
+@import url(../blocks/for-whom/__cards/for-whom__cards.css);
+@import url(../blocks/for-whom/__card/for-whom__card.css);
+@import url(../blocks/for-whom/__icon/for-whom__icon.css);
+@import url(../blocks/for-whom/__icon/_blue/for-whom__icon_blue.css);
+@import url(../blocks/for-whom/__icon/_green/for-whom__icon_green.css);
+@import url(../blocks/for-whom/__icon/_orange/for-whom__icon_orange.css);
+@import url(../blocks/for-whom/__card-title/for-whom__card-title.css);
+@import url(../blocks/for-whom/__card-text/for-whom__card-text.css);
+@import url(../blocks/for-whom/__button/for-whom__button.css);
+@import url(../blocks/for-whom/__link/for-whom__link.css);
+@import url(../blocks/for-whom/__link-arrow/for-whom__link-arrow.css);
+
+
 @import url(../blocks/digits/digits.css);
 @import url(../blocks/digits/__container/digits__container.css);
 @import url(../blocks/digits/__list-container/digits__list-container.css);
@@ -79,3 +94,32 @@
 @import url(../blocks/btn-accordeon/btn-accordeon.css);
 @import url(../blocks/btn-accordeon/_lblue/btn-accordeon_lblue.css);
 @import url(../blocks/btn-accordeon/_disabled/btn-accordeon_disabled.css);
+
+
+@import url(../blocks/stories/__button-link/stories__button-link.css);
+@import url(../blocks/stories/__button/stories__button.css);
+@import url(../blocks/stories/__quoted-list/stories__quoted-list.css);
+@import url(../blocks/stories/__heading/stories__heading.css);
+@import url(../blocks/stories/__non-quoted-list/stories__non-quoted-list.css);
+@import url(../blocks/stories/stories.css);
+@import url(../blocks/stories/__button-link/_position/_down/stories__button-link_position_down.css);
+
+@import url(../blocks/story-non-quoted/__arrow/story-non-quoted__arrow.css);
+@import url(../blocks/story-non-quoted/__avatar/story-non-quoted__avatar.css);
+@import url(../blocks/story-non-quoted/__link/story-non-quoted__link.css);
+@import url(../blocks/story-non-quoted/__name/story-non-quoted__name.css);
+@import url(../blocks/story-non-quoted/__quote/story-non-quoted__quote.css);
+@import url(../blocks/story-non-quoted/story-non-quoted.css);
+@import url(../blocks/story-non-quoted/__story/story-non-quoted__story.css);
+
+@import url(../blocks/story-quoted/__avatar/story-quoted__avatar.css);
+@import url(../blocks/story-quoted/__button-link/story-quoted__button-link.css);
+@import url(../blocks/story-quoted/__button/story-quoted__button.css);
+@import url(../blocks/story-quoted/__quote-icon/story-quoted__quote-icon.css);
+@import url(../blocks/story-quoted/__quote/story-quoted__quote.css);
+@import url(../blocks/story-quoted/__text/story-quoted__text.css);
+@import url(../blocks/story-quoted/story-quoted.css);
+@import url(../blocks/story-quoted/__avatar/_position/_right/story-quoted__avatar_position_right.css);
+@import url(../blocks/story-quoted/_position/_right/story-quoted_position_right.css);
+@import url(../blocks/story-quoted/__story/story-quoted__story.css);
+@import url(../blocks/story-quoted/__description/story-quoted__description.css);

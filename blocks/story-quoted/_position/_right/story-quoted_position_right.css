@@ -1,0 +1,9 @@
+.story-quoted_position_right {
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 400px) {
+  .story-quoted_position_right {
+    flex-direction: column;
+  }
+}

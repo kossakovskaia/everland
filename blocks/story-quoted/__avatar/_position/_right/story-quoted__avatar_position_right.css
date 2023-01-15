@@ -1,0 +1,16 @@
+.story-quoted__avatar_position_right {
+  margin-left: 80px;
+  margin-right: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .story-quoted__avatar_position_right {
+    margin: 29.5px 0 29.5px 32px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .story-quoted__avatar_position_right {
+    margin: 0 0 16px 0;
+  }
+}

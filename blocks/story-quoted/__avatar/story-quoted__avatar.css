@@ -1,0 +1,41 @@
+.story-quoted__avatar {
+  width: 224px;
+  height: 224px;
+  object-fit: contain;
+  object-position: 50% 50%;
+  background: #C4C4C4;
+  border-radius: 50%;
+  grid-area: avatar;
+  margin-right: 80px;
+  align-self: flex-start;
+}
+
+@media screen and (max-width: 920px) {
+  .story-quoted__avatar {
+    width: 215px;
+    height: 215px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .story-quoted__avatar {
+    width: 204px;
+    height: 204px;
+    margin: 29.5px 32px 29.5px 0;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .story-quoted__avatar {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .story-quoted__avatar {
+    width: 80px;
+    height: 80px;
+    margin: 0 0 16px 0;
+  }
+}

@@ -1,0 +1,6 @@
+.story-quoted__story {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 100%;
+}
