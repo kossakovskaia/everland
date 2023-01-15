@@ -11,17 +11,3 @@
 .btn-link_blue:active {
   background: url(../../../images/btn-images/arrow_forward-white.svg) 87% 50% / 16px 16px no-repeat #00275c;
 }
-
-@media screen and (max-width: 768px) {
-  .btn-link_blue {
-    background-size: 13px;
-  }
-
-  .btn-link_blue:hover {
-    background-size: 13px;
-  }
-
-  .btn-link_blue:active {
-    background-size: 13px;
-  }
-}

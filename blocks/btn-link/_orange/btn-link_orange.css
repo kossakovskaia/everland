@@ -11,17 +11,3 @@
 .btn-link_orange:active {
   background: url(../../../images/btn-images/arrow_forward-white.svg) 87% 50% / 16px 16px no-repeat #864a00;
 }
-
-@media screen and (max-width: 768px) {
-  .btn-link_orange {
-    background-size: 13px;
-  }
-
-  .btn-link_orange:hover {
-    background-size: 13px;
-  }
-
-  .btn-link_orange:active {
-    background-size: 13px;
-  }
-}
