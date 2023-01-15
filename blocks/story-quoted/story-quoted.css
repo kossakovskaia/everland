@@ -1,0 +1,21 @@
+.story-quoted {
+  max-width: 1360px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 51px auto;
+}
+
+@media screen and (max-width: 768px) {
+  .story-quoted {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .story-quoted {
+    flex-direction: column;
+  }
+}

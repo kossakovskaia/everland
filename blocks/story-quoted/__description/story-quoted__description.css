@@ -1,0 +1,5 @@
+.story-quoted__description {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}

@@ -2,15 +2,15 @@
 <html lang="ru">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Социальный предпринимательский проект" />
-    <meta name="keywords" content="инвалидность, доступность, социальные проекты, КСО, инклюзивность" />
-    <meta name="author" content="Команда 4 forestgreen Практикум" />
-    <title>Everland</title>
-    <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico" />
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="description" content="Социальный предпринимательский проект" />
+      <meta name="keywords" content="инвалидность, доступность, социальные проекты, КСО, инклюзивность" />
+      <meta name="author" content="Команда 4 forestgreen Практикум" />
+      <title>Everland</title>
+      <link rel="stylesheet" href="./pages/index.css" />
+      <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico" />
 </head>
 
 <body class="page">
@@ -33,17 +33,41 @@
         <section class="donate" id="donate" aria-label="Помощь агентству">
             поддержать
         </section>
-        <section class="section for-whom" id="for-whom" aria-label="Для кого создано агентство">
-            <h2>Для кого мы работаем</h2>
-            <ul>
-                <li>
-                    Для людей с инвалидностью
+        <section class="for-whom" id="for-whom" aria-label="Для кого создано агентство">
+            <h2 class="for-whom__title">Для кого мы работаем</h2>
+            <ul class="for-whom__cards">
+                <li class="for-whom__card">
+                    <div class="for-whom__icon for-whom__icon_blue">
+                        <img src="./images/wheelchair.svg">
+                    </div>
+                    <h3 class="for-whom__card-title">Для людей с инвалидностью</h3>
+                    <p class="for-whom__card-text">Помогаем найти работу, пройти обучение, предоставляем разные виды
+                        поддержки</p>
+                    <a href="#" class="for-whom__link">
+                        <button class="btn-link btn-link_blue" type="button">Подробнее</button>
+                    </a>
                 </li>
-                <li>
-                    Для работодателей
+                <li class="for-whom__card">
+                    <div class="for-whom__icon for-whom__icon_orange">
+                        <img src="./images/briefcase.svg">
+                    </div>
+                    <h3 class="for-whom__card-title">Для работодателей</h3>
+                    <p class="for-whom__card-text">Помогаем создать устойчивые инклюзивные команды, вовлекаем
+                        интеллектуальных волонтеров</p>
+                    <a href="#" class="for-whom__link">
+                        <button class="btn-link btn-link_orange" type="button">Подробнее</button>
+                    </a>
                 </li>
-                <li>
-                    Для КСО-партнеров
+                <li class="for-whom__card">
+                    <div class="for-whom__icon for-whom__icon_green">
+                        <img src="./images/following.svg">
+                    </div>
+                    <h3 class="for-whom__card-title">Для КСО&#8209;партнеров Everland</h3>
+                    <p class="for-whom__card-text">Помогаем найти работу, пройти обучение, предоставляем разные виды
+                        поддержки</p>
+                    <a class="for-whom__link" href="#">
+                        <button class="btn-link btn-link_green" type="button">Подробнее</button>
+                    </a>
                 </li>
             </ul>
         </section>
@@ -148,9 +172,8 @@
                             Everland</p>
                     </li>
                 </ul>
-            </div>
         </section>
-        <section class="section projects" id="projects" aria-label="Спецпроекты Everland">
+        <section class="section projects">
             <ul>
                 <li>
                     <article>
@@ -159,13 +182,79 @@
                 </li>
             </ul>
         </section>
-        <section class="section stories" id="stories" aria-label="Истории агентства">
-            <h2>Истории</h2>
+        <section class="section stories" id="block6" aria-label="">
+            <h2 class="stories__heading"></h2>
+            <a href="#" class="stories__button-link"><button class="stories__button">Все истории</button></a>
+            <ul class="stories__quoted-list">
+                <li>
+                    <article class="story-quoted">
+                        <img class="story-quoted__avatar" alt="Фотопортрет Максима Гильфанова."
+                            src="./images/maxim-gilfanov.png">
+                        <div class="story-quoted__story">
+                            <div class="story-quoted__quote-icon"></div>
+                            <div class="story-quoted__description">
+                                <h3 class="story-quoted__quote">Мне интересно слушать интервью с людьми. Это
+                                    мотивация и вдохновение, которых так не хватает</h3>
+                                <p class="story-quoted__text">Максиму Гильфанову из Узбекистана 41 год. Диплом
+                                    программиста и курсы по web-дизайну не решили проблему с трудоустройством</p>
+                                <a href="#" class="story-quoted__button-link"><button
+                                        class="story-quoted__button">История Максима</button></a>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="story-quoted story-quoted_position_right">
+                        <img class="story-quoted__avatar story-quoted__avatar_position_right"
+                            alt="Фотопортрет Максима Чернышова." src="./images/maxim-chernishov.png">
+                        <div class="story-quoted__story">
+                            <div class="story-quoted__quote-icon"></div>
+                            <div class="story-quoted__description">
+                                <h3 class="story-quoted__quote">Платформа дала надежду: кто-то заинтересован в
+                                    трудоустройстве инвалидов</h3>
+                                <p class="story-quoted__text">Максиму Чернышову из Набережных Челнов 32 года. В
+                                    детстве он неудачно сделал сальто и повредил позвоночник. С тех пор ему тяжело
+                                    передвигаться на большие расстояния</p>
+                                <a href="#" class="story-quoted__button-link"><button
+                                        class="story-quoted__button">История Максима</button></a>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+            <ul class="stories__non-quoted-list">
+                <li>
+                    <article class="story-non-quoted">
+                        <img class="story-non-quoted__avatar" alt="Фотопортрет Айслу Асан." src="./images/asan.png">
+                        <div class="story-non-quoted__story">
+                            <p class="story-non-quoted__name">Айслу Асан</p>
+                            <h3 class="story-non-quoted__quote">Когда хочется жить</h3>
+                            <a href="#" class="story-non-quoted__link">История Айслу<img class="story-non-quoted__arrow"
+                                    alt="Треугольная стрелочка." src="./images/logo/Icon_paly.svg"></a>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article class="story-non-quoted">
+                        <img class="story-non-quoted__avatar" alt="Фотопортрет Артёма Плаксина."
+                            src="./images/artem.png">
+                        <div class="story-non-quoted__story">
+                            <p class="story-non-quoted__name">Артём Плаксин</p>
+                            <h3 class="story-non-quoted__quote">Не видеть и смотреть в будущее</h3>
+                            <a href="#" class="story-non-quoted__link">История Артёма<img
+                                    class="story-non-quoted__arrow" alt="Треугольная стрелочка."
+                                    src="./images/logo/Icon_paly.svg"></a>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+            <a href="#" class="stories__button-link stories__button-link_position_down"><button
+                    class="stories__button">Все истории</button></a>
         </section>
         <section class="section agency" id="agency" aria-label="Лучшие проекты агентства">
             <h2 class="agency__heading">Лучшие проекты нашего агентства</h2>
-            <h3 class="agency__subheading">Мы выполняем работы в области веб-разработки, дизайна, права, видео, анимации
-                и
+            <h3 class="agency__subheading">Мы выполняем работы в области веб-разработки, дизайна, права, видео,
+                анимации и
                 контента</h3>
             <ul class="agency__card-list">
                 <li class="agency__card-point">
@@ -211,9 +300,6 @@
         <button class="btn btn_secondary-gray" type="button">
             Secondary-gray
         </button>
-
-        <button class="btn btn_secondary-transparent" type="button">Transparent</button>
-        <button class="btn btn_secondary-transparent-grey" type="button">Transparent-grey</button>
 
         <br />
 
@@ -305,5 +391,6 @@
     </section>
     <script src="./script.js"></script>
 </body>
+
 
 </html>

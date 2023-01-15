@@ -1,0 +1,29 @@
+.story-quoted__quote-icon {
+  width: 60px;
+  height: 60px;
+  background-image: url("../../../images/logo/Icon_quote.svg");
+  background-repeat: no-repeat;
+  background-size: 35px 27.5px;
+  background-position: center;
+  margin-right: 19px;
+  align-self: start;
+  padding-bottom: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .story-quoted__quote-icon {
+    align-self: end;
+    margin: 0;
+    width: 28px;
+    height: 28px;
+    background-size: 28.51px 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .story-quoted__quote-icon {
+    width: 24px;
+    height: 24px;
+    background-size: 24.44px 17.14px;
+  }
+}
