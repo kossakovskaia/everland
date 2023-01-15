@@ -1,0 +1,39 @@
+.work-directions__title {
+  padding: 100px 0 50px 0;
+  font-size: 64px;
+  line-height: 120%;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: #333;
+  margin: 0 auto;
+  width: calc(100% - 80px)
+}
+
+@media screen and (max-width: 1024px) {
+  .work-directions__title {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .work-directions__title {
+    font-size: 36px;
+    width: calc(100% - 20px)
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .work-directions__title {
+    text-align: left;
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .work-directions__title {
+    font-size: 26px;
+  }
+}

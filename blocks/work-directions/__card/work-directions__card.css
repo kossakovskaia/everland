@@ -1,0 +1,7 @@
+.work-directions__card {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 30px;
+}
