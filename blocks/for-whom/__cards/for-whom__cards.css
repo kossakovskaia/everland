@@ -8,24 +8,18 @@
   list-style: none;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .for-whom__cards {
     grid-template-columns: 1fr;
-    width: calc(100% - 238px)
-  }
-
-}
-
-@media screen and (max-width: 767px) {
-  .for-whom__cards {
     padding-bottom: 50px;
     gap: 16px;
-    width: calc(100% - 20px)
+    width: calc(100% - 31%)
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 320px) {
   .for-whom__cards {
     padding-bottom: 32px;
+    width: calc(100% - 20px)
   }
 }

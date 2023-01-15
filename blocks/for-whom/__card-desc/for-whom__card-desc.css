@@ -1,0 +1,10 @@
+.for-whom__card-desc {
+  padding-bottom: 40px;
+  flex-grow: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .for-whom__card-desc {
+    padding-bottom: 20px;
+  }
+}
