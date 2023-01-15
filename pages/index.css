@@ -58,6 +58,22 @@
 @import url(../blocks/support/__form/support__form.css);
 @import url(../blocks/support/__heading/support__heading.css);
 
+@import url(../blocks/support/__form-agreement/support__form-agreement.css);
+@import url(../blocks/support/__form-agreement-item/support__form-agreement-item.css);
+@import url(../blocks/support/__form-data/support__form-data.css);
+@import url(../blocks/support/__form-data-email/support__form-data-email.css);
+@import url(../blocks/support/__form-data-name/support__form-data-name.css);
+@import url(../blocks/support/__form-donate-info/support__form-donate-info.css);
+@import url(../blocks/support/__form-donate-paragraph/support__form-donate-paragraph.css);
+@import url(../blocks/support/__form-donate-summ/support__form-donate-summ.css);
+@import url(../blocks/support/__form-donate-summ-wrapper/support__form-donate-summ-wrapper.css);
+@import url(../blocks/support/__form-frequency/support__form-frequency.css);
+@import url(../blocks/support/__form-frequency-tab/support__form-frequency-tab.css);
+@import url(../blocks/support/__form-payment/support__form-payment.css);
+@import url(../blocks/support/__form-payment-type/support__form-payment-type.css);
+@import url(../blocks/support/__form-payment-wrapper/support__form-payment-wrapper.css);
+@import url(../blocks/support/__form-sector-heading/support__form-sector-heading.css);
+
 /* : кнопки */
 
 @import url(../blocks/btn/btn.css);
