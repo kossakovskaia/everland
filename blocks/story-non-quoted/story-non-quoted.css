@@ -1,0 +1,22 @@
+.story-non-quoted {
+  border-radius: 30px;
+  min-height: 285px;
+  height: 100%;
+  background: #EAE6FF;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+  .story-non-quoted {
+    min-height: 170px;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .story-non-quoted {
+    min-height: 122px;
+  }
+}

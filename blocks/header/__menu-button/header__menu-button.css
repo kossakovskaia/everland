@@ -1,0 +1,7 @@
+.header__menu-button {
+  width: 25px;
+  height: 25px;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}

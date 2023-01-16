@@ -1,0 +1,16 @@
+.menu__about {
+  max-width: 260px;
+}
+
+@media screen and (max-width: 1100px) {
+  .menu__about {
+    max-width: 217px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .menu__about {
+    max-width: 300px;
+    max-height: 25px;
+    transition: max-height 1s;
+  }
+}
