@@ -2,6 +2,31 @@
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/section/section.css);
+
+/* block about */
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__title/about__title.css);
+@import url(../blocks/about/__subtitle/about__subtitle.css);
+@import url(../blocks/about/__everland/about__everland.css);
+@import url(../blocks/about/__container/about__container.css);
+@import url(../blocks/about/__roll/about__roll.css);
+@import url(../blocks/about/__image/about__image.css);
+@import url(../blocks/about/__image/_first-photo/about__image_first-photo.css);
+@import url(../blocks/about/__image/_second-photo/about__image_second-photo.css);
+/*_____________________________*/
+
+/* block projects */
+@import url(../blocks/projects/projects.css);
+@import url(../blocks/projects/__main-container/projects__main-container.css);
+@import url(../blocks/projects/__container-text/projects__container-text.css);
+@import url(../blocks/projects/__special-projects/projects__special-projects.css);
+@import url(../blocks/projects/__title/projects__title.css);
+@import url(../blocks/projects/__alexey/projects__alexey.css);
+@import url(../blocks/projects/__btn/projects__btn.css);
+@import url(../blocks/projects/__container-arrows/projects__container-arrows.css);
+@import url(../blocks/projects/__btn-arrow/projects__btn-arrow.css);
+@import url(../blocks/projects/__image/projects__image.css);
+/*_____________________________*/
 @import url(../blocks/for-whom/for-whom.css);
 @import url(../blocks/for-whom/__title/for-whom__title.css);
 @import url(../blocks/for-whom/__cards/for-whom__cards.css);
