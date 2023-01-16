@@ -82,6 +82,8 @@
 @import url(../blocks/support/__form-payment-type/support__form-payment-type.css);
 @import url(../blocks/support/__form-payment-wrapper/support__form-payment-wrapper.css);
 @import url(../blocks/support/__form-sector-heading/support__form-sector-heading.css);
+@import url(../blocks/support/__form-sector-heading-wrapper/support__form-sector-heading-wrapper.css);
+@import url(../blocks/support/__form-sector-heading-line/support__form-sector-heading-line.css);
 
 /* : кнопки */
 
