@@ -1,0 +1,11 @@
+.projects__btn {
+  margin: auto 0 30px 30px;
+  width: 194px;
+}
+
+@media screen and (max-width: 320px) {
+  .projects__btn {
+    width: 250px;
+    margin: 0 auto 25px;
+  }
+}
