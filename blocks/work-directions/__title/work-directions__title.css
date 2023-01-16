@@ -19,6 +19,8 @@
 
 @media screen and (max-width: 320px) {
   .work-directions__title {
+    padding: 32px 0 24px 0;
     font-size: 26px;
+    width: calc(100% - 20px)
   }
 }

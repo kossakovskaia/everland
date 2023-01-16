@@ -1,0 +1,8 @@
+.support__donator-divider {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #333;
+    margin: auto 10px;
+}
