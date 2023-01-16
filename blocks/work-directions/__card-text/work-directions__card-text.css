@@ -1,21 +1,22 @@
-.for-whom__card-text {
+.work-directions__card-text {
   font-weight: 400;
   font-size: 20px;
   line-height: 120%;
   color: #333;
   margin: 0;
+  grid-area: text;
   padding: 0;
 }
 
 @media screen and (max-width: 768px) {
-  .for-whom__card-text {
+  .work-directions__card-text {
     font-size: 16px;
   }
 
 }
 
 @media screen and (max-width: 320px) {
-  .for-whom__card-text {
+  .work-directions__card-text {
     font-size: 14px;
   }
 }

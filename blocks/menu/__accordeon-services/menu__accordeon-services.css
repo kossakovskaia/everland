@@ -1,0 +1,24 @@
+.menu__accordeon-services {
+  max-width: 260px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  opacity: 1;
+}
+
+@media screen and (max-width: 1100px) {
+  .menu__accordeon-services {
+    gap: 17px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .menu__accordeon-services {
+    overflow: hidden;
+    gap: 0px;
+    max-height: 0px;
+    opacity: 0;
+    transition: gap 1s, max-height 1s, opacity 1s;
+  }
+}

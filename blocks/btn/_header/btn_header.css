@@ -1,0 +1,22 @@
+.btn_header {
+  width: 180px;
+  height: 48px;
+  /* border: 2px solid red; */
+}
+@media screen and (max-width: 1100px) {
+  .btn_header {
+    width: 135px;
+    height: 45px;
+    line-height: 19px;
+    font-size: 16px;
+    padding: 12px 18px;
+
+    /* border: 2px solid chartreuse; */
+  }
+}
+/* @media screen and (max-width: 760px) {
+  .btn_header {
+    width: 165px;
+    height: 48px;
+  }
+} */
