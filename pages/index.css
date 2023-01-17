@@ -25,6 +25,7 @@
 @import url(../blocks/work-directions/__card-text/work-directions__card-text.css);
 @import url(../blocks/work-directions/__link/work-directions__link.css);
 @import url(../blocks/work-directions/__card-desc/work-directions__card-desc.css);
+@import url(../blocks/advantages/advantages.css);
 
 @import url(../blocks/digits/digits.css);
 @import url(../blocks/digits/__container/digits__container.css);

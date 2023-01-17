@@ -1,0 +1,29 @@
+.advantages__accordions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+.advantages__accordion {
+  list-style: none;
+}
+
+.advantages__accordion-tab {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+
+.advantages__accordion {
+  list-style: none;
+  border: 2px solid #dadada;
+  border-radius: 20px;
+}
+
+.advantages__accordion-text {
+  max-height: 0;
+  overflow: hidden;
+  margin: 0;
+}
