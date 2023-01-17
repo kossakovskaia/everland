@@ -4,22 +4,20 @@
   margin: 0 auto;
   width: calc(100% - 80px);
 }
-.footer__wrap{
+
+.footer__wrap {
   display: flex;
   flex-direction: column;
-  column-gap: 90px;
 }
+
 .footer__column {
   display: grid;
-  grid-template-columns: 40% 60%;
-  /* padding-left: 10px; */
+  grid-template-columns: 45% 55%;
 }
 
 .footer__menu {
   display: flex;
-  /* column-gap: 74px; */
-  /* background: #f00; */
-  justify-content: flex-start;
+  column-gap: 84px;
 }
 
 .footer__menu-list {
@@ -27,43 +25,51 @@
   flex-direction: column;
   row-gap: 10px;
   list-style: none;
-  margin:0;
+  margin: 0;
   padding: 0;
-  padding-right: 84px;
-}
-.footer__menu-list::first-child {
-padding-right:84px;
+  font-size: 20px;
+  line-height: 120%;
+  color: #333
 }
 
 .footer__support-logo {
   display: flex;
   column-gap: 50px;
-  /* width:100px; */
+  padding-top: 20px;
 }
 
 .footer__column-title {
-  margin:0;
+  margin: 0;
   padding: 0;
+  font-size: 34px;
+  font-weight: 700;
+  color: #333;
+  line-height: 120%;
 }
 
 .footer__about-text {
- max-width: 486px; 
- margin:0;
+  margin: 0;
+  font-size: 18px;
+  line-height: 120%;
+  max-width: 483px;
+  color: #333;
 }
+
 .footer__about {
- display: flex;
- row-gap:20px;
- flex-direction: column;
+  display: flex;
+  row-gap: 20px;
+  padding-right: 60px;
+  flex-direction: column;
 }
+
 .footer__logo {
   max-width: 262px;
-  /* position: relative; */
-  /* display: block; */
 }
 
 .footer__yandex {
   display: flex;
   column-gap: 20px;
+  align-items: center;
 }
 
 .footer__about-menu {
@@ -76,4 +82,72 @@ padding-right:84px;
 
 .footer__column_second {
   padding-bottom: 40px;
+}
+
+.footer__contact {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  column-gap: 50px;
+  padding-top: 50px;
+}
+@media screen and (max-width: 1024px) {
+  .footer__contact{
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+  }
+}
+
+.footer__support {
+  padding-right: 60px;
+}
+
+
+.footer__contact-tel {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  color: #333;
+  line-height: 120%;
+}
+
+.footer__contactn-adress {
+  margin: 0;
+  font-size: 18px;
+  line-height: 120%;
+  color: #333;
+  max-width: 313px;
+}
+
+.footer__icons {
+  padding-top: 10px;
+}
+
+.footer__copy-text {
+  margin: 0;
+  padding-top: 50px;
+  color: rgba(38, 38, 38, 0.5);
+  font-size: 18px;
+  line-height: 120%;
+}
+
+.footer__menu-link {
+  text-decoration: none;
+  color: #333;
+}
+
+.footer__yandex-logo {
+  width: 162px;
+  height: 28px;
+}
+
+.footer__yandex-text {
+  margin: 0;
+  font-size: 18px;
+  line-height: 120%;
+  color: #333;
+}
+
+.footer__icon-link {
+  text-decoration: none;
 }
