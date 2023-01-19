@@ -1,13 +1,19 @@
+const blockLinksHeader = document.querySelector('.header__links')
+const links = blockLinksHeader.querySelectorAll('a[href*="#"]')
+links.forEach(elem => initLinkHeader(elem))
+
+
 function initLinkHeader(elem) {
   elem.addEventListener('click', (evt) => {
-    closeMenu()
-  })
+    closeMenu();
+    evt.preventDefault();
+    const targetBlock = elem.getAttribute('href').substr(1);
+    document.getElementById(targetBlock).scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    });
+  });
 };
-
-const linksHeader = document.querySelectorAll('.header__link')
-linksHeader.forEach(elem => initLinkHeader(elem))
-
-
 // : ------------------------
 
 
@@ -27,25 +33,28 @@ function initMenu(id) {
   }
 
   const closeMenu = () => {
-    targetBlock.classList.remove('menu_open');
-    setTimeout(() => {
-      buttonMenu.classList.toggle('header__menu-button_open'),
-        buttonMenu.classList.toggle('header__menu-button_close')
-    }, 900)
-    blockAccordeons.forEach(elem =>
-      elem.className.includes('accordion_open') ? elem.classList.remove('accordion_open') : elem)
-    accordeons.forEach(elem =>
-      elem.className.includes('accordion__block_open')
-        ? (elem.classList.remove('accordion__block_open')
-        )
+    if (targetBlock.className.includes('menu_open')) {
+      targetBlock.classList.remove('menu_open');
+      setTimeout(() => {
+        buttonMenu.classList.toggle('header__menu-button_open'),
+          buttonMenu.classList.toggle('header__menu-button_close')
+      }, 900)
+      blockAccordeons.forEach(elem =>
+        elem.className.includes('accordion_open') ? elem.classList.remove('accordion_open') : elem)
+      accordeons.forEach(elem =>
+        elem.className.includes('accordion__block_open')
+          ? (elem.classList.remove('accordion__block_open')
+          )
+          : elem)
+      buttonsAccordeon.forEach(elem => elem.className.includes('accordion__button_up')
+        ? setTimeout(() => {
+          elem.classList.remove('accordion__button_up'),
+            elem.classList.add('accordion__button_down')
+        }, 1000)
         : elem)
-    buttonsAccordeon.forEach(elem => elem.className.includes('accordion__button_up')
-      ? setTimeout(() => {
-        elem.classList.remove('accordion__button_up'),
-          elem.classList.add('accordion__button_down')
-      }, 1000)
-      : elem)
+    }
   }
+
 
   buttonMenu.addEventListener('click', (evt) =>
     targetBlock.className.includes('menu_open') ? closeMenu() : openMenu())
