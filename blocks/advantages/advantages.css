@@ -1,29 +1,83 @@
-.advantages__accordions {
+.accordion__wrapper {
+  margin-top: 50px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 0;
-  padding: 0;
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
+  align-items: start;
 }
 
-.advantages__accordion {
-  list-style: none;
+@media screen and (max-width: 1200px) {
+  .accordion__wrapper {
+    grid-template-columns: 1fr;
+  }
 }
 
-.advantages__accordion-tab {
+.accordion__section {
+  border: 2px solid #dadada;
+  border-radius: 30px;
+}
+
+.accordion__header {
+  padding: 30px 20px;
+  user-select: none;
   display: flex;
   justify-content: space-between;
-  padding: 20px 30px;
 }
 
-.advantages__accordion {
-  list-style: none;
-  border: 2px solid #dadada;
+.accordion__button {
+  cursor: pointer;
   border-radius: 20px;
+  line-height: 0;
+  padding: 15px;
+  border: none;
+  background-color: #E7F0FF;
+  stroke: #0C4BA0;
 }
 
-.advantages__accordion-text {
-  max-height: 0;
+.accordion__button:hover {
+  background-color: #0C4BA0;
+  stroke: #fff
+}
+
+.accordion__body {
   overflow: hidden;
+  max-height: 0;
+  transition: max-height .4s ease-in;
+}
+
+.accordion__text {
+  padding: 0 20px 30px 20px;
   margin: 0;
+  display: block;
+  font-size: 20px;
+  line-height: 120%;
+  color: #333;
+}
+
+.accordion__title {
+  margin: 0;
+  font-size: 34px;
+  line-height: 120%;
+  color: #333;
+  padding-right: 20px;
+}
+
+.accordion__button-icon {
+  width: 17px;
+  height: 17px;
+}
+
+
+.accordion__section_opened .accordion__body {
+  max-height: 100vh;
+  transition: max-height .4s ease-in;
+}
+
+.accordion__button-icon_active {
+  transform: rotate(45deg);
+}
+
+.accordion__button_active {
+  background-color: #0C4BA0;
+  stroke: #fff
 }

@@ -1,0 +1,9 @@
+.footer__column_second {
+  padding-bottom: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__column_second {
+    padding-bottom: 35px;
+  }
+}

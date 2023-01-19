@@ -1,0 +1,4 @@
+.footer__wrap {
+  display: flex;
+  flex-direction: column;
+}

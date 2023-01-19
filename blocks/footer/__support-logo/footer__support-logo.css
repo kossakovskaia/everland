@@ -1,0 +1,16 @@
+.footer__support-logo {
+  object-fit: contain;
+  width: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__support-logo {
+    width: 89px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__support-logo {
+    width: 72px;
+  }
+}
