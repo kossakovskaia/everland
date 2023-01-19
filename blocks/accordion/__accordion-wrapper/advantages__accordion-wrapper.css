@@ -1,4 +1,4 @@
-.accordion__wrapper {
+.advantages__accordion-wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .accordion__wrapper {
+  .advantages__accordion-wrapper {
     grid-template-columns: 1fr;
   }
 }

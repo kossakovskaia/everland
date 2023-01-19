@@ -1,4 +1,4 @@
-.accordion__title {
+.advantages__accordion-title {
   margin: 0;
   font-size: 34px;
   line-height: 120%;
@@ -7,19 +7,19 @@
 }
 
 @media screen and (max-width: 768px) {
-  .accordion__title {
+  .advantages__accordion-title {
     font-size: 26px;
   }
 }
 
 @media screen and (max-width: 500px) {
-  .accordion__title {
+  .advantages__accordion-title {
     font-size: 21px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .accordion__title {
+  .advantages__accordion-title {
     font-size: 18px;
   }
 }

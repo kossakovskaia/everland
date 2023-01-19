@@ -1,16 +1,16 @@
-.accordion__section {
+.advantages__accordion-section {
   border: 2px solid #dadada;
   border-radius: 30px;
 }
 
 @media screen and (max-width: 768px) {
-  .accordion__section {
+  .advantages__accordion-section {
     border-radius: 20px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .accordion__section {
+  .advantages__accordion-section {
     border-radius: 15px;
     border: 1px solid #dadada
   }

@@ -1,4 +1,4 @@
-.accordion__header {
+.advantages__accordion-header {
   padding: 30px 20px;
   display: flex;
   justify-content: space-between;
@@ -6,13 +6,13 @@
 }
 
 @media screen and (max-width: 768px) {
-  .accordion__header {
+  .advantages__accordion-header {
     padding: 20px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .accordion__header {
+  .advantages__accordion-header {
     padding: 18px 16px;
   }
 }

@@ -1,15 +1,15 @@
-const accordionButton = document.querySelectorAll('.accordion__button');
-const accordionSection = document.querySelectorAll('.accordion__section');
+const accordionButton = document.querySelectorAll('.advantages__accordion-button');
+const accordionSection = document.querySelectorAll('.advantages__accordion-section');
 function openedAccordion(e) {
-  let accordion = e.target.closest('.accordion__section');
+  let accordion = e.target.closest('.advantages__accordion-section');
 
-  if (accordion.classList.contains('accordion__section_opened')) {
-    accordion.classList.remove('accordion__section_opened')
+  if (accordion.classList.contains('advantages__accordion-section_opened')) {
+    accordion.classList.remove('advantages__accordion-section_opened')
   } else {
     accordionSection.forEach(function (item) {
-      item.classList.remove('accordion__section_opened')
+      item.classList.remove('advantages__accordion-section_opened')
     })
-    accordion.classList.add('accordion__section_opened')
+    accordion.classList.add('advantages__accordion-section_opened')
   }
 }
 

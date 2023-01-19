@@ -52,16 +52,15 @@
 @import url(../blocks/work-directions/__card-desc/work-directions__card-desc.css);
 @import url(../blocks/advantages/advantages.css);
 @import url(../blocks/advantages/__title/advantages__title.css);
-@import url(../blocks/accordion/accordion.css);
-@import url(../blocks/accordion/__wrapper/accordion__wrapper.css);
-@import url(../blocks/accordion/__section/accordion__section.css);
-@import url(../blocks/accordion/__section/_opened/accordion__section_opened.css);
-@import url(../blocks/accordion/__header/accordion__header.css);
-@import url(../blocks/accordion/__title/accordion__title.css);
-@import url(../blocks/accordion/__button/accordion__button.css);
-@import url(../blocks/accordion/__button-icon/accordion__button-icon.css);
-@import url(../blocks/accordion/__body/accordion__body.css);
-@import url(../blocks/accordion/__text/accordion__text.css);
+@import url(../blocks/advantages/__accordion-wrapper/advantages__accordion-wrapper.css);
+@import url(../blocks/advantages/__accordion-section/advantages__accordion-section.css);
+@import url(../blocks/advantages/__accordion-section/_opened/advantages__accordion-section_opened.css);
+@import url(../blocks/advantages/__accordion-header/advantages__accordion-header.css);
+@import url(../blocks/advantages/__accordion-title/advantages__accordion-title.css);
+@import url(../blocks/advantages/__accordion-button/advantages__accordion-button.css);
+@import url(../blocks/advantages/__accordion-button-icon/advantages__accordion-button-icon.css);
+@import url(../blocks/advantages/__accordion-body/advantages__accordion-body.css);
+@import url(../blocks/advantages/__accordion-text/advantages__accordion-text.css);
 
 
 @import url(../blocks/digits/digits.css);

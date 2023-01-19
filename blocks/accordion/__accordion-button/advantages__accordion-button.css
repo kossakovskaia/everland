@@ -1,4 +1,4 @@
-.accordion__button {
+.advantages__accordion-button {
   cursor: pointer;
   border-radius: 20px;
   line-height: 0;
@@ -8,13 +8,13 @@
   stroke: #0C4BA0;
 }
 
-.accordion__button:hover {
+.advantages__accordion-button:hover {
   background-color: #0C4BA0;
   stroke: #fff
 }
 
 @media screen and (max-width: 768px) {
-  .accordion__button {
+  .advantages__accordion-button {
     padding: 10px;
   }
 }

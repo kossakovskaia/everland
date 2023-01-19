@@ -1,0 +1,12 @@
+.advantages__accordion-section_opened .advantages__accordion-body {
+  max-height: 100vh;
+}
+
+.advantages__accordion-section_opened .advantages__accordion-button-icon {
+  transform: rotate(45deg);
+}
+
+.advantages__accordion-section_opened .advantages__accordion-button {
+  background-color: #0C4BA0;
+  stroke: #fff
+}
