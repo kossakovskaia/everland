@@ -1,0 +1,5 @@
+.projects__container-text {
+  display: flex;
+  flex-direction: column;
+}
+

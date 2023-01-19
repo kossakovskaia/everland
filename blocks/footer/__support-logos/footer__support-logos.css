@@ -1,0 +1,11 @@
+.footer__support-logos {
+  padding-top: 20px;
+  display: flex;
+  column-gap: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__support-logos {
+    column-gap: 20px;
+  }
+}
