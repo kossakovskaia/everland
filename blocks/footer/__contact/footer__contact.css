@@ -1,0 +1,20 @@
+.footer__contact {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  column-gap: 50px;
+  padding-top: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__contact {
+    grid-template-columns: 1fr;
+    row-gap: 16px;
+    padding-top: 34px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__contact {
+    padding-top: 40px
+  }
+}
