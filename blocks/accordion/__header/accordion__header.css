@@ -1,0 +1,18 @@
+.accordion__header {
+  padding: 30px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .accordion__header {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .accordion__header {
+    padding: 18px 16px;
+  }
+}

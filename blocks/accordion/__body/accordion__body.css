@@ -1,0 +1,4 @@
+.accordion__body {
+  overflow: hidden;
+  max-height: 0;
+}

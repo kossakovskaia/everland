@@ -1,0 +1,12 @@
+.accordion__section_opened .accordion__body {
+  max-height: 100vh;
+}
+
+.accordion__section_opened .accordion__button-icon {
+  transform: rotate(45deg);
+}
+
+.accordion__section_opened .accordion__button {
+  background-color: #0C4BA0;
+  stroke: #fff
+}
