@@ -1,54 +1,83 @@
-const linksAbout = document.querySelector('.menu__accordeon-about')
-const blockAbout = document.querySelector('.menu__about')
-const linksForWhom = document.querySelector('.menu__accordeon-for-whom')
-const blockForWhom = document.querySelector('.menu__for-whom')
-const linksServices = document.querySelector('.menu__accordeon-services')
-const blockServices = document.querySelector('.menu__services')
-
-const buttonAbout = document.querySelector('.btn1')
-buttonAbout.addEventListener('click', (evt) => { openAndCloseAbout(evt); })
-const buttonForWhom = document.querySelector('.btn2')
-buttonForWhom.addEventListener('click', (evt) => { close2(evt); })
-const buttonServices = document.querySelector('.btn3')
-buttonServices.addEventListener('click', (evt) => { close3(evt); })
-
-function openAndCloseAbout(evt) {
-  linksAbout.classList.toggle('open-accordeon');
-  blockAbout.classList.toggle('open-block-submenu');
-  buttonAbout.classList.toggle('menu__button-accordeon_up');
-  buttonAbout.classList.toggle('menu__button-accordeon_down');
-}
-
-function close2(evt) {
-  linksForWhom.classList.toggle('open-accordeon');
-  blockForWhom.classList.toggle('open-block-submenu');
-  buttonForWhom.classList.toggle('menu__button-accordeon_up');
-  buttonForWhom.classList.toggle('menu__button-accordeon_down');
-}
-
-function close3(evt) {
-  linksServices.classList.toggle('open-accordeon');
-  blockServices.classList.toggle('open-block-submenu');
-  buttonServices.classList.toggle('menu__button-accordeon_up');
-  buttonServices.classList.toggle('menu__button-accordeon_down');
-}
-
-const blockMenu = document.querySelector('.menu')
-const buttonMenuHeader = document.querySelector('.header__menu-button')
-buttonMenuHeader.addEventListener('click', (evt) => { openAndCloseMenu(evt); })
-
-function openAndCloseMenu(evt) {
-  buttonMenuHeader.classList.toggle('header__menu-button_open');
-  buttonMenuHeader.classList.toggle('header__menu-button_close');
-  blockMenu.classList.toggle('open-block-menu');
-
-}
+function initLinkHeader(elem) {
+  elem.addEventListener('click', (evt) => {
+    closeMenu()
+  })
+};
 
 const linksHeader = document.querySelectorAll('.header__link')
-linksHeader.forEach(elem => {
-  elem.addEventListener('click', (evt) => {
-    blockMenu.classList.remove('open-block-menu');
-    buttonMenuHeader.classList.toggle('header__menu-button_open');
-    buttonMenuHeader.classList.toggle('header__menu-button_close');
-  })
-})
+linksHeader.forEach(elem => initLinkHeader(elem))
+
+
+// : ------------------------
+
+
+function initMenu(id) {
+  const targetBlock = document.getElementById(id)
+  const buttonMenu = document.querySelector('.header__menu-button')
+  const blockAccordeons = document.querySelectorAll('.accordion')
+  const accordeons = document.querySelectorAll('.accordion__block')
+  const buttonsAccordeon = document.querySelectorAll('.accordion__button');
+
+  const openMenu = () => {
+    targetBlock.classList.add('menu_open')
+    setTimeout(() => {
+      buttonMenu.classList.toggle('header__menu-button_open'),
+        buttonMenu.classList.toggle('header__menu-button_close')
+    }, 500);
+  }
+
+  const closeMenu = () => {
+    targetBlock.classList.remove('menu_open');
+    setTimeout(() => {
+      buttonMenu.classList.toggle('header__menu-button_open'),
+        buttonMenu.classList.toggle('header__menu-button_close')
+    }, 900)
+    blockAccordeons.forEach(elem =>
+      elem.className.includes('accordion_open') ? elem.classList.remove('accordion_open') : elem)
+    accordeons.forEach(elem =>
+      elem.className.includes('accordion__block_open')
+        ? (elem.classList.remove('accordion__block_open')
+        )
+        : elem)
+    buttonsAccordeon.forEach(elem => elem.className.includes('accordion__button_up')
+      ? setTimeout(() => {
+        elem.classList.remove('accordion__button_up'),
+          elem.classList.add('accordion__button_down')
+      }, 1000)
+      : elem)
+  }
+
+  buttonMenu.addEventListener('click', (evt) =>
+    targetBlock.className.includes('menu_open') ? closeMenu() : openMenu())
+
+  return { openMenu, closeMenu }
+}
+
+const { openMenu, closeMenu } = initMenu("menu");
+
+// : ----------------------
+
+function initAccordeon(id) {
+  const buttonAccordeon = id.querySelector('.accordion__button');
+  const accordeon = id.querySelector('.accordion__block')
+
+  const openAccordeon = () => {
+    id.classList.add('accordion_open');
+    accordeon.classList.add('accordion__block_open');
+    setTimeout(() => (buttonAccordeon.classList.toggle('accordion__button_up'),
+      buttonAccordeon.classList.toggle('accordion__button_down')), 800)
+  }
+  const closeAccordeon = () => {
+    id.classList.remove('accordion_open');
+    accordeon.classList.remove('accordion__block_open');
+    setTimeout(() => (buttonAccordeon.classList.toggle('accordion__button_up'),
+      buttonAccordeon.classList.toggle('accordion__button_down')), 1000)
+  }
+
+  buttonAccordeon.addEventListener('click', (evt) =>
+    id.className.includes('accordion_open') ? closeAccordeon() : openAccordeon());
+}
+
+
+const accordeonBlocks = document.querySelectorAll('.accordion')
+accordeonBlocks.forEach(elem => initAccordeon(elem));

@@ -1,4 +1,4 @@
-.menu__button-accordeon {
+.accordion__button {
   width: 14px;
   height: 8px;
   margin: 10px 6px 8px 0px;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 760px) {
-  .menu__button-accordeon {
+  .accordion__button {
     display: block;
   }
 }
