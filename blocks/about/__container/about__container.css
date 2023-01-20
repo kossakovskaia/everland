@@ -1,0 +1,10 @@
+.about__container {
+  display: flex;
+}
+
+
+@media screen and (max-width: 540px) {
+  .about__container {
+    justify-content: center;
+  }
+}
