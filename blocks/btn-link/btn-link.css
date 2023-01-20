@@ -5,8 +5,48 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  height: 48px;
   line-height: 120%;
-  padding: 12px 35px 12px 10px;
-  width: 165px;
+  padding: 12px 10px;
+  color: #333;
+  fill: #333;
+  display: flex;
+  align-items: center;
+  column-gap: 14px;
+  background-color: #fff;
+}
+
+.btn-link:hover {
+  color: #00275C;
+  fill: #00275C;
+}
+
+.btn-link:active {
+  color: #0C4BA0;
+  fill: #0C4BA0;
+}
+
+.btn-link:disabled {
+  background-color: #F5F5F5;
+  color: rgba(38, 38, 38, 0.5);
+  fill: rgba(38, 38, 38, 0.5);
+  cursor: default;
+}
+
+.btn-link:disabled:hover {
+  background-color: #C4C4C4;
+  color: rgba(38, 38, 38, 0.5);
+  fill: rgba(38, 38, 38, 0.5);
+  cursor: default;
+}
+
+@media screen and (max-width: 768px) {
+  .btn-link {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .btn-link {
+    font-size: 14px;
+  }
 }

@@ -1,4 +1,4 @@
-.menu__link {
+.accordion__link {
   line-height: 26px;
   font-size: 20px;
   font-style: normal;
@@ -9,14 +9,14 @@
 }
 
 @media screen and (max-width: 1100px) {
-  .menu__link {
+  .accordion__link {
     line-height: 19px;
     font-size: 16px;
   }
 }
 
 @media screen and (max-width: 760px) {
-  .menu__link {
+  .accordion__link {
     line-height: 17px;
     font-size: 14px;
   }

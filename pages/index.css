@@ -40,6 +40,7 @@
 @import url(../blocks/for-whom/__button/for-whom__button.css);
 @import url(../blocks/for-whom/__link/for-whom__link.css);
 @import url(../blocks/for-whom/__card-desc/for-whom__card-desc.css);
+@import url(../blocks/for-whom/__link/for-whom__link.css);
 @import url(../blocks/work-directions/__title/work-directions__title.css);
 @import url(../blocks/work-directions/__cards/work-directions__cards.css);
 @import url(../blocks/work-directions/__card/work-directions__card.css);
@@ -61,6 +62,7 @@
 @import url(../blocks/advantages/__accordion-button-icon/advantages__accordion-button-icon.css);
 @import url(../blocks/advantages/__accordion-body/advantages__accordion-body.css);
 @import url(../blocks/advantages/__accordion-text/advantages__accordion-text.css);
+@import url(../blocks/arrow/arrow.css);
 
 
 @import url(../blocks/digits/digits.css);
@@ -208,27 +210,30 @@
 @import url(../blocks/menu/__about/menu__about.css);
 @import url(../blocks/menu/__for-whom/menu__for-whom.css);
 @import url(../blocks/menu/__services/menu__services.css);
-@import url(../blocks/menu/__links-additional/menu__links-additional.css);
-
-@import url(../blocks/menu/__link-additional/menu__link-additional.css);
 
 @import url(../blocks/menu/__link-wrapper/menu__link-wrapper.css);
-@import url(../blocks/menu/__link-header/menu__link-header.css);
-@import url(../blocks/menu/__link/menu__link.css);
+@import url(../blocks/menu/__links-additional/menu__links-additional.css);
+@import url(../blocks/menu/__link-additional/menu__link-additional.css);
 
-@import url(../blocks/menu/__accordeon-about/menu__accordeon-about.css);
-@import url(../blocks/menu/__accordeon-for-whom/menu__accordeon-for-whom.css);
-@import url(../blocks/menu/__accordeon-services/menu__accordeon-services.css);
+@import url(../blocks/menu/_open/menu_open.css);
 
-@import url(../blocks/menu/__link-header-block/menu__link-header-block.css);
-@import url(../blocks/menu/__button-accordeon/menu__button-accordeon.css);
+/* : =========================================================================*/
 
-@import url(../blocks/menu/__button-accordeon/_up/menu__button-accordeon_up.css);
-@import url(../blocks/menu/__button-accordeon/_down/menu__button-accordeon_down.css);
+/* : Аккордеон  */
 
-@import url(../blocks/menu/_open-accordeon/open-accordeon.css);
-@import url(../blocks/menu/_open-block-menu/open-block-menu.css);
-@import url(../blocks/menu/_open-block-submenu/open-block-submenu.css);
+@import url(../blocks/accordion/accordion.css);
+@import url(../blocks/accordion/__header-block/accordion__header-block.css);
+@import url(../blocks/accordion/__header/accordion__header.css);
+@import url(../blocks/accordion/__button/accordion__button.css);
+@import url(../blocks/accordion/__button/_up/accordion__button_up.css);
+@import url(../blocks/accordion/__button/_down/accordion__button_down.css);
+
+@import url(../blocks/accordion/__block/accordion__block.css);
+@import url(../blocks/accordion/__link-wrapper/accordion__link-wrapper.css);
+@import url(../blocks/accordion/__link/accordion_link.css);
+
+@import url(../blocks/accordion/_open/accordion_open.css);
+@import url(../blocks/accordion/__block/_open/accordion__block_open.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__about-menu/footer__about-menu.css);
