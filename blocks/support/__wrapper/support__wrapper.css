@@ -1,9 +1,11 @@
 .support__wrapper {
     display: flex;
     margin: 50px 0 100px;
+    align-items: center;
+    justify-content: space-between;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .support__wrapper {
         flex-direction: column;
         margin-top: 24px;

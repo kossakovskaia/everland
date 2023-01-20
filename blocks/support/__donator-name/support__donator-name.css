@@ -1,1 +1,6 @@
-.support__donator-name {}
+.support__donator-name {
+    background-color: #E7F0FF;
+    position: relative;
+    z-index: 1;
+    padding-right: 10px;
+}

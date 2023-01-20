@@ -63,6 +63,7 @@
 @import url(../blocks/support/__donator-summ/support__donator-summ.css);
 @import url(../blocks/support/__donator-time/support__donator-time.css);
 @import url(../blocks/support/__donator/support__donator.css);
+@import url(../blocks/support/__form-payment-container/support__form-payment-container.css);
 @import url(../blocks/support/__form-wrapper/support__form-wrapper.css);
 @import url(../blocks/support/__form/support__form.css);
 @import url(../blocks/support/__heading/support__heading.css);
@@ -79,11 +80,21 @@
 @import url(../blocks/support/__form-frequency/support__form-frequency.css);
 @import url(../blocks/support/__form-frequency-tab/support__form-frequency-tab.css);
 @import url(../blocks/support/__form-payment/support__form-payment.css);
+@import url(../blocks/support/__form-arrow/support__form-arrow.css);
+@import url(../blocks/support/__form-arrow/_left/support__form-arrow_left.css);
+@import url(../blocks/support/__form-arrow/_right/support__form-arrow_left.css);
+
 @import url(../blocks/support/__form-payment-type/support__form-payment-type.css);
 @import url(../blocks/support/__form-payment-wrapper/support__form-payment-wrapper.css);
 @import url(../blocks/support/__form-sector-heading/support__form-sector-heading.css);
 @import url(../blocks/support/__form-sector-heading-wrapper/support__form-sector-heading-wrapper.css);
 @import url(../blocks/support/__form-sector-heading-line/support__form-sector-heading-line.css);
+@import url(../blocks/support/__form-footer/support__form-footer.css);
+
+@import url(../blocks/link/link.css);
+@import url(../blocks/input/input.css);
+@import url(../blocks/checkbox/checkbox.css);
+
 
 /* : кнопки */
 

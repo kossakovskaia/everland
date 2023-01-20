@@ -1,0 +1,16 @@
+.support__form-payment-wrapper {
+    display: flex;
+    list-style: none;
+    scroll-behavior: smooth;
+    padding: 0;
+    overflow: hidden;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+    overflow-x: auto;
+}
+
+.support__form-payment-wrapper::-webkit-scrollbar {
+    display: none;
+}
