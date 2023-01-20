@@ -1,0 +1,15 @@
+.footer__support {
+  padding-right: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__support {
+    padding-right: 40px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .footer__support {
+    padding: 0;
+  }
+}

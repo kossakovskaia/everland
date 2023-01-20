@@ -1,13 +1,15 @@
 .btn-link_green {
-  background: url(../../../images/btn-images/arrow_forward-green.svg) 87% 50% / 16px 16px no-repeat #daefd5;
-  color: #319b17;
+  background-color: #daefd5;
+  color: #319B17;
+  fill: #319B17
 }
 
 .btn-link_green:hover {
-  background: url(../../../images/btn-images/arrow_forward-white.svg) 87% 50% / 16px 16px no-repeat #319b17;
+  background-color: #319b17;
   color: #fff;
+  fill: #fff
 }
 
 .btn-link_green:active {
-  background: url(../../../images/btn-images/arrow_forward-white.svg) 87% 50% / 16px 16px no-repeat #0e4900;
+  background-color: #0e4900;
 }

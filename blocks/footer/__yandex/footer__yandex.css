@@ -1,0 +1,10 @@
+.footer__yandex {
+  display: flex;
+  column-gap: 20px;
+}
+
+@media screen and (max-width: 540px) {
+  .footer__yandex {
+    flex-direction: column;
+  }
+}

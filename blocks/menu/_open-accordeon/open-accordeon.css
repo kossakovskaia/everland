@@ -1,6 +1,0 @@
-.open-accordeon {
-  max-height: 300px;
-  opacity: 1;
-  gap: 10px;
-  transition: gap 1s, max-height 1s, opacity 1s;
-}

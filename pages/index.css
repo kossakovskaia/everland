@@ -1,7 +1,44 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
+
+/* block about */
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__title/about__title.css);
+@import url(../blocks/about/__subtitle/about__subtitle.css);
+@import url(../blocks/about/__everland/about__everland.css);
+@import url(../blocks/about/__container/about__container.css);
+@import url(../blocks/about/__roll/about__roll.css);
+@import url(../blocks/about/__image/about__image.css);
+@import url(../blocks/about/__image/_first-photo/about__image_first-photo.css);
+@import url(../blocks/about/__image/_second-photo/about__image_second-photo.css);
+/*_____________________________ */
 @import url(../blocks/section/section.css);
+
+/* block about */
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__title/about__title.css);
+@import url(../blocks/about/__subtitle/about__subtitle.css);
+@import url(../blocks/about/__everland/about__everland.css);
+@import url(../blocks/about/__container/about__container.css);
+@import url(../blocks/about/__roll/about__roll.css);
+@import url(../blocks/about/__image/about__image.css);
+@import url(../blocks/about/__image/_first-photo/about__image_first-photo.css);
+@import url(../blocks/about/__image/_second-photo/about__image_second-photo.css);
+/*_____________________________*/
+
+/* block projects */
+@import url(../blocks/projects/projects.css);
+@import url(../blocks/projects/__main-container/projects__main-container.css);
+@import url(../blocks/projects/__container-text/projects__container-text.css);
+@import url(../blocks/projects/__special-projects/projects__special-projects.css);
+@import url(../blocks/projects/__title/projects__title.css);
+@import url(../blocks/projects/__alexey/projects__alexey.css);
+@import url(../blocks/projects/__btn/projects__btn.css);
+@import url(../blocks/projects/__container-arrows/projects__container-arrows.css);
+@import url(../blocks/projects/__btn-arrow/projects__btn-arrow.css);
+@import url(../blocks/projects/__image/projects__image.css);
+/*_____________________________*/
 @import url(../blocks/for-whom/for-whom.css);
 @import url(../blocks/for-whom/__title/for-whom__title.css);
 @import url(../blocks/for-whom/__cards/for-whom__cards.css);
@@ -15,6 +52,7 @@
 @import url(../blocks/for-whom/__button/for-whom__button.css);
 @import url(../blocks/for-whom/__link/for-whom__link.css);
 @import url(../blocks/for-whom/__card-desc/for-whom__card-desc.css);
+@import url(../blocks/for-whom/__link/for-whom__link.css);
 @import url(../blocks/work-directions/__title/work-directions__title.css);
 @import url(../blocks/work-directions/__cards/work-directions__cards.css);
 @import url(../blocks/work-directions/__card/work-directions__card.css);
@@ -25,6 +63,19 @@
 @import url(../blocks/work-directions/__card-text/work-directions__card-text.css);
 @import url(../blocks/work-directions/__link/work-directions__link.css);
 @import url(../blocks/work-directions/__card-desc/work-directions__card-desc.css);
+@import url(../blocks/advantages/advantages.css);
+@import url(../blocks/advantages/__title/advantages__title.css);
+@import url(../blocks/advantages/__accordion-wrapper/advantages__accordion-wrapper.css);
+@import url(../blocks/advantages/__accordion-section/advantages__accordion-section.css);
+@import url(../blocks/advantages/__accordion-section/_opened/advantages__accordion-section_opened.css);
+@import url(../blocks/advantages/__accordion-header/advantages__accordion-header.css);
+@import url(../blocks/advantages/__accordion-title/advantages__accordion-title.css);
+@import url(../blocks/advantages/__accordion-button/advantages__accordion-button.css);
+@import url(../blocks/advantages/__accordion-button-icon/advantages__accordion-button-icon.css);
+@import url(../blocks/advantages/__accordion-body/advantages__accordion-body.css);
+@import url(../blocks/advantages/__accordion-text/advantages__accordion-text.css);
+@import url(../blocks/arrow/arrow.css);
+
 
 @import url(../blocks/digits/digits.css);
 @import url(../blocks/digits/__container/digits__container.css);
@@ -184,24 +235,54 @@
 @import url(../blocks/menu/__about/menu__about.css);
 @import url(../blocks/menu/__for-whom/menu__for-whom.css);
 @import url(../blocks/menu/__services/menu__services.css);
-@import url(../blocks/menu/__links-additional/menu__links-additional.css);
-
-@import url(../blocks/menu/__link-additional/menu__link-additional.css);
 
 @import url(../blocks/menu/__link-wrapper/menu__link-wrapper.css);
-@import url(../blocks/menu/__link-header/menu__link-header.css);
-@import url(../blocks/menu/__link/menu__link.css);
+@import url(../blocks/menu/__links-additional/menu__links-additional.css);
+@import url(../blocks/menu/__link-additional/menu__link-additional.css);
 
-@import url(../blocks/menu/__accordeon-about/menu__accordeon-about.css);
-@import url(../blocks/menu/__accordeon-for-whom/menu__accordeon-for-whom.css);
-@import url(../blocks/menu/__accordeon-services/menu__accordeon-services.css);
+@import url(../blocks/menu/_open/menu_open.css);
 
-@import url(../blocks/menu/__link-header-block/menu__link-header-block.css);
-@import url(../blocks/menu/__button-accordeon/menu__button-accordeon.css);
+/* : =========================================================================*/
 
-@import url(../blocks/menu/__button-accordeon/_up/menu__button-accordeon_up.css);
-@import url(../blocks/menu/__button-accordeon/_down/menu__button-accordeon_down.css);
+/* : Аккордеон  */
 
-@import url(../blocks/menu/_open-accordeon/open-accordeon.css);
-@import url(../blocks/menu/_open-block-menu/open-block-menu.css);
-@import url(../blocks/menu/_open-block-submenu/open-block-submenu.css);
+@import url(../blocks/accordion/accordion.css);
+@import url(../blocks/accordion/__header-block/accordion__header-block.css);
+@import url(../blocks/accordion/__header/accordion__header.css);
+@import url(../blocks/accordion/__button/accordion__button.css);
+@import url(../blocks/accordion/__button/_up/accordion__button_up.css);
+@import url(../blocks/accordion/__button/_down/accordion__button_down.css);
+
+@import url(../blocks/accordion/__block/accordion__block.css);
+@import url(../blocks/accordion/__link-wrapper/accordion__link-wrapper.css);
+@import url(../blocks/accordion/__link/accordion_link.css);
+
+@import url(../blocks/accordion/_open/accordion_open.css);
+@import url(../blocks/accordion/__block/_open/accordion__block_open.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__about-menu/footer__about-menu.css);
+@import url(../blocks/footer/__about-text/footer__about-text.css);
+@import url(../blocks/footer/__about/footer__about.css);
+@import url(../blocks/footer/__column-title/footer__column-title.css);
+@import url(../blocks/footer/__column/_first/footer__column_first.css);
+@import url(../blocks/footer/__column/_second/footer__column_second.css);
+@import url(../blocks/footer/__column/footer__column.css);
+@import url(../blocks/footer/__contact-tel/footer__contact-tel.css);
+@import url(../blocks/footer/__contact-adress/footer__contact-adress.css);
+@import url(../blocks/footer/__contact/footer__contact.css);
+@import url(../blocks/footer/__copy-text/footer__copy-text.css);
+@import url(../blocks/footer/__icon-link/footer__icon-link.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__menu-link/footer__menu-link.css);
+@import url(../blocks/footer/__menu-list/footer__menu-list.css);
+@import url(../blocks/footer/__menu/footer__menu.css);
+@import url(../blocks/footer/__social-icon/footer__social-icon.css);
+@import url(../blocks/footer/__social-icons/footer__social-icons.css);
+@import url(../blocks/footer/__support-logo/footer__support-logo.css);
+@import url(../blocks/footer/__support-logos/footer__support-logos.css);
+@import url(../blocks/footer/__support/footer__support.css);
+@import url(../blocks/footer/__wrap/footer__wrap.css);
+@import url(../blocks/footer/__yandex-logo/footer__yandex-logo.css);
+@import url(../blocks/footer/__yandex-text/footer__yandex-text.css);
+@import url(../blocks/footer/__yandex/footer__yandex.css);
