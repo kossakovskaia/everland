@@ -1,0 +1,8 @@
+.support__form-sector-heading-line {
+    border: 1px solid #DADADA;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    z-index: 0;
+}

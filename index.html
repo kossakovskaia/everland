@@ -175,22 +175,22 @@
       <div class="donate__container">
         <ul class="donate__button-list">
           <li class="donate__button-list-item">
-            <button class="btn btn_secondary-gray btn_secondary-no-border">
+            <button data-donate="250" class="btn btn_secondary-gray btn_secondary-no-border">
               250₽
             </button>
           </li>
           <li class="donate__button-list-item">
-            <button class="btn btn_secondary-gray btn_secondary-no-border">
+            <button data-donate="500" class="btn btn_secondary-gray btn_secondary-no-border">
               500₽
             </button>
           </li>
           <li class="donate__button-list-item">
-            <button class="btn btn_secondary-gray btn_secondary-no-border">
+            <button data-donate="750" class="btn btn_secondary-gray btn_secondary-no-border">
               750₽
             </button>
           </li>
           <li class="donate__button-list-item">
-            <button class="btn btn_secondary-gray btn_secondary-no-border">
+            <button data-donate="1000" class="btn btn_secondary-gray btn_secondary-no-border">
               1000₽
             </button>
           </li>
@@ -200,7 +200,11 @@
             </button>
           </li>
         </ul>
-        <button class="btn btn_primary">Поддержать</button>
+        <a href="#support" class="link">
+          <button class="btn btn_primary donate__support-btn">
+            Поддержать
+          </button>
+        </a>
       </div>
     </section>
     <section class="for-whom" id="for-whom" aria-label="Для кого создано агентство">
@@ -463,34 +467,32 @@
               прошли обучение и получили работу в разных статусах
             </p>
           </li>
-          <li class="digits__list-item">
-            <h3 class="digits__list-item-heading">
-              <span class="digits__list-item-heading-number">1200+</span>
-              человек
-            </h3>
-            <p class="digits__list-item-paragraph">
-              наше сообщество ― люди с разными видами инвалидности
-            </p>
+          <li class="donate__button-list-item">
+            <button data-donate="500" class="btn btn_secondary-gray btn_secondary-no-border">
+              500₽
+            </button>
           </li>
-          <li class="digits__list-item">
-            <h3 class="digits__list-item-heading">
-              <span class="digits__list-item-heading-number">35 000</span>
-              рублей
-            </h3>
-            <p class="digits__list-item-paragraph">
-              средний заработок в проекте/в рамках работы агентства
-            </p>
+          <li class="donate__button-list-item">
+            <button data-donate="750" class="btn btn_secondary-gray btn_secondary-no-border">
+              750₽
+            </button>
           </li>
-          <li class="digits__list-item">
-            <h3 class="digits__list-item-heading">
-              <span class="digits__list-item-heading-number">3</span>
-              недели
-            </h3>
-            <p class="digits__list-item-paragraph">
-              нужно, чтобы получить первую оплату после прокачки в Everland
-            </p>
+          <li class="donate__button-list-item">
+            <button data-donate="1000" class="btn btn_secondary-gray btn_secondary-no-border">
+              1000₽
+            </button>
+          </li>
+          <li class="donate__button-list-item donate__button-list-item_last-item">
+            <button class="btn btn_secondary-gray btn_secondary-no-border">
+              Другая сумма
+            </button>
           </li>
         </ul>
+        <a href="#support" class="link">
+          <button class="btn btn_primary donate__support-btn">
+            Поддержать
+          </button>
+        </a>
       </div>
     </section>
     <section class="section projects" id="projects" aria-label="Спецпроекты Everland">
@@ -630,128 +632,209 @@
         <div class="support__form-wrapper">
           <form class="support__form">
             <div class="support__form-frequency">
-              <button class="support__form-frequency-tab"></button>
-              <button class="support__form-frequency-tab"></button>
+              <button data-frequency="Ежемесячно"
+                class="btn btn_secondary-transparent-grey support__form-frequency-tab">
+                Ежемесячно
+              </button>
+              <button data-frequency="Разово" class="btn btn_secondary-transparent-grey support__form-frequency-tab">
+                Разово
+              </button>
             </div>
             <div class="support__form-donate-info">
-              <h4 class="support__form-sector-heading"></h4>
+              <div class="support__form-sector-heading-wrapper">
+                <div class="support__form-sector-heading-line"></div>
+                <h4 class="support__form-sector-heading">
+                  Размер пожертвования
+                </h4>
+              </div>
               <ul class="support__form-donate-summ-wrapper">
                 <li class="support__form-donate-summ">
-                  <button></button>
+                  <button data-sum="250" class="btn btn_secondary-transparent-grey">
+                    250₽
+                  </button>
                 </li>
                 <li class="support__form-donate-summ">
-                  <button></button>
+                  <button data-sum="500" class="btn btn_secondary-transparent-grey">
+                    500₽
+                  </button>
                 </li>
                 <li class="support__form-donate-summ">
-                  <button></button>
+                  <button data-sum="750" class="btn btn_secondary-transparent-grey">
+                    750₽
+                  </button>
                 </li>
                 <li class="support__form-donate-summ">
-                  <button></button>
+                  <button data-sum="1000" class="btn btn_secondary-transparent-grey">
+                    1000₽
+                  </button>
                 </li>
-                <li class="support__form-donate-summ">
-                  <button></button>
+                <li class="support__form-donate-summ another-sum">
+                  <button class="btn btn_secondary-transparent-grey">
+                    Другая сумма
+                  </button>
                 </li>
               </ul>
-              <p class="support__form-donate-paragraph"></p>
+              <p class="support__form-donate-paragraph">
+                Регулярные пожертвования очень важны для Everland. Это то, что
+                помогает нашим программам работать бесперебойно, что открывает
+                новые востребованные проекты, что максимально эффективно
+                решает социальную задачу. Если вы захотите поддерживать наши
+                программы постоянно, то каждый месяц с вашей карты будет
+                списываться указанная вами сумма.
+              </p>
             </div>
             <div class="support__form-payment">
-              <h4 class="support__form-sector-heading"></h4>
-              <ul class="support__form-payment-wrapper">
-                <li class="support__form-payment-type">
-                  <button></button>
-                </li>
-                <li class="support__form-payment-type">
-                  <button></button>
-                </li>
-                <li class="support__form-payment-type">
-                  <button></button>
-                </li>
-                <li class="support__form-payment-type">
-                  <button></button>
-                </li>
-                <li class="support__form-payment-type">
-                  <button></button>
-                </li>
-                <li class="support__form-payment-type">
-                  <button></button>
-                </li>
-              </ul>
+              <div class="support__form-sector-heading-wrapper">
+                <div class="support__form-sector-heading-line"></div>
+                <h4 class="support__form-sector-heading">Способ оплаты</h4>
+              </div>
+              <div class="support__form-payment-container">
+                <img class="support__form-arrow support__form-arrow_left" src="./images/logo/Icon_shevron.svg"
+                  alt="Стрелка влево" />
+                <ul class="support__form-payment-wrapper">
+                  <li class="support__form-payment-type">
+                    <button data-payment="Visa Mastercard" class="btn btn_secondary-transparent-grey">
+                      <img src="./images/logo/mir-visa-master.svg" alt="Visa Mastercard" />
+                    </button>
+                  </li>
+                  <li class="support__form-payment-type">
+                    <button data-payment="Yandex Money" class="btn btn_secondary-transparent-grey">
+                      <img src="./images/logo/io.svg" alt="Yandex Money" />
+                    </button>
+                  </li>
+                  <li class="support__form-payment-type">
+                    <button data-payment="Web Money" class="btn btn_secondary-transparent-grey">
+                      <img src="./images/logo/web-money.svg" alt="Web Money" />
+                    </button>
+                  </li>
+                  <li class="support__form-payment-type">
+                    <button data-payment="Visa Mastercard" class="btn btn_secondary-transparent-grey">
+                      <img src="./images/logo/mir-visa-master.svg" alt="Visa Mastercard" />
+                    </button>
+                  </li>
+                  <li class="support__form-payment-type">
+                    <button data-payment="Yandex Money" class="btn btn_secondary-transparent-grey">
+                      <img src="./images/logo/io.svg" alt="Yandex Money" />
+                    </button>
+                  </li>
+                  <li class="support__form-payment-type">
+                    <button data-payment="Web Money" class="btn btn_secondary-transparent-grey">
+                      <img src="./images/logo/web-money.svg" alt="Web Money" />
+                    </button>
+                  </li>
+                  <li class="support__form-payment-type">
+                    <button data-payment="Visa Mastercard" class="btn btn_secondary-transparent-grey">
+                      <img src="./images/logo/mir-visa-master.svg" alt="Visa Mastercard" />
+                    </button>
+                  </li>
+                  <li class="support__form-payment-type">
+                    <button data-payment="Yandex Money" class="btn btn_secondary-transparent-grey">
+                      <img src="./images/logo/io.svg" alt="Yandex Money" />
+                    </button>
+                  </li>
+                  <li class="support__form-payment-type">
+                    <button data-payment="Web Money" class="btn btn_secondary-transparent-grey">
+                      <img src="./images/logo/web-money.svg" alt="Web Money" />
+                    </button>
+                  </li>
+                </ul>
+                <img class="support__form-arrow support__form-arrow_right" src="./images/logo/Icon_shevron.svg"
+                  alt="Стрелка вправо" />
+              </div>
             </div>
             <div class="support__form-data">
-              <h4 class="support__form-sector-heading"></h4>
-              <input class="support__form-data-name">
-              <input class="support__form-data-email">
+              <div class="support__form-sector-heading-wrapper">
+                <div class="support__form-sector-heading-line"></div>
+                <h4 class="support__form-sector-heading">Ваши данные</h4>
+              </div>
+              <input class="input support__form-data-name" placeholder="Иван Иванов" />
+              <input class="input support__form-data-email" placeholder="myemail@example.com" />
             </div>
             <div class="support__form-agreement">
-              <input class="support__form-agreement-item">
-              <input class="support__form-agreement-item">
+              <div class="checkbox">
+                <input type="checkbox" checked class="checkbox__input" id="offerAgreed" />
+                <label for="offerAgreed" class="checkbox__label">Соглашаюсь с <a href="#"
+                    class="link">офертой</a></label>
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" checked class="checkbox__input" id="personalDataAgreed" />
+                <label for="personalDataAgreed" class="checkbox__label">Соглашаюсь на
+                  <a href="#" class="link">обработку моих персональных данных</a>
+                </label>
+              </div>
             </div>
-            <button class=""></button>
+            <div class="support__form-footer">
+              <button class="btn btn_primary btn_disabled" type="submit">
+                Поддержать2
+              </button>
+            </div>
           </form>
         </div>
         <div class="support__donator-list-wrapper">
-          <h3 class="support__donator-heading">Everland создается силами многих. Мы благодарны каждому за поддержку!
+          <h3 class="support__donator-heading">
+            Everland создается силами многих. Мы благодарны каждому за
+            поддержку!
           </h3>
           <ul class="support__donator-list">
             <li class="support__donator">
+              <div class="support__donator-divider"></div>
               <span class="support__donator-name">Аноним</span>
-              <div class="support__donator-divider">........................................</div>
               <div class="support__donator-data">
                 <span class="support__donator-summ">500 ₽</span>
                 <span class="support__donator-time">2 часа назад</span>
               </div>
             </li>
             <li class="support__donator">
+              <div class="support__donator-divider"></div>
               <span class="support__donator-name">Татьяна</span>
-              <div class="support__donator-divider">........................................</div>
               <div class="support__donator-data">
                 <span class="support__donator-summ">600 ₽</span>
                 <span class="support__donator-time">3 часа назад</span>
               </div>
             </li>
             <li class="support__donator">
+              <div class="support__donator-divider"></div>
               <span class="support__donator-name">Аноним</span>
-              <div class="support__donator-divider">........................................</div>
               <div class="support__donator-data">
                 <span class="support__donator-summ">300 ₽</span>
                 <span class="support__donator-time">4 часа назад</span>
               </div>
             </li>
             <li class="support__donator">
+              <div class="support__donator-divider"></div>
               <span class="support__donator-name">Аноним</span>
-              <div class="support__donator-divider">........................................</div>
               <div class="support__donator-data">
                 <span class="support__donator-summ">200 ₽</span>
                 <span class="support__donator-time">4 часа назад</span>
               </div>
             </li>
             <li class="support__donator">
+              <div class="support__donator-divider"></div>
               <span class="support__donator-name">Аноним</span>
-              <div class="support__donator-divider">........................................</div>
               <div class="support__donator-data">
                 <span class="support__donator-summ">100 ₽</span>
                 <span class="support__donator-time">6 часов назад</span>
               </div>
             </li>
             <li class="support__donator">
+              <div class="support__donator-divider"></div>
               <span class="support__donator-name">Наталья</span>
-              <div class="support__donator-divider">........................................</div>
               <div class="support__donator-data">
                 <span class="support__donator-summ">600 ₽</span>
                 <span class="support__donator-time">9 часов назад</span>
               </div>
             </li>
             <li class="support__donator">
+              <div class="support__donator-divider"></div>
               <span class="support__donator-name">Наталья</span>
-              <div class="support__donator-divider">........................................</div>
               <div class="support__donator-data">
                 <span class="support__donator-summ">600 ₽</span>
                 <span class="support__donator-time">9 часов назад</span>
               </div>
             </li>
             <li class="support__donator">
+              <div class="support__donator-divider"></div>
               <span class="support__donator-name">Наталья</span>
-              <div class="support__donator-divider">........................................</div>
               <div class="support__donator-data">
                 <span class="support__donator-summ">600 ₽</span>
                 <span class="support__donator-time">9 часов назад</span>
