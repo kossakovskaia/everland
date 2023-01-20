@@ -261,3 +261,5 @@
 @import url(../blocks/footer/__yandex-logo/footer__yandex-logo.css);
 @import url(../blocks/footer/__yandex-text/footer__yandex-text.css);
 @import url(../blocks/footer/__yandex/footer__yandex.css);
+
+@import url(../blocks/button/button.css);

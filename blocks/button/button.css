@@ -1,0 +1,250 @@
+.button-style__wrapper {
+  display: flex;
+  column-gap: 10px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.button {
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .button {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .button {
+    font-size: 14px;
+    padding: 13.5px 16px;
+  }
+}
+
+.button__primary {
+  background-color: #0C4BA0;
+  color: #fff;
+  border: 1px solid #0C4BA0;
+}
+
+.button__primary:hover {
+  background-color: #4183DC;
+}
+
+.button__primary:active {
+  background-color: #00275C;
+}
+
+.button__primary:disabled {
+  background-color: #F5F5F5;
+  color: rgba(38, 38, 38, 0.5);
+  cursor: default;
+  border: 1px solid #c4c4c4;
+}
+
+.button__primary:disabled:hover {
+  background-color: #F5F5F5;
+  color: rgba(38, 38, 38, 0.5);
+  cursor: default;
+}
+
+.button__secondary {
+  color: #0C4BA0;
+  border: 1px solid #0C4BA0;
+}
+
+.button__secondary:hover {
+  color: #00275C;
+  border: 1px solid #00275C;
+}
+
+.button__secondary:active {
+  background-color: #00275C;
+  color: #fff;
+  border: 1px solid #00275C;
+}
+
+.button__secondary:disabled {
+  background-color: #f5f5f5;
+  color: rgba(38, 38, 38, 0.5);
+  cursor: default;
+}
+
+.button__secondary:disabled:hover {
+  background-color: #f5f5f5;
+  color: rgba(38, 38, 38, 0.5);
+  cursor: default;
+}
+
+.button__secondary-bg {
+  color: #333;
+  border: 1px solid #333;
+}
+
+.button__secondary-bg:hover {
+  color: #00275C;
+  border: 1px solid #00275C;
+}
+
+.button__secondary-bg:active {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #333;
+}
+
+.button__secondary-bg:disabled {
+  color: rgba(38, 38, 38, 0.5);
+  background-color: #f5f5f5;
+  border: 1px solid rgba(38, 38, 38, 0.5);
+}
+
+.button__link {
+  border: none;
+  padding: 12px 10px;
+  column-gap: 14px;
+  color: #333;
+  fill: #333;
+  background-color: #fff;
+}
+
+.button__link:hover {
+  color: #00275C;
+  fill: #00275C;
+}
+
+.button__link:active {
+  color: #0C4BA0;
+  fill: #0C4BA0;
+}
+
+.button__link:disabled {
+  background-color: #F5F5F5;
+  color: rgba(38, 38, 38, 0.5);
+  fill: rgba(38, 38, 38, 0.5);
+  cursor: default;
+}
+
+.button__link:disabled:hover {
+  background-color: #C4C4C4;
+  color: rgba(38, 38, 38, 0.5);
+  fill: rgba(38, 38, 38, 0.5);
+  cursor: default;
+}
+
+@media screen and (max-width: 768px) {
+  .button__link {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .button__link {
+    font-size: 14px;
+    padding: 13.5px 10px;
+  }
+}
+
+.button__link_blue {
+  background-color: #e7f0ff;
+  color: #0c4ba0;
+  fill: #0c4ba0;
+}
+
+.button__link_blue:hover {
+  background-color: #0c4ba0;
+  color: #fff;
+  fill: #fff;
+}
+
+.button__link_blue:active {
+  background-color: #00275c;
+}
+
+.button__link_green {
+  background-color: #daefd5;
+  color: #319B17;
+  fill: #319B17
+}
+
+.button__link_green:hover {
+  background-color: #319b17;
+  color: #fff;
+  fill: #fff
+}
+
+.button__link_green:active {
+  background-color: #0e4900;
+}
+
+.button__link_orange {
+  background-color: #feefea;
+  color: #e98509;
+  fill: #e98509;
+}
+
+.button__link_orange:hover {
+  background-color: #e98509;
+  color: #fff;
+  fill: #fff
+}
+
+.button__link_orange:active {
+  background-color: #864a00;
+}
+
+.button__link_violet {
+  background-color: #eae6ff;
+  color: #8b75ff;
+  fill: #8b75ff
+}
+
+.button__link_violet:hover {
+  background-color: #8b75ff;
+  color: #fff;
+  fill: #fff
+}
+
+.button__link_violet:active {
+  background-color: #4935b5;
+}
+
+.button__slider {
+  padding: 10px;
+  border: none;
+  color: #333;
+  fill: #333;
+  background-color: #fff;
+}
+
+.button__slider:hover {
+  color: #00275C;
+  fill: #00275C;
+}
+
+.button__slider:active {
+  color: #0C4BA0;
+  fill: #0C4BA0;
+}
+
+.button__slider:disabled {
+  background-color: #F5F5F5;
+  color: rgba(38, 38, 38, 0.5);
+  fill: rgba(38, 38, 38, 0.5);
+  cursor: default;
+}
+
+.button__slider:disabled:hover {
+  background-color: #C4C4C4;
+  color: rgba(38, 38, 38, 0.5);
+  fill: rgba(38, 38, 38, 0.5);
+  cursor: default;
+}
