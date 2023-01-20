@@ -1,13 +1,15 @@
 .btn-link_blue {
-  background: url(../../../images/btn-images/arrow_forward-blue.svg) 87% 50% / 16px 16px no-repeat #e7f0ff;
+  background-color: #e7f0ff;
   color: #0c4ba0;
+  fill: #0c4ba0;
 }
 
 .btn-link_blue:hover {
-  background: url(../../../images/btn-images/arrow_forward-white.svg) 87% 50% / 16px 16px no-repeat #0c4ba0;
+  background-color: #0c4ba0;
   color: #fff;
+  fill: #fff;
 }
 
 .btn-link_blue:active {
-  background: url(../../../images/btn-images/arrow_forward-white.svg) 87% 50% / 16px 16px no-repeat #00275c;
+  background-color: #00275c;
 }

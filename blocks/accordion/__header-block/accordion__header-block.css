@@ -1,4 +1,4 @@
-.menu__link-header-block {
+.accordion__header-block {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
