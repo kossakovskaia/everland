@@ -1,0 +1,27 @@
+.news__card {
+  border: 1px solid #DADADA;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  padding: 30px;
+}
+
+.news__card:nth-of-type(2) {
+  background-color: #DAEFD5;
+  border: 1px solid #DAEFD5;
+}
+
+@media screen and (max-width: 1000px) {
+  .news__card:nth-of-type(3) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .news__card:nth-of-type(3) {
+    display: flex;
+  }
+  .news__card {
+    padding: 24px;
+  }
+}

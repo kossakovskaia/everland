@@ -1,0 +1,25 @@
+.news__btn::before {
+  content: "Все новости";
+}
+
+@media screen and (max-width: 1000px) {
+  .news__btn {
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    margin-left: -100px;
+  }
+
+  .news__btn::before {
+    content: "Посмотреть все";
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .news__btn {
+    width: 300px;
+    left: auto;
+    margin-left: 0;
+  }
+}
