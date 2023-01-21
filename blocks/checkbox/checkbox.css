@@ -9,9 +9,6 @@
 .checkbox__input:checked+.checkbox__label {
     position: relative;
     padding-left: 32px;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 130%;
     cursor: pointer;
 }
 
@@ -31,7 +28,7 @@
 .checkbox__input:checked+.checkbox__label:after {
     content: url(../../images/Icon_check.png);
     position: absolute;
-    top: 0px;
+    top: 3px;
     left: 7px;
     font-size: 15px;
     color: #333;
