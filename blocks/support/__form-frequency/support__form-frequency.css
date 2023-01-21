@@ -1,0 +1,8 @@
+.support__form-frequency {
+    display: flex;
+    justify-content: space-between;
+}
+
+.support__form-frequency .btn {
+    width: calc(50% - 10px);
+}

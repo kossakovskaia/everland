@@ -1,0 +1,23 @@
+.support__form-sector-heading {
+    color: #333;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+    z-index: 1;
+    padding: 0 10px;
+    background-color: #fff;
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .support__form-sector-heading {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .support__form-sector-heading {
+        font-size: 16px;
+    }
+}
