@@ -288,3 +288,6 @@
 @import url(../blocks/footer/__yandex/footer__yandex.css);
 
 @import url(../blocks/button/button.css);
+@import url(../blocks/icon/__arrow/icon__arrow.css);
+@import url(../blocks/icon/__arrow-slider/icon__arrow__slider.css);
+@import url(../blocks/icon/__plus/icon__plus.css);
