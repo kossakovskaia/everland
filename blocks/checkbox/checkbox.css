@@ -29,7 +29,7 @@
 
 .checkbox__input:not(:checked)+.checkbox__label:after,
 .checkbox__input:checked+.checkbox__label:after {
-    content: '\2714';
+    content: url(../../images/Icon_check.png);
     position: absolute;
     top: 0px;
     left: 7px;

@@ -133,7 +133,7 @@
 @import url(../blocks/support/__form-payment/support__form-payment.css);
 @import url(../blocks/support/__form-arrow/support__form-arrow.css);
 @import url(../blocks/support/__form-arrow/_left/support__form-arrow_left.css);
-@import url(../blocks/support/__form-arrow/_right/support__form-arrow_left.css);
+@import url(../blocks/support/__form-arrow/_right/support__form-arrow_right.css);
 
 @import url(../blocks/support/__form-payment-type/support__form-payment-type.css);
 @import url(../blocks/support/__form-payment-wrapper/support__form-payment-wrapper.css);
