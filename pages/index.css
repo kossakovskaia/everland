@@ -4,7 +4,6 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/section/section.css);
 @import url(../blocks/section/__content/section__content.css);
-@import url(../blocks/arrow/arrow.css);
 @import url(../blocks/link/link.css);
 @import url(../blocks/input/input.css);
 @import url(../blocks/checkbox/checkbox.css);
@@ -14,7 +13,6 @@
 
 /* Шапка */
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/__btn/header__btn.css);
 @import url(../blocks/header/_cap/header__cap.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__menu/header__menu.css);
@@ -23,7 +21,6 @@
 @import url(../blocks/header/__menu-button/_close/header__menu-button_close.css);
 @import url(../blocks/header/__menu-text/header__menu-text.css);
 @import url(../blocks/header/__block-buttons/header__block-buttons.css);
-@import url(../blocks/btn/_header/btn_header.css);
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__block-links/header__block-links.css);
 @import url(../blocks/header/__link-wrapper/header__link-wrapper.css);
@@ -270,34 +267,6 @@
 @import url(../blocks/news/__card-title/news__card-title.css);
 @import url(../blocks/news/__card-subtitle/news__card-subtitle.css);
 @import url(../blocks/news/__date/news__date.css);
-
-/* Кнопки */
-/* @import url(../blocks/btn/btn.css);
-@import url(../blocks/btn/_primary/btn_primary.css);
-@import url(../blocks/btn/_secondary/btn_secondary.css);
-@import url(../blocks/btn/_secondary-gray/btn_secondary-gray.css);
-@import url(../blocks/btn/_secondary-transparent/btn_secondary-transparent.css);
-@import url(../blocks/btn/_secondary-transparent-grey/btn_secondary-transparent-grey.css);
-@import url(../blocks/btn/_secondary-no-border/btn_secondary-no-border.css);
-@import url(../blocks/btn-link/btn-link.css);
-@import url(../blocks/btn-link/_white/btn-link_white.css);
-@import url(../blocks/btn-link/_blue/btn-link_blue.css);
-@import url(../blocks/btn-link/_orange/btn-link_orange.css);
-@import url(../blocks/btn-link/_green/btn-link_green.css);
-@import url(../blocks/btn-link/_violet/btn-link_violet.css);
-@import url(../blocks/btn/_disabled/btn_disabled.css);
-@import url(../blocks/btn-link/_white-disabled/btn-link_white-disabled.css);
-@import url(../blocks/btn-link/_disabled/btn-link_disabled.css);
-@import url(../blocks/btn-slider/btn-slider.css);
-@import url(../blocks/btn-slider/_blue/btn-slider_blue.css);
-@import url(../blocks/btn-slider/_gray/btn-slider_gray.css);
-@import url(../blocks/btn-slider/_left/btn-slider_left.css);
-@import url(../blocks/btn-slider/_right/btn-slider_right.css);
-@import url(../blocks/btn-slider/_disabled-right/btn-slider_disabled-right.css);
-@import url(../blocks/btn-slider/_disabled-left/btn-slider_disabled-left.css);
-@import url(../blocks/btn-accordeon/btn-accordeon.css);
-@import url(../blocks/btn-accordeon/_lblue/btn-accordeon_lblue.css);
-@import url(../blocks/btn-accordeon/_disabled/btn-accordeon_disabled.css); */
 
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/__accordion/button__accordion.css);
