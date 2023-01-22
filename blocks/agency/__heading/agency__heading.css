@@ -1,9 +1,4 @@
 .agency__heading {
-  color: #333;
-  font-size: 64px;
-  font-weight: 700;
-  letter-spacing: -0.01em;
-  line-height: 120%;
   margin-block-end: 0;
   margin-block-start: 0;
   padding-left: 40px;
@@ -13,14 +8,12 @@
 
 @media screen and (max-width: 768px) {
   .agency__heading {
-    font-size: 36px;
     padding-top: 50px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .agency__heading {
-    font-size: 26px;
     padding-top: 32px;
   }
 }

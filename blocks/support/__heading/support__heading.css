@@ -1,9 +1,4 @@
 .support__heading {
-    color: #333;
-    font-size: 64px;
-    font-weight: 700;
-    letter-spacing: -0.01em;
-    line-height: 120%;
     margin: 0;
     padding: 0;
     margin-top: 100px;
@@ -11,13 +6,6 @@
 
 @media screen and (max-width: 768px) {
     .support__heading {
-        font-size: 36px;
         margin-top: 44px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .support__heading {
-        font-size: 26px;
     }
 }

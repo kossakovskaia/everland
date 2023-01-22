@@ -1,12 +1,6 @@
 .stories__heading {
-  margin-block-start: 0;
-  margin-block-end: 0;
+  margin: 0;
   max-width: 272px;
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 120%;
-  letter-spacing: -0.01em;
-  color: #333;
   display: inline;
   align-self: flex-start;
   content: "Истории";
@@ -22,12 +16,5 @@
 @media screen and (max-width: 768px) {
   .stories__heading::after {
     content: "Наши истории";
-    font-size: 36px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .stories__heading {
-    font-size: 26px;
   }
 }
