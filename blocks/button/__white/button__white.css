@@ -1,0 +1,28 @@
+.button__white {
+  background-color: #fff;
+  border: 1px solid #fff
+}
+
+.button__white:hover {
+  background-color: #fff;
+  border: 1px solid #0C4BA0;
+}
+
+.button__white:active {
+  background-color: #fff;
+  border: 1px solid #0C4BA0;
+}
+
+.button__white:disabled {
+  background-color: #f5f5f5;
+  color: rgba(38, 38, 38, 0.5);
+  cursor: default;
+  border: 1px solid #c4c4c4;
+}
+
+.button__white:disabled:hover {
+  background-color: #f5f5f5;
+  color: rgba(38, 38, 38, 0.5);
+  cursor: default;
+  border: 1px solid #c4c4c4;
+}

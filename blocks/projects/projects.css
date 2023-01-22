@@ -1,7 +1,15 @@
 .projects {
-  position: relative;
-  justify-content: space-between;
-  background-color: #E7F0FF;
-  border-radius: 30px;
+  margin-top: 150px;
+}
 
+@media screen and (max-width: 768px) {
+  .projects {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .projects {
+    margin-top: 64px;
+  }
 }

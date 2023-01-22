@@ -1,0 +1,45 @@
+.button__link {
+  border: none;
+  padding: 0 10px;
+  column-gap: 14px;
+  color: #333;
+  fill: #333;
+}
+
+.button__link:hover {
+  color: #00275C;
+  fill: #00275C;
+}
+
+.button__link:active {
+  color: #0C4BA0;
+  fill: #0C4BA0;
+}
+
+.button__link:disabled {
+  background-color: #c4c4c4;
+  color: rgba(38, 38, 38, 0.5);
+  fill: rgba(38, 38, 38, 0.5);
+  cursor: default;
+}
+
+.button__link:disabled:hover {
+  background-color: #c4c4c4;
+  color: rgba(38, 38, 38, 0.5);
+  fill: rgba(38, 38, 38, 0.5);
+  cursor: default;
+}
+
+@media screen and (max-width: 768px) {
+  .button__link {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .button__link {
+    font-size: 14px;
+    padding: 0 10px;
+    height: 44px;
+  }
+}

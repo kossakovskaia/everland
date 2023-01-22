@@ -1,0 +1,26 @@
+.button__slider_blue {
+  background-color: #0C4BA0;
+  fill: #fff;
+}
+
+.button__slider_blue:hover {
+  background-color: #4183DC;
+  fill: #fff;
+}
+
+.button__slider_blue:active {
+  background-color: #00275C;
+  fill: #fff
+}
+
+.button__slider_blue:disabled {
+  background-color: #C4C4C4;
+  fill: rgba(38, 38, 38, 0.5);
+  cursor: default;
+}
+
+.button__slider_blue:disabled:hover {
+  background-color: #C4C4C4;
+  fill: rgba(38, 38, 38, 0.5);
+  cursor: default;
+}

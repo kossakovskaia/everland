@@ -1,0 +1,27 @@
+.button__question {
+  width: 10px;
+  height: 10px;
+  background-color: #0C4BA0;
+  padding: 0 3px;
+  border: none;
+  color: #fff;
+  font-size: 6px;
+}
+
+.button__question:hover {
+  background-color: #4183DC;
+}
+
+.button__question:active {
+  background-color: #00275C;
+}
+
+.button__question:disabled {
+  background-color: #C4C4C4;
+  cursor: default;
+}
+
+.button__question:disabled:hover {
+  background-color: #C4C4C4;
+  cursor: default;
+}

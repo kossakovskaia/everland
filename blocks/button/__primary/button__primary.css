@@ -1,0 +1,27 @@
+.button__primary {
+  background-color: #0C4BA0;
+  color: #fff;
+  border: 1px solid #0C4BA0;
+}
+
+.button__primary:hover {
+  background-color: #4183DC;
+}
+
+.button__primary:active {
+  background-color: #00275C;
+}
+
+.button__primary:disabled {
+  background-color: #F5F5F5;
+  color: rgba(38, 38, 38, 0.5);
+  cursor: default;
+  border: 1px solid #c4c4c4;
+}
+
+.button__primary:disabled:hover {
+  background-color: #F5F5F5;
+  color: rgba(38, 38, 38, 0.5);
+  cursor: default;
+  border: 1px solid #c4c4c4;
+}

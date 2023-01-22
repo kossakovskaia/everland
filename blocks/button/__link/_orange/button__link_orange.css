@@ -1,0 +1,15 @@
+.button__link_orange {
+  background-color: #feefea;
+  color: #e98509;
+  fill: #e98509;
+}
+
+.button__link_orange:hover {
+  background-color: #e98509;
+  color: #fff;
+  fill: #fff
+}
+
+.button__link_orange:active {
+  background-color: #864a00;
+}

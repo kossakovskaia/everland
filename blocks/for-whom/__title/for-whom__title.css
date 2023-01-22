@@ -1,9 +1,5 @@
 .for-whom__title {
-  font-size: 64px;
-  font-weight: 700;
-  line-height: 120%;
-  letter-spacing: -0.01em;
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 50px;
   margin: 0 auto;
   width: calc(100% - 80px)
@@ -11,15 +7,16 @@
 
 @media screen and (max-width: 768px) {
   .for-whom__title {
-    font-size: 36px;
     text-align: center;
+    padding-bottom: 32px;
     width: calc(100% - 20px)
   }
 }
 
 @media screen and (max-width: 320px) {
   .for-whom__title {
-    font-size: 26px;
     text-align: left;
+    padding-top: 32px;
+    padding-bottom: 24px;
   }
 }

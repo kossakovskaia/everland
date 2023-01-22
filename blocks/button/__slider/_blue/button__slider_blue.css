@@ -1,0 +1,26 @@
+.button__slider_black {
+  background-color: #333;
+  fill: #fff;
+}
+
+.button__slider_black:hover {
+  background-color: #0C4BA0;
+  fill: #fff;
+}
+
+.button__slider_black:active {
+  background-color: #00275C;
+  fill: #fff;
+}
+
+.button__slider_black:disabled {
+  background-color: #C4C4C4;
+  fill: rgba(38, 38, 38, 0.5);
+  cursor: default;
+}
+
+.button__slider_black:disabled:hover {
+  background-color: #C4C4C4;
+  fill: rgba(38, 38, 38, 0.5);
+  cursor: default;
+}

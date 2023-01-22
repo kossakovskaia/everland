@@ -1,4 +1,16 @@
 .about {
   position: relative;
-  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    margin-top: 56px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .about {
+    margin-top: 50px;
+  }
 }

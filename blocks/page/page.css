@@ -1,9 +1,7 @@
 .page {
     font-family: "raleway", "Arial", sans-serif;
+    font-feature-settings: 'pnum' on, 'lnum' on;
     font-style: normal;
-    margin: 0 auto;
-    max-width: 1440px;
-    min-width: 320px;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
 }

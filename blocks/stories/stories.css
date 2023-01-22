@@ -1,14 +1,19 @@
 .stories {
-  max-width: 1360px;
-  margin: 150px 40px 100px 40px;
+  margin-top: 150px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
 
+@media screen and (max-width: 768px) {
+  .stories {
+    margin-top: 100px;
+  }
+}
+
 @media screen and (max-width: 320px) {
-  .stories  {
-    margin: auto 9px;
+  .stories {
+    margin: 64px 9px 0 9px;
   }
 }
