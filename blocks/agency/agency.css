@@ -4,3 +4,15 @@
   flex-direction: column;
   margin-top: 100px;
 }
+
+@media screen and (max-width: 768px) {
+  .agency {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .agency {
+    margin-top: 32px;
+  }
+}

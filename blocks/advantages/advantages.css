@@ -1,3 +1,15 @@
 .advantages {
     margin-top: 150px;
 }
+
+@media screen and (max-width:768px) {
+    .advantages {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .advantages {
+        margin-top: 64px;
+    }
+}
