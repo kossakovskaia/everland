@@ -1,0 +1,9 @@
+@media screen and (max-width: 320px) {
+    .support__form-donate-another-summ {
+        grid-column: 1/2;
+    }
+
+    .support__form-donate-another-summ .button {
+        min-width: 260px;
+    }
+}

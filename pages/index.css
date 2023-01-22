@@ -12,39 +12,6 @@
 @import url(../blocks/checkbox/__label/checkbox__label.css);
 @import url(../blocks/section-heading/section-heading.css);
 
-/* Кнопки */
-@import url(../blocks/btn/btn.css);
-@import url(../blocks/btn/_primary/btn_primary.css);
-@import url(../blocks/btn/_secondary/btn_secondary.css);
-@import url(../blocks/btn/_secondary-gray/btn_secondary-gray.css);
-@import url(../blocks/btn/_secondary-transparent/btn_secondary-transparent.css);
-@import url(../blocks/btn/_secondary-transparent-grey/btn_secondary-transparent-grey.css);
-@import url(../blocks/btn/_secondary-no-border/btn_secondary-no-border.css);
-
-@import url(../blocks/btn-link/btn-link.css);
-
-@import url(../blocks/btn-link/_white/btn-link_white.css);
-@import url(../blocks/btn-link/_blue/btn-link_blue.css);
-@import url(../blocks/btn-link/_orange/btn-link_orange.css);
-@import url(../blocks/btn-link/_green/btn-link_green.css);
-@import url(../blocks/btn-link/_violet/btn-link_violet.css);
-
-@import url(../blocks/btn/_disabled/btn_disabled.css);
-@import url(../blocks/btn-link/_white-disabled/btn-link_white-disabled.css);
-@import url(../blocks/btn-link/_disabled/btn-link_disabled.css);
-
-@import url(../blocks/btn-slider/btn-slider.css);
-@import url(../blocks/btn-slider/_blue/btn-slider_blue.css);
-@import url(../blocks/btn-slider/_gray/btn-slider_gray.css);
-@import url(../blocks/btn-slider/_left/btn-slider_left.css);
-@import url(../blocks/btn-slider/_right/btn-slider_right.css);
-@import url(../blocks/btn-slider/_disabled-right/btn-slider_disabled-right.css);
-@import url(../blocks/btn-slider/_disabled-left/btn-slider_disabled-left.css);
-
-@import url(../blocks/btn-accordeon/btn-accordeon.css);
-@import url(../blocks/btn-accordeon/_lblue/btn-accordeon_lblue.css);
-@import url(../blocks/btn-accordeon/_disabled/btn-accordeon_disabled.css);
-
 /* Шапка */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__btn/header__btn.css);
@@ -248,6 +215,7 @@
 @import url(../blocks/support/__form-donate-paragraph/support__form-donate-paragraph.css);
 @import url(../blocks/support/__form-donate-summ/support__form-donate-summ.css);
 @import url(../blocks/support/__form-donate-summ-wrapper/support__form-donate-summ-wrapper.css);
+@import url(../blocks/support/__form-donate-another-summ/support__form-donate-another-summ.css);
 @import url(../blocks/support/__form-frequency/support__form-frequency.css);
 @import url(../blocks/support/__form-frequency-tab/support__form-frequency-tab.css);
 @import url(../blocks/support/__form-payment/support__form-payment.css);
@@ -302,8 +270,34 @@
 @import url(../blocks/news/__card-title/news__card-title.css);
 @import url(../blocks/news/__card-subtitle/news__card-subtitle.css);
 @import url(../blocks/news/__date/news__date.css);
-/*_____________________*/
 
+/* Кнопки */
+/* @import url(../blocks/btn/btn.css);
+@import url(../blocks/btn/_primary/btn_primary.css);
+@import url(../blocks/btn/_secondary/btn_secondary.css);
+@import url(../blocks/btn/_secondary-gray/btn_secondary-gray.css);
+@import url(../blocks/btn/_secondary-transparent/btn_secondary-transparent.css);
+@import url(../blocks/btn/_secondary-transparent-grey/btn_secondary-transparent-grey.css);
+@import url(../blocks/btn/_secondary-no-border/btn_secondary-no-border.css);
+@import url(../blocks/btn-link/btn-link.css);
+@import url(../blocks/btn-link/_white/btn-link_white.css);
+@import url(../blocks/btn-link/_blue/btn-link_blue.css);
+@import url(../blocks/btn-link/_orange/btn-link_orange.css);
+@import url(../blocks/btn-link/_green/btn-link_green.css);
+@import url(../blocks/btn-link/_violet/btn-link_violet.css);
+@import url(../blocks/btn/_disabled/btn_disabled.css);
+@import url(../blocks/btn-link/_white-disabled/btn-link_white-disabled.css);
+@import url(../blocks/btn-link/_disabled/btn-link_disabled.css);
+@import url(../blocks/btn-slider/btn-slider.css);
+@import url(../blocks/btn-slider/_blue/btn-slider_blue.css);
+@import url(../blocks/btn-slider/_gray/btn-slider_gray.css);
+@import url(../blocks/btn-slider/_left/btn-slider_left.css);
+@import url(../blocks/btn-slider/_right/btn-slider_right.css);
+@import url(../blocks/btn-slider/_disabled-right/btn-slider_disabled-right.css);
+@import url(../blocks/btn-slider/_disabled-left/btn-slider_disabled-left.css);
+@import url(../blocks/btn-accordeon/btn-accordeon.css);
+@import url(../blocks/btn-accordeon/_lblue/btn-accordeon_lblue.css);
+@import url(../blocks/btn-accordeon/_disabled/btn-accordeon_disabled.css); */
 
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/__accordion/button__accordion.css);
