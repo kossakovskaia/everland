@@ -439,3 +439,8 @@
   background-color: #C4C4C4;
   cursor: default;
 }
+
+.button__question:disabled:hover {
+  background-color: #C4C4C4;
+  cursor: default;
+}

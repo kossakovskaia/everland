@@ -1,0 +1,12 @@
+.news__image {
+  max-width: 100%;
+  width: 500px;
+  object-fit: cover;
+  margin: 0 0 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .news__image {
+    margin-bottom: 20px;
+  }
+}

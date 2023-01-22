@@ -1,0 +1,11 @@
+.news__main-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .news__main-container {
+    margin-bottom: 32px;
+  }
+}
