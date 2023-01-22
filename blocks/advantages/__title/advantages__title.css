@@ -5,14 +5,12 @@
 
 @media screen and (max-width: 768px) {
   .advantages__title {
-    padding-top: 100px;
     padding-bottom: 32px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .advantages__title {
-    padding-top: 64px;
     padding-bottom: 24px;
   }
 }
