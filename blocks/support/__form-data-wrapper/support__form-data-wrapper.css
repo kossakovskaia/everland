@@ -1,0 +1,17 @@
+.support__form-data-wrapper {
+    width: 65%;
+    margin-bottom: 39px;
+}
+
+@media screen and (max-width: 768px) {
+    .support__form-data-wrapper {
+        width: 70%;
+        margin-bottom: 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .support__form-data-wrapper {
+        width: 100%;
+    }
+}

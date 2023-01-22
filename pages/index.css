@@ -1,6 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/section/__content/section__content.css);
 
 /* block about */
 @import url(../blocks/about/about.css);
@@ -122,6 +123,7 @@
 @import url(../blocks/support/__form-agreement/support__form-agreement.css);
 @import url(../blocks/support/__form-agreement-item/support__form-agreement-item.css);
 @import url(../blocks/support/__form-data/support__form-data.css);
+@import url(../blocks/support/__form-data-wrapper/support__form-data-wrapper.css);
 @import url(../blocks/support/__form-data-email/support__form-data-email.css);
 @import url(../blocks/support/__form-data-name/support__form-data-name.css);
 @import url(../blocks/support/__form-donate-info/support__form-donate-info.css);
@@ -141,6 +143,7 @@
 @import url(../blocks/support/__form-sector-heading-wrapper/support__form-sector-heading-wrapper.css);
 @import url(../blocks/support/__form-sector-heading-line/support__form-sector-heading-line.css);
 @import url(../blocks/support/__form-footer/support__form-footer.css);
+@import url(../blocks/support/__form-btn/support__form-btn.css);
 
 @import url(../blocks/link/link.css);
 @import url(../blocks/input/input.css);
