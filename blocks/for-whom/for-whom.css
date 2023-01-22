@@ -3,7 +3,7 @@
   margin-top: 50px;
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width: 320px) {
   .for-whom {
     margin-top: 32px;
   }

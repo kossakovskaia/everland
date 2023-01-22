@@ -2,13 +2,13 @@
     margin-top: 100px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
     .work-direction {
         margin-top: 50px;
     }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width: 320px) {
     .work-direction {
         margin-top: 32px;
     }
