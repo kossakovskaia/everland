@@ -6,13 +6,9 @@
   grid-auto-flow: column;
   justify-content: center;
   list-style-type: none;
-  margin-block-end: 0;
-  margin-block-start: 0;
   margin: 0 40px;
   max-width: 100%;
-  padding-bottom: 50px;
-  padding-inline-start: 0;
-  padding-top: 51px;
+  padding: 50px 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -26,9 +22,10 @@
 @media screen and (max-width: 320px) {
   .agency__card-list {
     grid-auto-flow: row;
-    margin: 0 10px;
     padding-bottom: 24px;
     padding-top: 24px;
     row-gap: 30px;
+    margin: 0;
+    max-width: 300px;
   }
 }

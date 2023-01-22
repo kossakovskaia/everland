@@ -10,3 +10,9 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .advantages__accordion-wrapper {
+    max-width: 300px;
+  }
+}

@@ -176,6 +176,7 @@
 @import url(../blocks/stories/__heading/stories__heading.css);
 @import url(../blocks/stories/__non-quoted-list/stories__non-quoted-list.css);
 @import url(../blocks/stories/stories.css);
+@import url(../blocks/stories/__wrapper/stories__wrapper.css);
 @import url(../blocks/stories/__button-link/_position/_down/stories__button-link_position_down.css);
 @import url(../blocks/story-non-quoted/__arrow/story-non-quoted__arrow.css);
 @import url(../blocks/story-non-quoted/__avatar/story-non-quoted__avatar.css);

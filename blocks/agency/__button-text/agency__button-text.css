@@ -15,6 +15,6 @@
 @media screen and (max-width: 320px) {
   .agency__button-text {
     margin-bottom: 32px;
-    ;
+    margin: 0;
   }
 }
