@@ -1,8 +1,9 @@
 .news__card {
+  border-radius: 30px;
   border: 1px solid #DADADA;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  border-radius: 30px;
   padding: 30px;
 }
 
@@ -21,7 +22,14 @@
   .news__card:nth-of-type(3) {
     display: flex;
   }
+
   .news__card {
     padding: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .news__card {
+    max-width: 300px;
   }
 }

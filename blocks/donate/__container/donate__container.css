@@ -4,24 +4,23 @@
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
-    max-height: 164px;
-    max-width: 1360px;
-    padding: 0 30px;
+    padding: 58px 30px;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 768px) {
     .donate__container {
-        max-height: 112px;
-        max-width: 688px;
+        padding: 32px 24px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .donate__container {
-        max-height: 304px;
-        max-width: 300px;
         flex-direction: column;
-        box-sizing: border-box;
         padding: 32px 20px;
+    }
+
+    .donate__container .link {
+        min-width: 228px;
     }
 }

@@ -15,7 +15,7 @@
 
 @media screen and (max-width: 320px) {
   .stories__button-link {
-    width: 100%;
-    left: 0;
+    width: 268px;
+    left: 5%;
   }
 }
