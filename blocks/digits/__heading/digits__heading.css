@@ -1,5 +1,6 @@
 .digits__heading {
-    margin-bottom: 45px;
+    margin: 0 0 45px 0;
+    padding: 0;
 }
 
 @media screen and (max-width: 768px) {
