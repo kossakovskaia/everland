@@ -47,6 +47,7 @@
 
 /* Шапка */
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__btn/header__btn.css);
 @import url(../blocks/header/_cap/header__cap.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__menu/header__menu.css);
@@ -286,3 +287,41 @@
 @import url(../blocks/footer/__yandex-logo/footer__yandex-logo.css);
 @import url(../blocks/footer/__yandex-text/footer__yandex-text.css);
 @import url(../blocks/footer/__yandex/footer__yandex.css);
+
+/* block news */
+@import url(../blocks/news/news.css);
+@import url(../blocks/news/__main-container/news__main-container.css);
+@import url(../blocks/news/__title/news__title.css);
+@import url(../blocks/news/__btn/news__btn.css);
+@import url(../blocks/news/__container/news__container.css);
+@import url(../blocks/news/__card/news__card.css);
+@import url(../blocks/news/__theme/news__theme.css);
+@import url(../blocks/news/__image/news__image.css);
+@import url(../blocks/news/__card-title/news__card-title.css);
+@import url(../blocks/news/__card-subtitle/news__card-subtitle.css);
+@import url(../blocks/news/__date/news__date.css);
+/*_____________________*/
+
+
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/__accordion/button__accordion.css);
+@import url(../blocks/button/__donate/button__donate.css);
+@import url(../blocks/button/__donate/_active/button__donate_active.css);
+@import url(../blocks/button/__link/button__link.css);
+@import url(../blocks/button/__link/_blue/button__link_blue.css);
+@import url(../blocks/button/__link/_green/button__link_green.css);
+@import url(../blocks/button/__link/_orange/button__link_orange.css);
+@import url(../blocks/button/__link/_violet/button__link_violet.css);
+@import url(../blocks/button/__link/_white/button__link_white.css);
+@import url(../blocks/button/__primary/button__primary.css);
+@import url(../blocks/button/__question/button__question.css);
+@import url(../blocks/button/__secondary-bg/button__secondary-bg.css);
+@import url(../blocks/button/__secondary/button__secondary.css);
+@import url(../blocks/button/__slider/button__slider.css);
+@import url(../blocks/button/__slider/_black/button__slider_black.css);
+@import url(../blocks/button/__slider/_blue/button__slider_blue.css);
+@import url(../blocks/button/__white/button__white.css);
+
+@import url(../blocks/icon/__arrow/icon__arrow.css);
+@import url(../blocks/icon/__arrow-slider/icon__arrow-slider.css);
+@import url(../blocks/icon/__plus/icon__plus.css);

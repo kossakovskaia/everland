@@ -1,0 +1,15 @@
+.button__link_blue {
+  background-color: #e7f0ff;
+  color: #0c4ba0;
+  fill: #0c4ba0;
+}
+
+.button__link_blue:hover {
+  background-color: #0c4ba0;
+  color: #fff;
+  fill: #fff;
+}
+
+.button__link_blue:active {
+  background-color: #00275c;
+}

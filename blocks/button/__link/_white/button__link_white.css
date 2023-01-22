@@ -1,0 +1,27 @@
+.button__link_white {
+  background-color: #fff;
+}
+
+.button__link_white:hover {
+  color: #00275C;
+  fill: #00275C;
+}
+
+.button__link_white:active {
+  color: #0C4BA0;
+  fill: #0C4BA0;
+}
+
+.button__link_white:disabled {
+  background-color: #fff;
+  color: #c4c4c4;
+  fill: #c4c4c4;
+  cursor: default;
+}
+
+.button__link_white:disabled:hover {
+  background-color: #fff;
+  color: #c4c4c4;
+  fill: #c4c4c4;
+  cursor: default;
+}

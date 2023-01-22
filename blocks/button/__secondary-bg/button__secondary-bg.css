@@ -1,0 +1,23 @@
+.button__secondary-bg {
+  color: #333;
+  border: 1px solid #333;
+  background-color: transparent;
+}
+
+.button__secondary-bg:hover {
+  color: #00275C;
+  border: 1px solid #00275C;
+}
+
+.button__secondary-bg:active {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #333;
+}
+
+.button__secondary-bg:disabled {
+  color: rgba(38, 38, 38, 0.5);
+  background-color: #f5f5f5;
+  border: 1px solid #c4c4c4;
+  cursor: default;
+}

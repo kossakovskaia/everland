@@ -1,0 +1,15 @@
+.button__link_violet {
+  background-color: #eae6ff;
+  color: #8b75ff;
+  fill: #8b75ff
+}
+
+.button__link_violet:hover {
+  background-color: #8b75ff;
+  color: #fff;
+  fill: #fff
+}
+
+.button__link_violet:active {
+  background-color: #4935b5;
+}
