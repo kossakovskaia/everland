@@ -9,6 +9,7 @@
 @media screen and (max-width: 768px) {
   .stories {
     margin-top: 100px;
+    position: relative;
   }
 }
 

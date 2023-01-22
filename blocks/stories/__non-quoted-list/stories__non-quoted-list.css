@@ -13,6 +13,12 @@
   row-gap: 16px;
 }
 
+@media screen and (max-width: 768px) {
+  .stories__non-quoted-list {
+    margin-bottom: 86px;
+  }
+}
+
 @media screen and (max-width: 760px) {
   .stories__non-quoted-list {
     grid-template-columns: 1fr;
@@ -24,5 +30,6 @@
 @media screen and (max-width: 320px) {
   .stories__non-quoted-list {
     margin-top: 32px;
+    margin-bottom: 69px;
   }
 }
