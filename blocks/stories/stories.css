@@ -1,6 +1,5 @@
 .stories {
-  max-width: 1360px;
-  margin: 150px 40px 100px 40px;
+  margin-top: 150px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -8,7 +7,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .stories  {
+  .stories {
     margin: auto 9px;
   }
 }
