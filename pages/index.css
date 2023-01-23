@@ -219,6 +219,8 @@
 @import url(../blocks/support/__form-arrow/support__form-arrow.css);
 @import url(../blocks/support/__form-arrow/_left/support__form-arrow_left.css);
 @import url(../blocks/support/__form-arrow/_right/support__form-arrow_right.css);
+@import url(../blocks/support/__form-arrow/__form-arrow_up/support__form-arrow_up.css);
+@import url(../blocks/support/__form-arrow/__form-arrow_down/support__form-arrow_down.css);
 @import url(../blocks/support/__form-payment-type/support__form-payment-type.css);
 @import url(../blocks/support/__form-payment-wrapper/support__form-payment-wrapper.css);
 @import url(../blocks/support/__form-sector-heading/support__form-sector-heading.css);

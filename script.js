@@ -15,7 +15,7 @@ function setFormHandlers() {
   let formData = getInitialFormDataState();
 
   // todo update css selector
-  const submitFormButton = document.querySelector('.btn[type="submit"]');
+  const submitFormButton = document.querySelector('.button[type="submit"]');
 
   function setOnFormArrowsClickHandlers() {
     const step = 186;
@@ -38,11 +38,11 @@ function setFormHandlers() {
 
   function toggleButtonActive(button, activate) {
     if (activate) {
-      button.classList.add("btn_secondary");
-      button.classList.remove("btn_secondary-transparent-grey");
+      button.classList.add("button_secondary");
+      button.classList.remove("button_secondary-transparent-grey");
     } else {
-      button.classList.remove("btn_secondary");
-      button.classList.add("btn_secondary-transparent-grey");
+      button.classList.remove("button_secondary");
+      button.classList.add("button_secondary-transparent-grey");
     }
   }
 
@@ -50,9 +50,9 @@ function setFormHandlers() {
     button.disabled = disabled;
 
     if (disabled) {
-      button.classList.add("btn_disabled");
+      button.classList.add("button_disabled");
     } else {
-      button.classList.remove("btn_disabled");
+      button.classList.remove("button_disabled");
     }
   }
 
@@ -78,7 +78,7 @@ function setFormHandlers() {
         formData[key] = button.dataset[key];
 
         const activeButton = document.querySelector(
-          `.btn_secondary[data-${key}]`
+          `.button_secondary[data-${key}]`
         );
 
         if (activeButton) {
@@ -104,7 +104,7 @@ function setFormHandlers() {
         document.querySelector(`[data-sum="${donate}"]`).click();
 
         const activeButton = document.querySelector(
-          `.btn_secondary[data-donate]`
+          `.button_secondary[data-donate]`
         );
 
         if (activeButton) {
@@ -150,8 +150,8 @@ function setFormHandlers() {
 
   function setAnotherSumButtonHandler() {
     // todo update css selector
-    const anotherSomeListItem = document.querySelector(".another-sum");
-    const button = anotherSomeListItem.querySelector(".btn");
+    const anotherSomeListItem = document.querySelector(".support__form-donate-another-summ");
+    const button = anotherSomeListItem.querySelector(".button");
 
     button.addEventListener("focus", (e) => {
       e.preventDefault();
@@ -167,7 +167,7 @@ function setFormHandlers() {
         }
 
         const button = document.createElement("button");
-        button.classList.add("btn");
+        button.classList.add("button");
         button.textContent = "Другая сумма";
 
         anotherSomeListItem.removeChild(input);
@@ -370,5 +370,3 @@ window.addEventListener("load", onLoad);
 // todo Другая сумма поправить в donation
 // todo Сброс введеной другой суммы
 // todo slider
-//
-//

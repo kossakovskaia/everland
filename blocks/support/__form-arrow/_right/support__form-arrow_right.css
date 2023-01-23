@@ -1,3 +1,9 @@
 .support__form-arrow_right {
     margin-left: 10px;
 }
+
+@media screen and (max-width:320px) {
+    .support__form-arrow_right {
+        margin-left: 0;
+    }
+}

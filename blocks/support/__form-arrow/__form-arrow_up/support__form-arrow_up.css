@@ -1,0 +1,5 @@
+@media screen and (max-width:320px) {
+    .support__form-arrow_up {
+        transform: rotate(270deg);
+    }
+}
