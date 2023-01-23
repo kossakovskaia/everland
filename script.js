@@ -14,7 +14,6 @@ function setFormHandlers() {
 
   let formData = getInitialFormDataState();
 
-  // todo update css selector
   const submitFormButton = document.querySelector('.button[type="submit"]');
 
   function setOnFormArrowsClickHandlers() {
@@ -26,34 +25,36 @@ function setFormHandlers() {
     document
       .querySelector(".support__form-arrow_right")
       .addEventListener("click", () => {
-        slidesContainer.scrollLeft += step;
+        if (window.innerWidth <= 330) {
+          slidesContainer.scrollTop += step;
+        } else {
+          slidesContainer.scrollLeft += step;
+        }
       });
 
     document
       .querySelector(".support__form-arrow_left")
       .addEventListener("click", () => {
-        slidesContainer.scrollLeft -= step;
+        if (window.innerWidth <= 330) {
+          slidesContainer.scrollTop -= step;
+        } else {
+          slidesContainer.scrollLeft -= step;
+        }
       });
   }
 
   function toggleButtonActive(button, activate) {
     if (activate) {
-      button.classList.add("button_secondary");
-      button.classList.remove("button_secondary-transparent-grey");
+      button.classList.add("button__secondary");
+      button.classList.remove("button__secondary-transparent-grey");
     } else {
-      button.classList.remove("button_secondary");
-      button.classList.add("button_secondary-transparent-grey");
+      button.classList.remove("button__secondary");
+      button.classList.add("button__secondary-transparent-grey");
     }
   }
 
   function toggleButtonDisabled(button, disabled) {
     button.disabled = disabled;
-
-    if (disabled) {
-      button.classList.add("button_disabled");
-    } else {
-      button.classList.remove("button_disabled");
-    }
   }
 
   function undisableSubmitButton() {
@@ -65,7 +66,7 @@ function setFormHandlers() {
       formData.name &&
       formData.offerAgreed &&
       formData.personalDataAgreed;
-    /// todo add checkboxes
+
     toggleButtonDisabled(submitFormButton, !allDataPresent);
   }
 
@@ -78,7 +79,7 @@ function setFormHandlers() {
         formData[key] = button.dataset[key];
 
         const activeButton = document.querySelector(
-          `.button_secondary[data-${key}]`
+          `.button__secondary[data-${key}]`
         );
 
         if (activeButton) {
@@ -96,15 +97,13 @@ function setFormHandlers() {
     const button = document.querySelector(".donate__support-btn");
 
     button.addEventListener("click", (e) => {
-      e.preventDefault();
-
       const { donate } = formData;
 
       if (donate) {
         document.querySelector(`[data-sum="${donate}"]`).click();
 
         const activeButton = document.querySelector(
-          `.button_secondary[data-donate]`
+          `.button__secondary[data-donate]`
         );
 
         if (activeButton) {
@@ -139,18 +138,16 @@ function setFormHandlers() {
   }
 
   function setCheckboxChangeHandler(key) {
-    document
-      // todo update css selector
-      .querySelector(`#${key}`)
-      .addEventListener("change", (e) => {
-        formData[key] = e.currentTarget.checked;
-        undisableSubmitButton();
-      });
+    document.querySelector(`#${key}`).addEventListener("change", (e) => {
+      formData[key] = e.currentTarget.checked;
+      undisableSubmitButton();
+    });
   }
 
   function setAnotherSumButtonHandler() {
-    // todo update css selector
-    const anotherSomeListItem = document.querySelector(".support__form-donate-another-summ");
+    const anotherSomeListItem = document.querySelector(
+      ".support__form-donate-another-summ"
+    );
     const button = anotherSomeListItem.querySelector(".button");
 
     button.addEventListener("focus", (e) => {
@@ -200,10 +197,8 @@ function setFormHandlers() {
   setSubmitBtnHandlerHelper();
 }
 
-function setAccordionHanlders() {
-  const accordionButton = document.querySelectorAll(
-    ".button__accordion"
-  );
+function setAccordionHandlers() {
+  const accordionButton = document.querySelectorAll(".button__accordion");
   const accordionSection = document.querySelectorAll(
     ".advantages__accordion-section"
   );
@@ -246,9 +241,9 @@ function setMenuHandlers() {
   function initMenu(id) {
     const targetBlock = document.getElementById(id);
     const buttonMenu = document.querySelector(".header__menu-button");
-    const blockAccordeons = document.querySelectorAll(".accordion");
-    const accordeons = document.querySelectorAll(".accordion__block");
-    const buttonsAccordeon = document.querySelectorAll(".accordion__button");
+    const blockAccordions = document.querySelectorAll(".accordion");
+    const accordions = document.querySelectorAll(".accordion__block");
+    const buttonsAccordion = document.querySelectorAll(".accordion__button");
 
     const openMenu = () => {
       targetBlock.classList.add("menu_open");
@@ -265,22 +260,22 @@ function setMenuHandlers() {
           buttonMenu.classList.toggle("header__menu-button_open"),
             buttonMenu.classList.toggle("header__menu-button_close");
         }, 900);
-        blockAccordeons.forEach((elem) =>
+        blockAccordions.forEach((elem) =>
           elem.className.includes("accordion_open")
             ? elem.classList.remove("accordion_open")
             : elem
         );
-        accordeons.forEach((elem) =>
+        accordions.forEach((elem) =>
           elem.className.includes("accordion__block_open")
             ? elem.classList.remove("accordion__block_open")
             : elem
         );
-        buttonsAccordeon.forEach((elem) =>
+        buttonsAccordion.forEach((elem) =>
           elem.className.includes("accordion__button_up")
             ? setTimeout(() => {
-              elem.classList.remove("accordion__button_up"),
-                elem.classList.add("accordion__button_down");
-            }, 1000)
+                elem.classList.remove("accordion__button_up"),
+                  elem.classList.add("accordion__button_down");
+              }, 1000)
             : elem
         );
       }
@@ -295,78 +290,91 @@ function setMenuHandlers() {
 
   // : ----------------------
 
-  function initAccordeon(id) {
-    const buttonAccordeon = id.querySelector(".accordion__button");
-    const accordeon = id.querySelector(".accordion__block");
+  function initAccordion(id) {
+    const buttonAccordion = id.querySelector(".accordion__button");
+    const accordion = id.querySelector(".accordion__block");
 
-    const openAccordeon = () => {
+    const openAccordion = () => {
       id.classList.add("accordion_open");
-      accordeon.classList.add("accordion__block_open");
+      accordion.classList.add("accordion__block_open");
       setTimeout(
         () => (
-          buttonAccordeon.classList.toggle("accordion__button_up"),
-          buttonAccordeon.classList.toggle("accordion__button_down")
+          buttonAccordion.classList.toggle("accordion__button_up"),
+          buttonAccordion.classList.toggle("accordion__button_down")
         ),
         800
       );
     };
-    const closeAccordeon = () => {
+    const closeAccordion = () => {
       id.classList.remove("accordion_open");
-      accordeon.classList.remove("accordion__block_open");
+      accordion.classList.remove("accordion__block_open");
       setTimeout(
         () => (
-          buttonAccordeon.classList.toggle("accordion__button_up"),
-          buttonAccordeon.classList.toggle("accordion__button_down")
+          buttonAccordion.classList.toggle("accordion__button_up"),
+          buttonAccordion.classList.toggle("accordion__button_down")
         ),
         1000
       );
     };
 
-    buttonAccordeon.addEventListener("click", () =>
+    buttonAccordion.addEventListener("click", () =>
       id.className.includes("accordion_open")
-        ? closeAccordeon()
-        : openAccordeon()
+        ? closeAccordion()
+        : openAccordion()
     );
   }
 
-  const accordeonBlocks = document.querySelectorAll(".accordion");
-  accordeonBlocks.forEach((elem) => initAccordeon(elem));
+  const accordionBlocks = document.querySelectorAll(".accordion");
+  accordionBlocks.forEach((elem) => initAccordion(elem));
 }
 
 function setSlidersHandlers() {
-  function setSliderHalder(selector) {
+  function setSliderHandler(selector) {
     const sliderContent = document.querySelector(selector);
     const sliderContainer = sliderContent.parentElement;
     if (!sliderContainer) {
       return;
     }
 
-    const leftBtn = sliderContainer.querySelector(".btn-slider_left");
-    const rightBtn = sliderContainer.querySelector(".btn-slider_right");
-    const slidersCount = sliderContainer.children;
+    const leftBtn = sliderContainer.querySelector(".button__slider_left");
+    const rightBtn = sliderContainer.querySelector(".button__slider_right");
+    const slidersCount =
+      sliderContainer.querySelectorAll(".slider__item").length;
+    let counter = 1;
     const counterContainer = sliderContainer.querySelector(".about__roll");
 
     leftBtn.addEventListener("click", () => {
       sliderContent.scrollLeft -= sliderContainer.offsetWidth;
+      if (counterContainer) {
+        if (counter > 1) {
+          counter--;
+        }
+
+        counterContainer.innerHTML = `${counter} / ${slidersCount}`;
+      }
     });
 
     rightBtn.addEventListener("click", () => {
       sliderContent.scrollLeft += sliderContainer.offsetWidth;
+      if (counterContainer) {
+        if (counter < slidersCount) {
+          counter++;
+        }
+
+        counterContainer.innerHTML = `${counter} / ${slidersCount}`;
+      }
     });
   }
 
-  setSliderHalder("#about .slider__content");
+  setSliderHandler("#about .slider__content");
+  setSliderHandler("#projects .slider__content");
 }
 
 function onLoad() {
   setFormHandlers();
-  setAccordionHanlders();
+  setAccordionHandlers();
   setMenuHandlers();
   setSlidersHandlers();
 }
 
 window.addEventListener("load", onLoad);
-
-// todo Другая сумма поправить в donation
-// todo Сброс введеной другой суммы
-// todo slider

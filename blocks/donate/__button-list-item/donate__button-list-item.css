@@ -3,26 +3,30 @@
     margin: 0;
 }
 
-.donate__button-list-item .button {
-    min-width: 159px;
+.donate__button-list-item:not(:last-of-type) .button {
+    width: 159px;
+}
+
+.donate__button-list-item:last-of-type .button {
+    width: 211px;
 }
 
 @media screen and (max-width: 768px) {
-    .donate__button-list-item .button {
-        min-width: 75px;
+    .donate__button-list-item:not(:last-of-type) .button {
+        width: 75px;
     }
 
     .donate__button-list-item:last-of-type .button {
-        min-width: 141px;
+        width: 135px;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .donate__button-list-item .button {
-        min-width: 122px;
+    .donate__button-list-item:not(:last-of-type) .button {
+        width: 122px;
     }
 
     .donate__button-list-item:last-of-type .button {
-        min-width: 260px;
+        width: 260px;
     }
 }

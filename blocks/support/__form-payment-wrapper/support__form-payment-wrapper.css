@@ -19,5 +19,6 @@
     .support__form-payment-wrapper {
         flex-direction: column;
         margin-top: 0;
+        max-height: 190px;
     }
 }

@@ -1,0 +1,16 @@
+.slider__content {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  scroll-behavior: smooth;
+  overflow: hidden;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+  overflow-x: auto;
+}
+
+.slider__content::-webkit-scrollbar {
+  display: none;
+}
