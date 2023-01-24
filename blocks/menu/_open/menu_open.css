@@ -1,7 +1,6 @@
 .menu_open {
   max-height: 600px;
   max-width: 100%;
-  margin: 0;
   padding-top: 40px;
   padding-bottom: 40px;
   transition: max-height 1s, padding-top 0.5s, padding-bottom 0.5s;
@@ -11,7 +10,6 @@
   .menu_open {
     max-height: 600px;
     max-width: 100%;
-    margin: 0;
     padding-top: 25px;
     padding-bottom: 40px;
     transition: max-height 1s, padding-top 0.5s, padding-bottom 0.5s;
@@ -22,7 +20,6 @@
   .menu_open {
     max-height: 1200px;
     max-width: 100%;
-    margin: 0;
     padding-top: 10px;
     padding-bottom: 10px;
     transition: max-height 1s, padding-top 0.5s, padding-bottom 0.5s;
