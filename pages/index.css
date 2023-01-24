@@ -21,6 +21,7 @@
 @import url(../blocks/link/_additional/link_additional.css);
 @import url(../blocks/link/_accordion/link_accordion.css);
 @import url(../blocks/link/_support/link_support.css);
+@import url(../blocks/link/_footer/link_footer.css);
 @import url(../blocks/link/_disabled/link_disabled.css);
 
 /* Шапка */
@@ -253,7 +254,6 @@
 @import url(../blocks/footer/__copy-text/footer__copy-text.css);
 @import url(../blocks/footer/__icon-link/footer__icon-link.css);
 @import url(../blocks/footer/__logo/footer__logo.css);
-@import url(../blocks/footer/__menu-link/footer__menu-link.css);
 @import url(../blocks/footer/__menu-list/footer__menu-list.css);
 @import url(../blocks/footer/__menu/footer__menu.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
