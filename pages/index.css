@@ -4,7 +4,6 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/section/section.css);
 @import url(../blocks/section/__content/section__content.css);
-@import url(../blocks/link/link.css);
 @import url(../blocks/input/input.css);
 @import url(../blocks/checkbox/checkbox.css);
 @import url(../blocks/checkbox/__input/checkbox__input.css);
@@ -14,9 +13,19 @@
 @import url(../blocks/slider/__item/slider__item.css);
 @import url(../blocks/slider/__content/slider__content.css);
 
+/* :  Ссылки */
+@import url(../blocks/link/link.css);
+
+/* !  модификаторы ссылок*/
+@import url(../blocks/link/_header/link_header.css);
+@import url(../blocks/link/_additional/link_additional.css);
+@import url(../blocks/link/_accordion/link_accordion.css);
+@import url(../blocks/link/_support/link_support.css);
+@import url(../blocks/link/_disabled/link_disabled.css);
+
 /* Шапка */
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/_cap/header__cap.css);
+@import url(../blocks/header/__cap/header__cap.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__menu-button/header__menu-button.css);
@@ -27,7 +36,6 @@
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__block-links/header__block-links.css);
 @import url(../blocks/header/__link-wrapper/header__link-wrapper.css);
-@import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/menu/menu.css);
 
 /* Меню */
@@ -36,7 +44,6 @@
 @import url(../blocks/menu/__services/menu__services.css);
 @import url(../blocks/menu/__link-wrapper/menu__link-wrapper.css);
 @import url(../blocks/menu/__links-additional/menu__links-additional.css);
-@import url(../blocks/menu/__link-additional/menu__link-additional.css);
 @import url(../blocks/menu/_open/menu_open.css);
 
 /* О проекте */
@@ -107,7 +114,6 @@
 @import url(../blocks/accordion/__button/_down/accordion__button_down.css);
 @import url(../blocks/accordion/__block/accordion__block.css);
 @import url(../blocks/accordion/__link-wrapper/accordion__link-wrapper.css);
-@import url(../blocks/accordion/__link/accordion_link.css);
 @import url(../blocks/accordion/_open/accordion_open.css);
 @import url(../blocks/accordion/__block/_open/accordion__block_open.css);
 
