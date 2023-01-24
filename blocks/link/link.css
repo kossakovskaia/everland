@@ -1,5 +1,16 @@
 .link {
-    text-decoration: none;
-    color: #0C4BA0;
-    width: fit-content;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: #00275c;
+}
+
+.link:active {
+  color: #0c4ba0;
 }
