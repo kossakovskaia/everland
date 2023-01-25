@@ -1,8 +1,8 @@
 .header {
-  width: 100%;
-  max-width: inherit;
-  position: fixed;
+  max-width: 1440px;
+  position: sticky;
   top: 0;
   background-color: #fff;
   z-index: 100;
+  margin: 0 auto;
 }
