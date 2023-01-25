@@ -6,3 +6,19 @@
   margin: 0;
   padding: 0;
 }
+
+.footer__menu-list:first-child {
+  max-width: 227px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__menu-list {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__menu-list {
+    font-size: 14px;
+  }
+}
