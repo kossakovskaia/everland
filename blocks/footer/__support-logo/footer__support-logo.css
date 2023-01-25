@@ -1,5 +1,5 @@
 .footer__support-logo:last-child {
-  background: url(/images/fund.png) no-repeat;
+  background: url(../../../images/fund.png) no-repeat;
   width: 100px;
   height: 48px;
   background-size: contain;
@@ -7,7 +7,7 @@
 }
 
 .footer__support-logo:first-child {
-  background: url(/images/beeline.png) no-repeat;
+  background: url(../../../images/beeline.png) no-repeat;
   width: 100px;
   height: 52px;
   background-size: contain;
@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 768px) {
   .footer__support-logo:last-child {
-    background: url(/images/fund.png) no-repeat;
+    background: url(../../../images/fund.png) no-repeat;
     width: 88px;
     height: 30px;
     background-size: cover;
@@ -24,7 +24,7 @@
   }
 
   .footer__support-logo:first-child {
-    background: url(/images/beeline_2.png) no-repeat;
+    background: url(../../../images/beeline_2.png) no-repeat;
     width: 56px;
     height: 40px;
     background-size: cover;
@@ -34,7 +34,7 @@
 
 @media screen and (max-width: 320px) {
   .footer__support-logo:last-child {
-    background: url(/images/fund.png) no-repeat;
+    background: url(../../../images/fund.png) no-repeat;
     width: 73px;
     height: 25px;
     background-size: cover;
@@ -42,7 +42,7 @@
   }
 
   .footer__support-logo:first-child {
-    background: url(/images/beeline_2.png) no-repeat;
+    background: url(../../../images/beeline_2.png) no-repeat;
     width: 47px;
     height: 34px;
     background-size: cover;
