@@ -1,4 +1,5 @@
 .menu {
+  box-sizing: border-box;
   max-width: 1440px;
   position: sticky;
   top: 132px;
