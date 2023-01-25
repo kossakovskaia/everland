@@ -6,3 +6,7 @@
 .donate__button-list-item .button {
     width: 100%;
 }
+
+.donate__button-list-item a.button {
+    width: calc(100% - 32px);
+}

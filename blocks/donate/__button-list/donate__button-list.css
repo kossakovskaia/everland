@@ -1,7 +1,6 @@
 .donate__button-list {
     display: grid;
     list-style: none;
-    margin: 0;
     padding: 0;
     gap: 16px;
     grid-template-columns: 1fr 1fr;
@@ -12,17 +11,13 @@
 @media screen and (min-width: 768px) {
     .donate__button-list {
         margin: 0;
-        margin-right: 10px;
         grid-column-gap: 10px;
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(6, 1fr);
     }
 }
-
 
 @media screen and (min-width: 1440px) {
     .donate__button-list {
         grid-column-gap: 40px;
-        grid-template-columns: repeat(5, 159px);
-        max-width: 1020px;
     }
 }
