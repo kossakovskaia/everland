@@ -32,6 +32,7 @@
 @import url(../blocks/header/__menu-button/header__menu-button.css);
 @import url(../blocks/header/__menu-button/_open/header__menu-button_open.css);
 @import url(../blocks/header/__menu-button/_close/header__menu-button_close.css);
+@import url(../blocks/header/__btn/header__btn.css);
 @import url(../blocks/header/__menu-text/header__menu-text.css);
 @import url(../blocks/header/__block-buttons/header__block-buttons.css);
 @import url(../blocks/header/__links/header__links.css);
@@ -85,9 +86,9 @@
 @import url(../blocks/work-directions/__title/work-directions__title.css);
 @import url(../blocks/work-directions/__cards/work-directions__cards.css);
 @import url(../blocks/work-directions/__card/work-directions__card.css);
-@import url(../blocks/work-directions/__card/_blue/work-directions__card_blue.css);
-@import url(../blocks/work-directions/__card/_green/work-directions__card_green.css);
-@import url(../blocks/work-directions/__card/_orange/work-directions__card_orange.css);
+@import url(../blocks/work-directions/__card/_color/_blue/work-directions__card_color_blue.css);
+@import url(../blocks/work-directions/__card/_color/_green/work-directions__card_color_green.css);
+@import url(../blocks/work-directions/__card/_color/_orange/work-directions__card_color_orange.css);
 @import url(../blocks/work-directions/__card-title/work-directions__card-title.css);
 @import url(../blocks/work-directions/__card-text/work-directions__card-text.css);
 @import url(../blocks/work-directions/__link/work-directions__link.css);
@@ -245,8 +246,8 @@
 @import url(../blocks/footer/__about-text/footer__about-text.css);
 @import url(../blocks/footer/__about/footer__about.css);
 @import url(../blocks/footer/__column-title/footer__column-title.css);
-@import url(../blocks/footer/__column/_first/footer__column_first.css);
-@import url(../blocks/footer/__column/_second/footer__column_second.css);
+@import url(../blocks/footer/__column-first/footer__column-first.css);
+@import url(../blocks/footer/__column-second/footer__column-second.css);
 @import url(../blocks/footer/__column/footer__column.css);
 @import url(../blocks/footer/__contact-tel/footer__contact-tel.css);
 @import url(../blocks/footer/__contact-adress/footer__contact-adress.css);
