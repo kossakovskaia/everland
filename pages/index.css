@@ -65,6 +65,7 @@
 @import url(../blocks/donate/__button-list/donate__button-list.css);
 @import url(../blocks/donate/__container/donate__container.css);
 @import url(../blocks/donate/__button-list-item/_last-item/donate__button-list-item_last-item.css);
+@import url(../blocks/donate/__support-btn/donate__support-btn.css);
 
 /* Для кого */
 @import url(../blocks/for-whom/for-whom.css);
