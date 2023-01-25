@@ -1,6 +1,7 @@
 .support__form-data-wrapper {
     width: 65%;
     margin-bottom: 39px;
+    overflow: hidden;
 }
 
 @media screen and (max-width: 768px) {

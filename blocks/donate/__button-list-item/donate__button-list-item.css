@@ -3,30 +3,10 @@
     margin: 0;
 }
 
-.donate__button-list-item:not(:last-of-type) .button {
-    width: 159px;
+.donate__button-list-item .button {
+    width: 100%;
 }
 
-.donate__button-list-item:last-of-type .button {
-    width: 211px;
-}
-
-@media screen and (max-width: 768px) {
-    .donate__button-list-item:not(:last-of-type) .button {
-        width: 75px;
-    }
-
-    .donate__button-list-item:last-of-type .button {
-        width: 135px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .donate__button-list-item:not(:last-of-type) .button {
-        width: 122px;
-    }
-
-    .donate__button-list-item:last-of-type .button {
-        width: 260px;
-    }
+.donate__button-list-item a.button {
+    width: calc(100% - 32px);
 }

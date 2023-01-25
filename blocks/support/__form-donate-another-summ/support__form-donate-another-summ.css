@@ -1,3 +1,15 @@
+.support__form-donate-another-summ {
+    margin-top: 12px;
+}
+
+.support__form-donate-another-summ .button {
+    width: calc(50% - 2.5px);
+}
+
+.support__form-donate-another-summ .input {
+    width: calc(50% - 2.5px);
+}
+
 @media screen and (max-width: 320px) {
     .support__form-donate-another-summ {
         grid-column: 1/2;

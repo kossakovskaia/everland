@@ -1,9 +1,9 @@
 .donate {
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 768px) {
     .donate {
-        margin-top: 40px;
+        margin-top: 50px;
     }
 }

@@ -1,26 +1,23 @@
 .support__form-donate-summ-wrapper {
     display: grid;
     list-style: none;
-    grid-column-gap: 5px;
-    row-gap: 12px;
-    grid-template-columns: repeat(4, 1fr);
     padding: 0;
-    margin: 0;
-    font-size: 20px;
-    line-height: 120%;
-    color: #333;
+    gap: 16px;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     .support__form-donate-summ-wrapper {
-        font-size: 16px;
+        margin: 0;
+        grid-column-gap: 10px;
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 1440px) {
     .support__form-donate-summ-wrapper {
-        font-size: 14px;
-        gap: 16px;
-        grid-template-columns: 122px 122px;
+        grid-column-gap: 5px;
+
     }
 }

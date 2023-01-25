@@ -6,7 +6,7 @@
   color: #0c4ba0;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 320px) {
   .link_support {
     line-height: 15px;
     font-size: 12px;

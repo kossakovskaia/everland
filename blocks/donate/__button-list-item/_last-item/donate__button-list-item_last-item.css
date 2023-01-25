@@ -1,5 +1,5 @@
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .donate__button-list-item_last-item {
-        grid-column: 1/2;
+        grid-column: span 2;
     }
 }

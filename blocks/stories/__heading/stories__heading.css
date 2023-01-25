@@ -6,14 +6,14 @@
   content: "Истории";
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .stories__heading::after {
     content: "Истории";
   }
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .stories__heading::after {
     content: "Наши истории";
   }
