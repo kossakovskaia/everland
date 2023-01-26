@@ -1,0 +1,22 @@
+.news__theme {
+  margin: 0 0 30px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.4px;
+  color: #333;
+}
+
+@media screen and (max-width: 768px) {
+  .news__theme {
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .news__theme {
+    font-size: 12px;
+    line-height: 14.4px;
+  }
+}

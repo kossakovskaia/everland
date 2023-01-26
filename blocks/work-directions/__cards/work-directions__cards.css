@@ -1,0 +1,24 @@
+.work-directions__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+  .work-directions__cards {
+    grid-template-columns: repeat(auto-fit, minmax(247px, 1fr));
+    padding-bottom: 0;
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .work-directions__cards {
+    padding-bottom: 0;
+    max-width: 300px;
+  }
+}

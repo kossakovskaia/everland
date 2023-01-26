@@ -1,0 +1,31 @@
+.agency__card-list {
+  align-items: flex-start;
+  column-gap: 20px;
+  display: grid;
+  grid-auto-columns: 1fr 1fr 1fr;
+  grid-auto-flow: column;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0 40px;
+  max-width: 100%;
+  padding: 50px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .agency__card-list {
+    padding-bottom: 32px;
+    padding-top: 22px;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .agency__card-list {
+    grid-auto-flow: row;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    row-gap: 30px;
+    margin: 0;
+    max-width: 300px;
+  }
+}

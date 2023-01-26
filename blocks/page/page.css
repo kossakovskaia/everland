@@ -1,0 +1,7 @@
+.page {
+  font-family: "raleway", "Arial", sans-serif;
+  font-feature-settings: "pnum" on, "lnum" on;
+  font-style: normal;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}

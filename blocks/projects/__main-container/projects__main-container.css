@@ -1,0 +1,10 @@
+.projects__main-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+  .projects__main-container {
+    flex-direction: column-reverse;
+  }
+}

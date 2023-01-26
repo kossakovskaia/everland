@@ -1,0 +1,10 @@
+.work-directions__card-desc {
+  flex-grow: 1;
+  padding-bottom: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .work-directions__card-desc {
+    padding-bottom: 20px;
+  }
+}

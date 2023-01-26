@@ -1,0 +1,15 @@
+.digits {
+    margin-top: 150px;
+}
+
+@media screen and (max-width: 768px) {
+    .digits {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .digits {
+        margin-top: 64px;
+    }
+}

@@ -1,0 +1,21 @@
+.news__btn {
+  width: 194px;
+}
+
+@media screen and (max-width: 1000px) {
+  .news__btn {
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    margin-left: -100px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .news__btn {
+    width: 268px;
+    left: auto;
+    margin-left: 0;
+  }
+}

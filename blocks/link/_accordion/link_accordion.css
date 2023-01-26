@@ -1,0 +1,20 @@
+.link_accordion {
+  line-height: 26px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1100px) {
+  .link_accordion {
+    line-height: 19px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .link_accordion {
+    line-height: 17px;
+    font-size: 14px;
+  }
+}

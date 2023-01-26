@@ -1,0 +1,30 @@
+.button__secondary {
+  color: #0C4BA0;
+  border: 1px solid #0C4BA0;
+  background-color: transparent;
+}
+
+.button__secondary:hover {
+  color: #00275C;
+  border: 1px solid #00275C;
+}
+
+.button__secondary:active {
+  background-color: #00275C;
+  color: #fff;
+  border: 1px solid #00275C;
+}
+
+.button__secondary:disabled {
+  background-color: #f5f5f5;
+  color: rgba(38, 38, 38, 0.5);
+  cursor: default;
+  border: 1px solid #c4c4c4;
+}
+
+.button__secondary:disabled:hover {
+  background-color: #f5f5f5;
+  color: rgba(38, 38, 38, 0.5);
+  cursor: default;
+  border: 1px solid #c4c4c4;
+}

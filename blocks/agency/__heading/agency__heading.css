@@ -1,0 +1,17 @@
+.agency__heading {
+  margin: 0;
+  padding-right: 40px;
+  padding-top: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .agency__heading {
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .agency__heading {
+    padding-top: 32px;
+  }
+}

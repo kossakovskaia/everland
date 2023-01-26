@@ -1,0 +1,15 @@
+.link_support {
+  line-height: 26px;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  color: #0c4ba0;
+}
+
+@media screen and (max-width: 320px) {
+  .link_support {
+    line-height: 15px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+}

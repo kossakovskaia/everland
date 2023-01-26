@@ -1,0 +1,6 @@
+.support__donator-divider {
+    border-bottom: 1px dashed #333;
+    width: 100%;
+    position: absolute;
+    left: 0;
+}

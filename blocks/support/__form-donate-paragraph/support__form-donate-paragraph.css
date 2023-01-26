@@ -1,0 +1,18 @@
+.support__form-donate-paragraph {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: #333;
+}
+
+@media screen and (max-width: 768px) {
+    .support__form-donate-paragraph {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .support__form-donate-paragraph {
+        font-size: 12px;
+    }
+}

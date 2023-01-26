@@ -1,0 +1,33 @@
+.stories__non-quoted-list {
+  max-width: 1360px;
+  width: 100%;
+  list-style-type: none;
+  margin: 50px 0 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  column-gap: 20px;
+  row-gap: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .stories__non-quoted-list {
+    margin-bottom: 86px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .stories__non-quoted-list {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .stories__non-quoted-list {
+    margin-top: 32px;
+    margin-bottom: 69px;
+  }
+}

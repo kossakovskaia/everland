@@ -1,0 +1,10 @@
+.support__form-arrow_left {
+    transform: rotate(180deg);
+    margin-right: 10px;
+}
+
+@media screen and (max-width:320px) {
+    .support__form-arrow_left {
+        margin-right: 0;
+    }
+}

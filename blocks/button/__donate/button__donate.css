@@ -1,0 +1,27 @@
+.button__donate {
+  background-color: #fff;
+  border: 1px solid #DADADA;
+  color: #333;
+}
+
+.button__donate:hover {
+  border: 1px solid #0C4BA0;
+}
+
+.button__donate:active {
+  border: 1px solid #0C4BA0;
+}
+
+.button__donate:disabled {
+  background-color: #f5f5f5;
+  cursor: default;
+  border: 1px solid #C4C4C4;
+  color: rgba(38, 38, 38, 0.5);
+}
+
+.button__donate:disabled:hover {
+  background-color: #f5f5f5;
+  cursor: default;
+  border: 1px solid #C4C4C4;
+  color: rgba(38, 38, 38, 0.5);
+}

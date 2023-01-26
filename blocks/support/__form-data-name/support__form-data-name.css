@@ -1,0 +1,9 @@
+.support__form-data-name {
+    margin-bottom: 21px;
+}
+
+@media screen and (max-width: 768px) {
+    .support__form-data-name {
+        margin-bottom: 16px;
+    }
+}

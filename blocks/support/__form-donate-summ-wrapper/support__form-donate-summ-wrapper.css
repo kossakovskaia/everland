@@ -1,0 +1,23 @@
+.support__form-donate-summ-wrapper {
+    display: grid;
+    list-style: none;
+    padding: 0;
+    gap: 16px;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .support__form-donate-summ-wrapper {
+        margin: 0;
+        grid-column-gap: 10px;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .support__form-donate-summ-wrapper {
+        grid-column-gap: 5px;
+
+    }
+}

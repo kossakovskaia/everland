@@ -1,0 +1,11 @@
+.support__form-payment-container {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 320px) {
+    .support__form-payment-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}

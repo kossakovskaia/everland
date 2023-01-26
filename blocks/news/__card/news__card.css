@@ -1,0 +1,35 @@
+.news__card {
+  border-radius: 30px;
+  border: 1px solid #DADADA;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.news__card:nth-of-type(2) {
+  background-color: #DAEFD5;
+  border: 1px solid #DAEFD5;
+}
+
+@media screen and (max-width: 1000px) {
+  .news__card:nth-of-type(3) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .news__card:nth-of-type(3) {
+    display: flex;
+  }
+
+  .news__card {
+    padding: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .news__card {
+    max-width: 300px;
+  }
+}

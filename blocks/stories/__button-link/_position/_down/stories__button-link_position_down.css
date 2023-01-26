@@ -1,0 +1,22 @@
+.stories__button-link_position_down {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .stories__button-link_position_down {
+    display: flex;
+    margin: 40px auto 50px;
+    min-width: 200px;
+    height: 44px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .stories__button-link_position_down {
+    margin: 24px auto 0;
+    width: 100%;
+    height: 44px;
+    justify-content: center;
+  }
+}

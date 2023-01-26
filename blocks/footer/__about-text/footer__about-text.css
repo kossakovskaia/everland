@@ -1,0 +1,26 @@
+.footer__about-text {
+  margin: 0;
+  font-size: 18px;
+  line-height: 120%;
+  max-width: 483px;
+  color: #333;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__about-text {
+    font-size: 14px;
+    max-width: 294px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .footer__about-text {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__about-text {
+    font-size: 12px;
+  }
+}

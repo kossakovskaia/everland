@@ -1,0 +1,11 @@
+.icon__arrow-slider {
+  width: 17px;
+  height: 17px;
+}
+
+@media screen and (max-width: 768px) {
+  .arrow__arrow-slider {
+    width: 10px;
+    height: 10px
+  }
+}

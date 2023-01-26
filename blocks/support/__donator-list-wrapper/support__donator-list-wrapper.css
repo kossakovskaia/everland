@@ -1,0 +1,12 @@
+.support__donator-list-wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+@media screen and (max-width: 1024px) {
+    .support__donator-list-wrapper {
+        max-width: 100%;
+    }
+}

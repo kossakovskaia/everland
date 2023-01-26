@@ -1,0 +1,14 @@
+.projects__wrapper {
+    max-width: 1360px;
+    position: relative;
+    justify-content: space-between;
+    background-color: #E7F0FF;
+    border-radius: 30px;
+}
+
+@media screen and (max-width:320px) {
+    .projects__wrapper {
+        max-width: 300px;
+    }
+
+}

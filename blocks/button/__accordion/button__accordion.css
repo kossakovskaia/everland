@@ -1,0 +1,46 @@
+.button__accordion {
+  cursor: pointer;
+  border-radius: 20px;
+  line-height: 0;
+  padding: 0 14px;
+  border: none;
+  background-color: #E7F0FF;
+  stroke: #0C4BA0;
+  height: 45px;
+}
+
+.button__accordion:hover {
+  background-color: #0C4BA0;
+  stroke: #fff
+}
+
+.button__accordion:active .icon__plus {
+  background-color: #0C4BA0;
+  stroke: #fff;
+  transform: rotate(-45deg);
+}
+
+.button__accordion:disabled {
+  background-color: #C4C4C4;
+  stroke: rgba(38, 38, 38, 0.5);
+  cursor: default;
+}
+
+.button__accordion:disabled:hover {
+  background-color: #C4C4C4;
+  stroke: rgba(38, 38, 38, 0.5);
+  cursor: default;
+}
+
+.button__accordion:disabled:active .icon__plus {
+  stroke: rgba(38, 38, 38, 0.5);
+  transform: rotate(0);
+  background-color: #C4C4C4;
+}
+
+@media screen and (max-width: 768px) {
+  .button__accordion {
+    padding: 0 10px;
+    height: 32px;
+  }
+}

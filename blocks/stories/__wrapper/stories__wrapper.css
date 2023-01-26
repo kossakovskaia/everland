@@ -1,0 +1,5 @@
+@media screen and (max-width: 320px) {
+    .stories__wrapper {
+        max-width: 300px;
+    }
+}

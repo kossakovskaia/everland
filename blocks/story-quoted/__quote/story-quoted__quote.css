@@ -1,0 +1,23 @@
+.story-quoted__quote {
+  font-size: 34px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 120%;
+  color: #333;
+  max-width: 897px;
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+  .story-quoted__quote {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .story-quoted__quote {
+    font-size: 16px;
+  }
+}

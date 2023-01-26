@@ -1,0 +1,12 @@
+.header__cap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* justify-content: flex-end; */
+}
+
+@media screen and (max-width: 768px) {
+  .header__cap {
+    box-shadow: 0px 4px 30px rgba(42, 48, 56, 0.1);
+  }
+}

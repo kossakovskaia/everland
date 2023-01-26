@@ -1,0 +1,16 @@
+.digits__heading {
+    margin: 0 0 45px 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .digits__heading {
+        margin-bottom: 32px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .digits__heading {
+        margin-bottom: 24px;
+    }
+}
